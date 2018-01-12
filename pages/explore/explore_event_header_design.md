@@ -7,7 +7,7 @@ permalink: explore_event_header_design.html
 summary: "The event header design for use with Digital Child Health (DCH) Event messages"
 ---
 
-{% include important.html content="This site is under active development by NHS Digital and is intended to provide the FHIR messaging components for the Digital Child Health Events Specification. This project is being developed using an agile methodology so iterative updates to content will be added on a regular basis. It is advised not to develop against these specifications until a formal announcement has been made." %}
+{% include warning.html content="This **temporary** site is provided to assist with the development of the **Beta** Digital Child Health Events Specification and is being updated regularly. It is advised not to develop against these specifications until a formal announcement has been made. Note: The [current published Digital Child Health Events Specification](https://nhsconnect.github.io/Digital-Child-Health/Generated/Chapter.1.About/index.html) is the **Alpha** version published on the NHS Developers Network. " %}
 
 ## Background ##
 Each event will carry a standard set of data to act as an event "header" (to help identify the patient, publisher, and actual event).
