@@ -10,7 +10,7 @@ summary: "The FHIR profiles used for EMS event messages"
 {% include warning.html content="This **temporary** site is provided to assist with the development of the **Beta** Digital Child Health Events Specification and is being updated regularly. It is advised not to develop against these specifications until a formal announcement has been made. Note: The [current published Digital Child Health Events Specification](https://nhsconnect.github.io/Digital-Child-Health/Generated/Chapter.1.About/index.html) is the **Alpha** version published on the NHS Developers Network. " %}
 
 ## Background ##
-The EMS Event Message Bundle will carry a combination of resources to form the specific event message, the FHIR profiles that have been developed to inform these resources are listed below. More on their use within each event message can be found in Messages. 
+Each Child Health Event Message Bundle will carry a combination of resources to form the specific event message, the FHIR profiles that have been developed to inform these resources are listed below. More on their use within each event message can be found in Messages. 
 
 These FHIR profiles will be published to the [FHIR Reference Server](https://fhir.nhs.uk) on the [NHS Developer Network](https://developer.nhs.uk/) when formal release is confirmed.
 

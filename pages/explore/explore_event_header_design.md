@@ -23,7 +23,7 @@ This standard header consists of the following **mandatory** items and their cor
 | Date of Birth                          | CareConnect-DCH-Patient-1   | birthDate                                                                   |
 | name                                   | CareConnect-DCH-Patient-1   | name                                                                        |
 | event type                             | DCH-MessageHeader-1         | event                                                                       |
-| type of service originating the event  | DCH-HealthcareService-1     | serviceType.type                                                            |
+| type of service originating the event  | DCH-HealthcareService-1     | type 			                                                             |
 | service provider originating the event | CareConnect-DCH-Encounter-1 | serviceProvider                                                             |
 | IT system holding the event data       | DCH-MessageHeader-1         | source                                                                      |
 | location at which the event occurred   | CareConnect-DCH-Encounter-1 | location                                                                    |
