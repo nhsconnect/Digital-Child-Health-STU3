@@ -23,7 +23,7 @@ The following FHIR profiles are used to form the Professional Contacts Event Mes
 - DCH-ProfessionalContact-EpisodeOfCare-1
 
 ### Professional Contacts event data item mapping to FHIR profiles ###
-----------
+
 The Child Health Event data items are fulfilled by elements within the FHIR resources listed below:
                                                                                                    
 | DCH Data Item                 | FHIR resource element                                                                            | Mandatory/Required/Optional |

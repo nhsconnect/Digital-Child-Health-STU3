@@ -22,7 +22,7 @@ The following FHIR profiles are used to form the Information and Advice Given Ev
 - CareConnect-DCH-Location-1
 
 #### Information and Advice Given event data item mapping to FHIR profiles ###
-----------
+
 The Child Health Event data items are fulfilled by elements within the FHIR resources listed below:
 
 | DCH Data Item               | FHIR resource element                                               | Mandatory/Required/Optional |

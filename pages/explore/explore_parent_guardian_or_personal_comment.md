@@ -21,7 +21,7 @@ The following FHIR profiles are used to form the Parent, Guardian or Personal Co
 - CareConnect-DCH-Location-1
 
 ### Parent, Guardian or Personal Comment event data item mapping to FHIR profiles ###
-----------
+
 The Child Health Event data items are fulfilled by elements within the FHIR resources listed below:
 
 | DCH Data Item       | FHIR resource element                     | Mandatory/Required/Optional |

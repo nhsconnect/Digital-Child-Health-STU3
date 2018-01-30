@@ -20,7 +20,7 @@ The following FHIR profiles are used to form the Legal Information Event Message
 - DCH-ChildProtection-CarePlan-1
 
 ### Legal Information event data item mapping to FHIR profiles ###
-----------
+
 The Child Health Event data items are fulfilled by elements within the FHIR resources listed below:
 
 | DCH Data Item                    | FHIR Resource element                             | Mandatory/Required/Optional |

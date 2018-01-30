@@ -18,7 +18,7 @@ The following FHIR profiles are used to form the Additional Demographics Event M
 - CareConnect-DCH-Location-1
                                                                                                    
 ### Additional Demographics event data item mapping to FHIR profiles ###
-----------
+
 The Child Health Event data items are fulfilled by elements within the FHIR resources listed below:
 
 | DCH Data Item            | FHIR resource element                                 | Mandatory/Required/Optional |
