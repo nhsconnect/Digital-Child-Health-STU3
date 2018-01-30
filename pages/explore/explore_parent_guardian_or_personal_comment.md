@@ -8,17 +8,20 @@ summary: "The FHIR profiles used for the Parent, Guardian or Personal Comment Ev
 ---
 {% include custom/under.construction.html content="Please check back later for any updates to this page" %}
 
+{% include important.html content="The links below will refer to the StructureDefinition url applied to the FHIR profile, which are not yet active. For queries please refer to the Help and Support section." %} 
+
 The following FHIR profiles are used to form the Parent, Guardian or Personal Comment Event Message Bundle:
 
-- DCH-MessageHeader-1 - where the coding and display elements for the 'event' type are fixed to  'Parent Guardian Or Personal Comment'
-- CareConnect-DCH-Organization-1
-- DCH-HealthcareService-1
-- CareConnect-DCH-Patient-1
-- CareConnect-DCH-Encounter-1
-- DCH-ParentGuardianOrPersonalComment-Communication-1
-- DCH-RelatedPerson-1
-- CareConnect-DCH-Practitioner-1
-- CareConnect-DCH-Location-1
+- [DCH-MessageHeader-1](https://fhir.nhs.uk/STU3/StructureDefinition/DCH-MessageHeader-1.xml) - where the coding and display elements for the 'event' type are fixed to  'Parent Guardian Or Personal Comment'
+- [CareConnect-DCH-Organization-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-Organization-1.xml)
+- [DCH-HealthcareService-1](https://fhir.nhs.uk/STU3/StructureDefinition/DCH-HealthcareService-1.xml)
+- [CareConnect-DCH-Patient-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-Patient-1.xml)
+- [CareConnect-DCH-Encounter-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-Encounter-1.xml)
+- [CareConnect-DCH-Location-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-Location-1.xml)
+- [DCH-ParentGuardianOrPersonalComment-Communication-1](https://fhir.nhs.uk/STU3/StructureDefinition/DCH-ParentGuardianOrPersonalComment-Communication-1.xml)
+- [DCH-RelatedPerson-1](https://fhir.nhs.uk/STU3/StructureDefinition/DCH-RelatedPerson-1.xml)
+- [CareConnect-DCH-Practitioner-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-Practitioner-1.xml)
+
 
 ### Parent, Guardian or Personal Comment event data item mapping to FHIR profiles ###
 
