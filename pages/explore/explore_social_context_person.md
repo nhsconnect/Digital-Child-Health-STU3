@@ -7,3 +7,27 @@ permalink: explore_social_context_person.html
 summary: "The FHIR profiles used for the Social Context Person Event Message Bundle"
 ---
 {% include custom/under.construction.html content="Please check back later for any updates to this page" %}
+
+{% include important.html content="The links below will refer to the StructureDefinition url applied to the FHIR profile, which are not yet active. For queries please refer to the Help and Support section." %} 
+
+The following FHIR profiles are used to form the Social Context Person Event Message Bundle:
+
+- [DCH-MessageHeader-1](https://fhir.nhs.uk/STU3/StructureDefinition/DCH-MessageHeader-1.xml) - where the coding and display for the event element is fixed to 'Social Context Person'
+- [CareConnect-DCH-Organization-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-Organization-1.xml)
+- [DCH-HealthcareService-1](https://fhir.nhs.uk/STU3/StructureDefinition/DCH-HealthcareService-1.xml)
+- [CareConnect-DCH-Patient-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-Patient-1.xml)
+- [CareConnect-DCH-Encounter-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-Encounter-1.xml)
+- [CareConnect-DCH-Location-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-Location-1.xml)
+- [DCH-SocialContextPerson-QuestionnaireResponse-1](https://fhir.nhs.uk/STU3/StructureDefinition/DCH-SocialContextPerson-QuestionnaireResponse-1)
+
+### Social Context Person event data item mapping to FHIR profiles ###
+----------
+The Child Health Event data items are fulfilled by elements within the FHIR resources listed below.
+                                                                                                   
+| DCH Data Item        | FHIR Resource element                                                             | Mandatory/Required/Optional |
+|----------------------|-----------------------------------------------------------------------------------|-----------------------------|
+| Social Circumstances | DCH-SocialContextHousehold-QuestionnaireResponse-1.item.socialCircumstances | Required                    |
+| Lifestyle            | DCH-SocialContextHousehold-QuestionnaireResponse-1.item.lifestyle           | Required                    |
+| Smoking Status       | DCH-SocialContextHousehold-QuestionnaireResponse-1.item.smokingStatus       | Required                    |
+| Alcohol intake       | DCH-SocialContextHousehold-QuestionnaireResponse-1.item.alchoholIntake      | Required                    |
+| Drug/substance use   | DCH-SocialContextHousehold-QuestionnaireResponse-1.item.substanceStatus      | Required                    |
