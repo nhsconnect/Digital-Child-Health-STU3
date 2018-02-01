@@ -26,7 +26,7 @@ The following FHIR profiles are used to form the Medication Event Message Bundle
 
 
 ### Medication event data item mapping to FHIR profiles ###
-----------
+
 The Child Health Event data items are fulfilled by elements within the FHIR resources listed below:
 
 | DCH Data Item               | FHIR Resource element                                                     | Mandatory/Required/Optional |

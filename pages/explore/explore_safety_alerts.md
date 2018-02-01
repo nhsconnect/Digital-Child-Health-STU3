@@ -21,7 +21,7 @@ The following FHIR profiles are used to form the Safety Alerts Event Message Bun
 - [CareConnect-DCH-SafeguardingRisk-Observation-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-SafeguardingRisk-Observation-1)
 
 ### Safety Alerts event data item mapping to FHIR profiles ###
-----------
+
 The Child Health Event data items are fulfilled by elements within the FHIR resources listed below:
 
 | DCH Data Item              | FHIR Resource element                                                | Mandatory/Required/Optional |

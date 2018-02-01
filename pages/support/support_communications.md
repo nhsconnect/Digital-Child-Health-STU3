@@ -13,6 +13,9 @@ For questions and comments about this documentation please email the <a href="ma
 ## Healthy Child Record Standard ##
 The Digital Child Health Event Message Bundles have been developed to support the [Healthy Child Record Standard](https://theprsb.org/publications/healthy-child-record-standard) published by the [Professional Record Standards Body](https://theprsb.org/) (PRSB).
 
+## Glossary of Terms ##
+
+A glossary of terms used by NHS Digital specifications can be found on the [NHS Developer Network](https://developer.nhs.uk/library/glossary/).
 
 ## [INTEROPen](http://www.interopen.org/)
 
