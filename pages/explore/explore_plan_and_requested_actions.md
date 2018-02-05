@@ -36,5 +36,5 @@ The Child Health Event data items are fulfilled by elements within the FHIR reso
 | Professional Name | CareConnect-DCH-Practitioner-1.name             | Mandatory                   |
 | Actions           | DCH-ChildHealth-CarePlan-1.description          | Mandatory                   |
 | Recipient         | DCH-RelatedPerson-1.relationship                | Optional                    |
-| Encounter Type    | CareConnect-DCH-Encounter-1.Type                | Mandatory                   |
+| Encounter Type    | CareConnect-DCH-Encounter-1.type (childHealthEncounterType)                 | Mandatory                   |
 
