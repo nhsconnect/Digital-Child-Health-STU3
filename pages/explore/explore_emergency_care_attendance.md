@@ -7,3 +7,33 @@ permalink: explore_emergency_care_attendance.html
 summary: "The FHIR profiles used for the Emergency Care Attendance Event Message Bundle"
 ---
 {% include custom/under.construction.html content="Please check back later for any updates to this page" %}
+
+{% include important.html content="The links below will refer to the StructureDefinition url applied to the FHIR profile, which are not yet active. For queries please refer to the Help and Support section." %} 
+
+The following FHIR profiles are used to form the Emergency Care Attendance Event Message Bundle:
+
+- [DCH-MessageHeader-1](https://fhir.nhs.uk/STU3/StructureDefinition/DCH-MessageHeader-1.xml) - where the coding and display for the event element is fixed to 'Emergency Care Attendance'
+- [CareConnect-DCH-Organization-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-Organization-1.xml)
+- [DCH-HealthcareService-1](https://fhir.nhs.uk/STU3/StructureDefinition/DCH-HealthcareService-1.xml)
+- [CareConnect-DCH-Patient-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-Patient-1.xml)
+- [CareConnect-DCH-Emergency-Encounter-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-Emergency-Encounter-1.xml)
+- [CareConnect-DCH-Location-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-Location-1.xml)
+- [CareConnect-DCH-EmergencyCareInvestigation-Procedure-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-EmergencyCareInvestigation-Procedure-1)
+- [DCH-RelatedPerson-1](https://fhir.nhs.uk/STU3/StructureDefinition/DCH-RelatedPerson-1)
+
+### Emergency Care Attendance event data item mapping to FHIR profiles ###
+
+The Child Health Event data items are fulfilled by elements within the FHIR resources listed below:
+
+| DCH Data Item                 | FHIR resource element                                                      | Mandatory/Required/Optional |
+|-------------------------------|----------------------------------------------------------------------------|-----------------------------|
+| Date and Time of attendance   | CareConnect-DCH-Emergency-Encounter-1.period.start                         | Mandatory                   |
+| Date and Time of discharge    | CareConnect-DCH-Emergency-Encounter-1.period.end                           | Mandatory                   |
+| ODS Site Code                 | CareConnect-DCH-Location-1.identifier (ODS Site Code)                      | Mandatory                   |
+| Accompanied by (Name)         | DCH-RelatedPerson-1.name                                                   | Required                    |
+| Accompanied by (Relationship) | DCH-RelatedPerson-1.relationship                                           | Required                    |
+| Referral Source               | CareConnect-DCH-Emergency-Encounter-1.hospitalization.admitSource          | Required                    |
+| Presenting Complaint          | CareConnect-DCH-Emergency-Encounter-1.reason                               | Mandatory                   |
+| Procedure                     | CareConnect-DCH-EmergencyCareInvestigation-Procedure-1.code                | Required                    |
+| Discharge destination         | CareConnect-DCH-EmergencyDischarge-Location-1.physicalType                 | Mandatory                   |
+| Discharge status              | CareConnect-DCH-Emergency-Encounter-1.hospitalization.dischargeDisposition | Mandatory                   |
