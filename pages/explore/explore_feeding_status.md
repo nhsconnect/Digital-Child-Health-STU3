@@ -32,4 +32,4 @@ The Child Health Event data items are fulfilled by elements within the FHIR reso
 | Feeding method                               | DCH-FeedingStatus-QuestionnaireResponse-1.item.feedingMethod              | Required                    |
 | Introduction of Solids                       | DCH-FeedingStatus-QuestionnaireResponse-1.item.introductionOfSolids        | Required                    |
 | Approximate Date breastfeeding stopped       | DCH-FeedingStatus-QuestionnaireResponse-1.item.breastfeedingEndedDate       | Required                    |
-| Encounter Type                               | CareConnect-DCH-Encounter-1.type                                     | Mandatory                   |
+| Encounter Type                               | CareConnect-DCH-Encounter-1.type (childHealthEncounterType)                                      | Mandatory                   |

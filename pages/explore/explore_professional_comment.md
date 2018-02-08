@@ -18,10 +18,11 @@ The following FHIR profiles are used to form the Professional Comment Event Mess
 - [CareConnect-DCH-Patient-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-Patient-1.xml)
 - [CareConnect-DCH-Encounter-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-Encounter-1.xml)
 - [CareConnect-DCH-Location-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-Location-1.xml)
-- [DCH-ProfessionalComment-Communication-1](https://fhir.nhs.uk/STU3/StructureDefinition/DCH-ProfessionalComment-Communication-1.xml)
-- [DCH-RelatedPerson-1](https://fhir.nhs.uk/STU3/StructureDefinition/DCH-RelatedPerson-1.xml)
 - [CareConnect-DCH-Practitioner-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-Practitioner-1.xml)
 - [CareConnect-DCH-PractitionerRole-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-PractitionerRole-1.xml)
+- [DCH-ProfessionalComment-Communication-1](https://fhir.nhs.uk/STU3/StructureDefinition/DCH-ProfessionalComment-Communication-1.xml)
+- [DCH-RelatedPerson-1](https://fhir.nhs.uk/STU3/StructureDefinition/DCH-RelatedPerson-1.xml)
+
 
 ### Professional Comment event data item mapping to FHIR profiles ###
 
@@ -36,4 +37,4 @@ The Child Health Event data items are fulfilled by elements within the FHIR reso
 | Comment Type      | DCH-ProfessionalComment-Communication-1.category                    | Mandatory                   |
 | Comment           | DCH-ProfessionalComment-Communication-1.payload.contentString       | Required                    |
 | Recipient         | DCH-RelatedPerson-1.relationship                                    | Optional                    |
-| Encounter Type    | CareConnect-DCH-Encounter-1.type                                    | Mandatory                   |
+| Encounter Type    | CareConnect-DCH-Encounter-1.type (childHealthEncounterType)                                     | Mandatory                   |
