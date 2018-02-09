@@ -6,7 +6,6 @@ sidebar: foundations_sidebar
 permalink: explore_emergency_care_attendance.html
 summary: "The FHIR profiles used for the Emergency Care Attendance Event Message Bundle"
 ---
-{% include custom/under.construction.html content="Please check back later for any updates to this page" %}
 
 {% include important.html content="The links below will refer to the StructureDefinition url applied to the FHIR profile, which are not yet active. For queries please refer to the Help and Support section." %} 
 
