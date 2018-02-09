@@ -1,4 +1,4 @@
-
+---
 title: Birth Details Event Message Bundle
 keywords:  messaging, bundles
 tags: [fhir,messaging]
