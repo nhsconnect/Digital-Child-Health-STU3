@@ -20,7 +20,7 @@ The following FHIR profiles are used to form the Educational History Event Messa
 - [DCH-EducationalHistory-QuestionnaireResponse-1](https://fhir.nhs.uk/STU3/StructureDefinition/DCH-EducationalHistory-QuestionnaireResponse-1)
 
 ### Educational History event data item mapping to FHIR profiles ###
-----------
+
 The Child Health Event data items are fulfilled by elements within the FHIR resources listed below:
 
 | DCH Data Item                      | FHIR Resource element                                                                 | Mandatory/Required/Optional |

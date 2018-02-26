@@ -20,7 +20,7 @@ The following FHIR profiles are used to form the Social Context Person Event Mes
 - [DCH-SocialContextPerson-QuestionnaireResponse-1](https://fhir.nhs.uk/STU3/StructureDefinition/DCH-SocialContextPerson-QuestionnaireResponse-1)
 
 ### Social Context Person event data item mapping to FHIR profiles ###
-----------
+
 The Child Health Event data items are fulfilled by elements within the FHIR resources listed below.
                                                                                                    
 | DCH Data Item        | FHIR Resource element                                                             | Mandatory/Required/Optional |

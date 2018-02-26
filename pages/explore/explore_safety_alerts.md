@@ -25,12 +25,12 @@ The following FHIR profiles are used to form the Safety Alerts Event Message Bun
 
 The Child Health Event data items are fulfilled by elements within the FHIR resources listed below:
 
-| DCH Data Item              | FHIR Resource element                                                | Mandatory/Required/Optional |
-|----------------------------|----------------------------------------------------------------------|-----------------------------|
-| Date                       | CareConnect-DCH-Encounter-1.period.start                             | Mandatory                   |
-| ODS Site Code              | CareConnect-DCH-Location-1.identifier (ODS Site Code)                | Mandatory                   |
-| SDS Job Role Name          | CareConnect-DCH-PractitionerRole-1.code (SDS Job Role Name)          | Mandatory                   |
-| Professional Name          | CareConnect-DCH-Practitioner-1.name                                  | Mandatory                   |
-| Risk to self               | CareConnect-DCH-SafeguardingRisk-Observation-1.valueString           | Required                    |
-| Risk to others             | CareConnect-DCH-SafeguardingRisk-Observation-1.valueString           | Required                    |
-| Risk from others           | CareConnect-DCH-SafeguardingRisk-Observation-1.valueString           | Required                    |
+| DCH Data Item     | FHIR Resource element                                       | Mandatory/Required/Optional | Note                                                                 |
+|-------------------|-------------------------------------------------------------|-----------------------------|----------------------------------------------------------------------|
+| Date              | CareConnect-DCH-Encounter-1.period.start                    | Mandatory                   |                                                                      |
+| ODS Site Code     | CareConnect-DCH-Location-1.identifier (ODS Site Code)       | Mandatory                   |                                                                      |
+| SDS Job Role Name | CareConnect-DCH-PractitionerRole-1.code (SDS Job Role Name) | Mandatory                   |                                                                      |
+| Professional Name | CareConnect-DCH-Practitioner-1.name                         | Mandatory                   |                                                                      |
+| Risk to self      | CareConnect-DCH-SafeguardingRisk-Observation-1.valueString  | Required                    | Represented using SNOMED CT code '886941000000103 Risk to self'      |
+| Risk to others    | CareConnect-DCH-SafeguardingRisk-Observation-1.valueString  | Required                    | Represented using SNOMED CT code '886951000000100 Risk to others'    |
+| Risk from others  | CareConnect-DCH-SafeguardingRisk-Observation-1.valueString  | Required                    | Represented using SNOMED CT code '1064461000000103 Risk from others' |
