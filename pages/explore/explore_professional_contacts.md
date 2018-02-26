@@ -33,8 +33,8 @@ The Child Health Event data items are fulfilled by elements within the FHIR reso
 | Name                          | CareConnect-DCH-Practitioner-1.name                                                              | Required                    |
 | Role                          | CareConnect-DCH-PractitionerRole-1.code (careProfessionalType)                                       | Mandatory                   |
 |                               | or DCH-HealthcareService-1.serviceType.type                                                      | Mandatory                   |
-| Care Professional Association | DCH-EpisodeOfCare-1.type                                                                         | Mandatory                   |
-| Speciality                    | CareConnect-DCH-PractitioneRole-1.specialty 										               | Mandatory                   |
+| Care Professional Association | DCH-ProfessionalContact-EpisodeOfCare-1.type                                                                         | Mandatory                   |
+| Specialty                    | CareConnect-DCH-PractitioneRole-1.specialty 										               | Mandatory                   |
 |                               | or DCH-HealthcareService-1.specialty			                                                   | Mandatory                   |
 | Telephone Number              | CareConnect-DCH-Practitioner-1.telecom                                                           | Required                    |
 |                               | or CareConnect-DCH-Team-Organization-1.telecom                                                   | Required                    |

@@ -33,8 +33,8 @@ The Child Health Event data items are fulfilled by elements within the FHIR reso
 | Professional Name            | CareConnect-DCH-Practitioner-1.name                                 | Mandatory                   |
 | SDS Job Role Name            | CareConnect-DCH-PractitionerRole-1.code (SDS Job Role Name)         | Mandatory                   |
 | Encounter Type               | CareConnect-DCH-Encounter-1.type (childHealthEncounterType)         | Mandatory                   |
-| Referred to                  | DCH-ReferralRequest-1.specialty                                     | Mandatory                   |
+| Specialty Referred to        | DCH-ReferralRequest-1.specialty                                     | Mandatory                   |
 | Referral Method              | DCH-ReferralRequest-1.referralMethod (extension)                    | Required                    |
-| Speciality referred from     | DCH-ReferralRequest-1.sourceOfReferral (extension)                  | Required                    |
+| Specialty referred from      | DCH-ReferralRequest-1.sourceOfReferral (extension)                  | Required                    |
 | Urgency                      | DCH-ReferralRequest-1.priority                                      | Required                    |
 | Reason for Referral          | DCH-ReferralRequest-1.reason                                        | Mandatory                   | 
