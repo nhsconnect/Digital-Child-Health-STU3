@@ -30,4 +30,4 @@ The Child Health Event data items are fulfilled by elements within the FHIR reso
 | Date of enquiry             | CareConnect-DCH-Encounter-1.period.start                    | Required                   |
 | Developmental Skill    | CareConnect-DCH-DevelopmentalSkill-Condition-1.code                  | Mandatory                   |
 | Result of observation/enquiry  | CareConnect-DCH-DevelopmentalSkill-Condition-1.stage.summary         | Mandatory                   |
-| Encounter Type    | CareConnect-DCH-Encounter-1.type (childHealthEncounterType)  (childHealthEncounterType) | Mandatory                   |
+| Encounter Type    | CareConnect-DCH-Encounter-1.type (childHealthEncounterType)    | Mandatory                   |

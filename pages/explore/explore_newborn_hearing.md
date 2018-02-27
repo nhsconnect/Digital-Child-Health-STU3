@@ -25,14 +25,11 @@ The following FHIR profiles are used to form the Newborn Hearing Event Message B
 
 The Child Health Event data items are fulfilled by elements within the FHIR resources listed below:
                                                                      
-| DCH Data Item       | FHIR resource element                                               | Mandatory/Required/Optional |
-|---------------------|---------------------------------------------------------------------|-----------------------------|
-| Date                | CareConnect-DCH-Encounter-1.period.start                            | Mandatory                   |
-| ODS Site Code       | CareConnect-DCH-Location-1.identifier                               | Mandatory                   |
-| Professional Name   | CareConnect-DCH-PractitionerRole-1.code (SDS Job Role Name) | Mandatory                   |
-| SDS Job Role Name   | CareConnect-DCH-Practitioner-1.name                                 | Mandatory                   |
-| Type of test        | CareConnect-DCH-HearingTest-Procedure-1.code                     | Required                    |
-| Hearing Test Result | CareConnect-DCH-HearingTest-Procedure-1.outcome*                     | Required                    |
-| Summary Outcome     | CareConnect-DCH-HearingScreening-Procedure-1.outcome                | Mandatory                   |
-
-*up to two occurrences of this resource are required, one for each ear.
+| DCH Data Item       | FHIR resource element                                       | Mandatory/Required/Optional | Note                                                                  |
+|---------------------|-------------------------------------------------------------|-----------------------------|-----------------------------------------------------------------------|
+| Date                | CareConnect-DCH-Encounter-1.period.start                    | Mandatory                   |                                                                       |
+| ODS Site Code       | CareConnect-DCH-Location-1.identifier                       | Mandatory                   |                                                                       |
+| Professional Name   | CareConnect-DCH-PractitionerRole-1.code (SDS Job Role Name) | Mandatory                   |                                                                       |
+| SDS Job Role Name   | CareConnect-DCH-Practitioner-1.name                         | Mandatory                   |                                                                       |
+| Hearing Test Result | CareConnect-DCH-HearingTest-Procedure-1.outcome             | Required                    | up to two occurrences of this resource are required, one for each ear |
+| Summary Outcome     | CareConnect-DCH-HearingScreening-Procedure-1.outcome        | Mandatory                   |                                                                       |
