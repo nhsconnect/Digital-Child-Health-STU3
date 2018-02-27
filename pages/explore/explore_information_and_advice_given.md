@@ -23,13 +23,13 @@ The following FHIR profiles are used to form the Information and Advice Given Ev
 - [DCH-RelatedPerson-1](https://fhir.nhs.uk/STU3/StructureDefinition/DCH-RelatedPerson-1.xml)
 
 
-#### Information and Advice Given event data item mapping to FHIR profiles ###
+### Information and Advice Given event data item mapping to FHIR profiles ###
 
 The Child Health Event data items are fulfilled by elements within the FHIR resources listed below:
 
 | DCH Data Item               | FHIR resource element                                               | Mandatory/Required/Optional |
 |-----------------------------|---------------------------------------------------------------------|-----------------------------|
-| Date                        | CareConnect-DCH-Encounter-1.period.start                            | Mandatory                   |
+| Date                        | DCH-InformationAndAdviceGiven-Communication-1.sent                            | Mandatory                   |
 | ODS Site Code               | CareConnect-DCH-Location-1.identifier (ODS Site Code)               | Mandatory                   |
 | Professional Name           | CareConnect-DCH-Practitioner-1.name                                 | Mandatory                   |
 | SDS Job Role Name           | CareConnect-DCH-PractitionerRole-1.code (SDS Job Role Name) 		| Mandatory                   |

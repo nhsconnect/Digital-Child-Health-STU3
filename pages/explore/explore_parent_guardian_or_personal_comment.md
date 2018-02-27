@@ -28,7 +28,7 @@ The Child Health Event data items are fulfilled by elements within the FHIR reso
 
 | DCH Data Item       | FHIR resource element                     | Mandatory/Required/Optional |
 |---------------------|-------------------------------------------|-----------------------------|
-| Date                | CareConnect-DCH-Encounter-1.period.start  | Required                    |
+| Date                | DCH-ParentOrGuardianComment-Communication-1.sent  | Required                    |
 | Name                | CareConnect-DCH-Practitioner.name         | Required                    |
 | Details             | DCH-ParentOrGuardianComment-Communication-1.payload.contentString | Required                    |
 | Relationship Status | DCH-RelatedPerson-1.relationship          | Optional                    |

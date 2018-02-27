@@ -30,6 +30,6 @@ The Child Health Event data items are fulfilled by elements within the FHIR reso
 | NHS Number              | Connect-DCH-Patient-1.identifier (NHS Number)                  | Required                    |
 | Contact Details         | DCH-RelatedPerson-1.address and/or DCH-RelatedPerson-1.telecom | Required                    |
 | Relationship Type       | DCH-RelatedPerson-1.relationship                               | Mandatory                   |
-| Household member        | DCH-RelatedPerson-1.householdMember                            | Required                    |
+| Household member        | DCH-RelatedPerson-1.householdMember - extension                            | Required                    |
 | Parental Responsibility | DCH-RelatedPerson-1.parentalResponsibility - extension         | Required                    |
 | Significant Individual  | DCH-RelatedPerson-1.significantIndividual - extension          | Required                    |
