@@ -27,7 +27,7 @@ The Child Health Event data items are fulfilled by elements within the FHIR reso
 | DCH Data Item                                                 | FHIR Resource element                                                    | Mandatory/Required/Optional |
 |---------------------------------------------------------------|--------------------------------------------------------------------------|-----------------------------|
 | GP Opt Out Indicator                                          | DCH-IndividualRequirements-QuestionnaireResponse-1.gPOptOutIndicator     | Required                    |
-| Individual Needs Person Indicator                             | DCH-IndividualRequirements-QuestionnaireResponse-1.individualNeedsPersonIndicator | Required                   |
+| Individual Needs Person Indicator                             | DCH-IndividualRequirements-QuestionnaireResponse-1.individualNeedsPersonIndicator | Mandatory                   |
 | Accessible Information - Communication Support                | DCH-IndividualRequirements-QuestionnaireResponse-1.communicationSupport                    | Required                    |
 | Accessible Information - Requires Communication Professional  | DCH-IndividualRequirements-QuestionnaireResponse-1.communicationProfessional               | Required                    |
 | Accessible Information - Requires Specific Contact Method     | DCH-IndividualRequirements-QuestionnaireResponse-1.specificContactMethod                           | Required                    |
