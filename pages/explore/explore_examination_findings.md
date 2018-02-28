@@ -20,6 +20,10 @@ The following FHIR profiles are used to form the Examination Findings Event Mess
 - [CareConnect-DCH-Practitioner-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-Practitioner-1.xml)
 - [CareConnect-DCH-PractitionerRole-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-PractitionerRole-1.xml)
 - [CareConnect-DCH-ExaminationFinding-Procedure-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-ExaminationFinding-Procedure-1)
+- [CareConnect-DCH-BowelExaminationFinding-Procedure-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-BowelExaminationFinding-Procedure-1)
+- [CareConnect-DCH-UrineExaminationFinding-Procedure-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-UrineExaminationFinding-Procedure-1)
+- [CareConnect-DCH-VitalSigns-Observation-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-VitalSigns-Observation-1)
+- [CareConnect-DCH-MentalState-Observation-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-MentalState-Observation-1)
 
 ### Examination Findings event data item mapping to FHIR profiles ###
 
@@ -33,8 +37,8 @@ The Child Health Event data items are fulfilled by elements within the FHIR reso
 | SDS Job Role Name                                | CareConnect-DCH-PractitionerRole-1.code (SDS Job Role Name)                               | Mandatory                   |
 | General Appearance                               | CareConnect-DCH-ExaminationFinding-Procedure-1.outcome                                            | Required                    |
 | General Appearance - Colour                      | CareConnect-DCH-ExaminationFinding-Procedure-1.outcome                                            | Required                    |
-| Vital signs                                      | CareConnect-DCH-ExaminationFinding-Procedure-1.outcome                                            | Required                    |
-| Mental state                                     | CareConnect-DCH-ExaminationFinding-Procedure-1.outcome                                            | Required                    |
+| Vital signs                                      | CareConnect-DCH-VitalSigns-Observation-1.valueString                                            | Required                    |
+| Mental state                                     | CareConnect-DCH-MentalState-Observation-1.valueString                                          | Required                    |
 | Head and neck                                    | CareConnect-DCH-ExaminationFinding-Procedure-1.outcome                                            | Required                    |
 | Head and Neck - Head and Skull                   | CareConnect-DCH-ExaminationFinding-Procedure-1.outcome                                            | Required                    |
 | Head and Neck - Face                             | CareConnect-DCH-ExaminationFinding-Procedure-1.outcome                                            | Required                    |
@@ -69,6 +73,6 @@ The Child Health Event data items are fulfilled by elements within the FHIR reso
 | Developmental Assessment - Posture and Behaviour | CareConnect-DCH-ExaminationFinding-Procedure-1.outcome                                            | Required                    |
 | Examination                                      | CareConnect-DCH-ExaminationFinding-Procedure-1.outcome                                            | Required                    |
 | Examination - Vision                             | CareConnect-DCH-ExaminationFinding-Procedure-1.outcome                                            | Required                    |
-| Examination Bowels                               | CareConnect-DCH-ExaminationFinding-Procedure-1.outcome                                            | Required                    |
-| Examination Urine                                | CareConnect-DCH-ExaminationFinding-Procedure-1.outcome                                            | Required                    |
+| Examination Bowels                               | CareConnect-DCH-BowelExaminationFinding-Procedure-1.outcome                                            | Required                    |
+| Examination Urine                                | CareConnect-DCH-UrineExaminationFinding-Procedure-1.outcome                                            | Required                    |
 | Encounter Type                                   | CareConnect-DCH-Encounter-1.type (childHealthEncounterType)                                                                   | Required                    |
