@@ -28,7 +28,7 @@ The Child Health Event data items are fulfilled by elements within the FHIR reso
                                                                                                    
 | DCH Data Item                 | FHIR resource element                                                                            | Mandatory/Required/Optional |
 |-------------------------------|--------------------------------------------------------------------------------------------------|-----------------------------|
-| Organisation                  | CareConnect-DCH-Team-Organisation-1.identifier (ODS Code or ODS Site Code)                       | Mandatory                    |
+| Organisation                  | CareConnect-DCH-Organisation-1.identifier (ODS Code or ODS Site Code)                       | Mandatory                    |
 | Team                          | CareConnect-DCH-Team-Organisation-1                                                              | Required                   |
 | Name                          | CareConnect-DCH-Practitioner-1.name                                                              | Required                    |
 | Role                          | CareConnect-DCH-PractitionerRole-1.code (careProfessionalType)                                       | Mandatory                   |
