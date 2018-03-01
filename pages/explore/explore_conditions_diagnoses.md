@@ -18,7 +18,7 @@ The following FHIR profiles are used to form the Conditions / Diagnoses Event Me
 - [CareConnect-DCH-Encounter-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-Encounter-1.xml)
 - [CareConnect-DCH-Location-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-Location-1.xml)
 - [CareConnect-DCH-Condition-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-Condition-1.xml)
-
+- [CareConnect-DCH-FetalDiagnosis-Condition-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-FetalDiagnosis-Condition-1.xml)
 
 ### Conditions or Diagnoses event data item mapping to FHIR profiles ###
 
@@ -28,5 +28,6 @@ The Child Health Event data items are fulfilled by elements within the FHIR reso
 |----------------------|-------------------------------------------|-----------------------------|
 | Condition            | CareConnect-DCH-Condition-1.code          | Mandatory                   |
 | Condition category   | CareConnect-DCH-Condition-1.category      | Mandatory                   |
-| Stage of Disease     | CareConnect-DCH-Condition-1.stage         | Optional                    |
-| Condition onset Date | CareConnect-DCH-Condition-1.onsetDateTime | Required                    |
+| Stage of Disease     | CareConnect-DCH-Condition-1.stage.summary.coding.text         | Optional                    |
+| Condition onset Date | CareConnect-DCH-Condition-1.onsetDateTime or onsetString | Required                    |
+| Fetal Diagnosis      | CareConnect-DCH-FetalDiagnosis-Condition-1 | Optional                    |
