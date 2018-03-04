@@ -7,9 +7,9 @@ permalink: overview_guide_versioning.html
 summary: An overview of this implementation guide is versioned.
 ---
 
-## Experimental ##
+## Beta (draft) ##
 
-This implementation guide is in currently in an **Alpha** state. This means that changes and releases are occurring regularly.
+This implementation guidance is a draft version to support the development of the Digital Child Health Event Message Bundles in preparation for a Beta release. This means that changes and releases are occurring regularly.
 
 ## Semantic Versioning ##
 
