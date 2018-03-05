@@ -20,7 +20,7 @@ The diagram below demonstrates the components needed to meet the initial DCH Eve
 
 **MessageHeader focus**
 
-The root class of the MessageHeader is fulfilled using the 'focus' element in the resource. This will reference the Encounter resource depending on the following conditions for clinical events.
+The root class of the MessageHeader is fulfilled using the 'focus' element in the resource.For Digital Child Health events this will reference the Encounter resource.
 
 
 
