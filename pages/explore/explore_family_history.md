@@ -24,11 +24,11 @@ The following FHIR profiles are used to form the Family History Event Message Bu
 
 The Child Health Event data items are fulfilled by elements within the FHIR resources listed below:
 
-| DCH Data Item        | FHIR resource element                                 | Mandatory/Required/Optional |
-|----------------------|-------------------------------------------------------|-----------------------------|
-| Date                 | CareConnect-DCH-Encounter-1.period.start              | Mandatory                   |
-| ODS Site Code        | CareConnect-DCH-Location-1.identifier (ODS Site Code) | Mandatory                   |
-| Family History       | CareConnect-DCH-FamilyMemberHistory-1.condition       | Mandatory                   |
-| Person in the Family | CareConnect-DCH-FamilyMemberHistory-1.relationship    | Mandatory                   |
-| Maternal or paternal relation       | CareConnect-DCH-FamilyMemberHistory-1.relationship       | Required                   |
-| Maternal Problems in Pregnancy | CareConnect-DCH-MaternalProblemsInPregnancy-FamilyMemberHistory-1.code    | Required                   |
+| DCH Data Item                  | FHIR resource element                                                            | Mandatory/Required/Optional | Note                                                                                                                                                  |
+|--------------------------------|----------------------------------------------------------------------------------|-----------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Date                           | CareConnect-DCH-Encounter-1.period.start                                         | Mandatory                   |                                                                                                                                                       |
+| ODS Site Code                  | CareConnect-DCH-Location-1.identifier (ODS Site Code)                            | Mandatory                   |                                                                                                                                                       |
+| Family History                 | CareConnect-DCH-FamilyMemberHistory-1.condition.code                             | Mandatory                   |                                                                                                                                                       |
+| Person in the Family           | CareConnect-DCH-FamilyMemberHistory-1.relationship                               | Mandatory                   |                                                                                                                                                       |
+| Maternal or paternal relation  | to be confirmed                                                                  | Required                    |                                                                                                                                                       |
+| Maternal Problems in Pregnancy | CareConnect-DCH-MaternalProblemsInPregnancy-FamilyMemberHistory-1.condition.code | Required                    | Element relationship is fixed to the following coding: system = 'http://hl7.org/fhir/v3/RoleCode'   code = 'GESTM'   display = 'gestational mother'   |
