@@ -35,7 +35,7 @@ entries:
     - title: Bundle Structure
       url: /explore_bundle_structure.html
       output: web
-    - title: Header Design
+    - title: Event Header Design
       url: /explore_event_header_design.html
       output: web
 #    - title: FHIR Profiles

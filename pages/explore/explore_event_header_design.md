@@ -9,7 +9,7 @@ summary: "The design approach applied to support the standard event header infor
 
 {% include warning.html content="This **temporary** site is provided to assist with the development of the **Beta** Digital Child Health Events Specification and is being updated regularly. It is advised not to develop against these specifications until a formal announcement has been made. Note: The [current published Digital Child Health Events Specification](https://nhsconnect.github.io/Digital-Child-Health/Generated/Chapter.1.About/index.html) is the **Alpha** version published on the NHS Developers Network. " %}
 
-## Background ##
+## Event header information for Digital Child Health ##
 Each event message will carry a standard set of event header information to help identify the patient, publisher, and actual event, etc.
 
 This event header information must consist of the following **mandatory** items and their corresponding FHIR profiles and elements:
