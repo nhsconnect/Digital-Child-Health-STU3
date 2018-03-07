@@ -41,20 +41,20 @@ The Child Health Event data items are fulfilled by elements within the FHIR reso
 | DCH Data Item              | FHIR Resource element                                                                     | Mandatory/Required/Optional |
 |----------------------------|-------------------------------------------------------------------------------------------|-----------------------------|
 | Coded Assessment Tool Type | CareConnect-DCH-ASQ3AssessmentScale-Observation-1.code 									 | Mandatory                   |
-| Score                      | CareConnect-DCH-ASQ3AssessmentScale-Observation-1.valueQuantity						     | Mandatory                   |
+| Score                      | CareConnect-DCH-ASQ3AssessmentScale-Observation-1.component.valueQuantity				 | Mandatory                   |
 
 **Ages and Stages Questionnaires: Social-Emotional**
 
 | DCH Data Item              | FHIR Resource element                                                                       | Mandatory/Required/Optional |
 |----------------------------|---------------------------------------------------------------------------------------------|-----------------------------|
 | Coded Assessment Tool Type | CareConnect-DCH-ASQSEAssessmentScale-Observation-1.code 									   | Mandatory                   |
-| Score                      | CareConnect-DCH-ASQSEAssessmentScale-Observation-1.valueQuantity							   | Mandatory                   |
+| Score                      | CareConnect-DCH-ASQSEAssessmentScale-Observation-1.component.valueQuantity				   | Mandatory                   |
 
 **Other Assessment Tools**
 
 | DCH Data Item              | FHIR Resource element                                                                                   | Mandatory/Required/Optional |
 |----------------------------|---------------------------------------------------------------------------------------------------------|-----------------------------|
 | Coded Assessment Tool Type | CareConnect-DCH-AssessmentScale-Observation-1.code 													   | Required                    |
-| Score                      | CareConnect-DCH-AssessmentScale-Observation-1.value[x]									       | Required                    |
+| Score                      | CareConnect-DCH-AssessmentScale-Observation-1.value[x]									       		   | Required                    |
 
 
