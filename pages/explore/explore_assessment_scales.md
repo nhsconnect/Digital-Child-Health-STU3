@@ -55,6 +55,6 @@ The Child Health Event data items are fulfilled by elements within the FHIR reso
 | DCH Data Item              | FHIR Resource element                                                                                   | Mandatory/Required/Optional |
 |----------------------------|---------------------------------------------------------------------------------------------------------|-----------------------------|
 | Coded Assessment Tool Type | CareConnect-DCH-AssessmentScale-Observation-1.code 													   | Required                    |
-| Score                      | CareConnect-DCH-AssessmentScale-Observation-1.value[x]									       		   | Required                    |
+| Score                      | CareConnect-DCH-AssessmentScale-Observation-1.value[x] or CareConnect-DCH-AssessmentScale-Observation-1.componentvalue[x]										       		   | Required                    |
 
 
