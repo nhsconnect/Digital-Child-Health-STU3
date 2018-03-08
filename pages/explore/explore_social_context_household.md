@@ -20,7 +20,7 @@ The following FHIR profiles are used to form the Social Context Household Event 
 - [DCH-SocialContextHousehold-QuestionnaireResponse-1](https://fhir.nhs.uk/STU3/StructureDefinition/DCH-SocialContextHousehold-QuestionnaireResponse-1)
 
 ### Social Context Household event data item mapping to FHIR profiles ###
-----------
+
 The Child Health Event data items are fulfilled by elements within the FHIR resources listed below.
 
 | DCH Data Item                                        | FHIR Resource element                                                                        | Mandatory/Required/Optional |
@@ -35,5 +35,3 @@ The Child Health Event data items are fulfilled by elements within the FHIR reso
 | Fathers Occupation                                   | DCH-SocialContextHousehold-QuestionnaireResponse-1.item.occupationFather               | Required                    |
 | Any Household member has/had social services support | DCH-SocialContextHousehold-QuestionnaireResponse-1.item.socialServicesSupport          | Required                    |
 | Accommodation status                                 | DCH-SocialContextHousehold-QuestionnaireResponse-1.item.accommodationStatus            | Mandatory                   |
-| Household Composition                                 | DCH-SocialContextHousehold-QuestionnaireResponse-1.item.householdComposition            | Optional                   |
-| Significant Individuals                                 | DCH-SocialContextHousehold-QuestionnaireResponse-1.item.significantIndividuals            | Optional                |
