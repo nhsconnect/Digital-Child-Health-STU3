@@ -19,7 +19,7 @@ The following FHIR profiles are used to form the Discharge Details Event Message
 - [CareConnect-DCH-Location-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-Location-1)
 - [CareConnect-DCH-Practitioner-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-Practitioner-1)
 - [CareConnect-DCH-PractitionerRole-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-PractitionerRole-1) 
-- [CareConnect-DCH-DischargeDestination-Location-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-DischargeDestination-Location-1)
+
 
 ### Discharge Details event data item mapping to FHIR profiles ###
 
@@ -31,9 +31,9 @@ The Child Health Event data items are fulfilled by elements within the FHIR reso
 | ODS Site Code              | CareConnect-DCH-Location-1.identifier (ODS Site Code)            | Mandatory                   |
 | Discharging Consultant     | CareConnect-DCH-Practitioner-1                                   | Required                    |
 | Discharging Speciality/Department     | DCH-HealthcareService-1.specialty    or     | Required                    |
-|      | CareConnect-DCH-PractitionerRole-1.specialty         | Required                    |
-| Discharge method           | CareConnect-DCH-Encounter-1.hospitalization.dischargeDisposition | Required                    |
-| Discharge destination      |CareConnect-DCH-DischargeDestination-Location-1.physicalType      | Required                    |
-| Discharge address          | CareConnect-DCH-DischargeDestination-Location-1.address          | Required                    |
+|      						| CareConnect-DCH-PractitionerRole-1.specialty         | Required                    |
+| Discharge method           | CareConnect-DCH-Encounter-1.hospitalization.dischargeMethod | Required                    |
+| Discharge destination      |CareConnect-DCH-Encounter-1.hospitalization.dischargeDisposition      | Required                    |
+| Discharge address          | CareConnect-DCH-Location-1.address          | Required                    |
 | Encounter Type             | CareConnect-DCH-Encounter-1.type (childHealthEncounterType)      | Mandatory                   |
 

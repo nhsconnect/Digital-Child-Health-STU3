@@ -33,6 +33,6 @@ The Child Health Event data items are fulfilled by elements within the FHIR reso
 | Accompanied by (Relationship) | DCH-RelatedPerson-1.relationship                                           | Required                    |
 | Referral Source               | CareConnect-DCH-Emergency-Encounter-1.hospitalization.admitSource          | Required                    |
 | Presenting Complaint          | CareConnect-DCH-Emergency-Encounter-1.reason                               | Mandatory                   |
-| Procedure                     | CareConnect-DCH-EmergencyCareInvestigation-Procedure-1.code                | Required                    |
-| Discharge destination         | CareConnect-DCH-EmergencyDischarge-Location-1.physicalType                 | Mandatory                   |
-| Discharge status              | CareConnect-DCH-Emergency-Encounter-1.hospitalization.dischargeDisposition | Mandatory                   |
+| Procedure                     | CareConnect-DCH-EmergencyCare-Procedure-1.code                | Required                    |
+| Discharge destination         | CareConnect-DCH-Emergency-Encounter-1.hospitalization.destination                 | Mandatory                   |
+| Discharge status              | CareConnect-DCH-Emergency-Encounter-1.emergencyDischargeStatus | Mandatory                   |
