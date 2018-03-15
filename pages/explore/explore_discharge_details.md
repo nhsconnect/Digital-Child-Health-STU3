@@ -26,15 +26,14 @@ The following FHIR profiles are used to form the Discharge Details Event Message
 
 The Child Health Event data items are fulfilled by elements within the FHIR resources listed below:
 
-| DCH Data Item              | FHIR resource element                                            | Mandatory/Required/Optional |
-|----------------------------|------------------------------------------------------------------|-----------------------------|
-| Date and Time of Discharge | CareConnect-DCH-Encounter-1.period.end                           | Mandatory                   |
-| ODS Site Code              | CareConnect-DCH-Location-1.identifier (ODS Site Code)            | Mandatory                   |
-| Discharging Consultant     | CareConnect-DCH-Practitioner-1                                   | Required                    |
-| Discharging Speciality/Department     | DCH-HealthcareService-1.specialty    or     | Required                    |
-|      						| CareConnect-DCH-PractitionerRole-1.specialty         | Required                    |
-| Discharge method           | CareConnect-DCH-Encounter-1.hospitalization.dischargeMethod | Required                    |
-| Discharge destination      |CareConnect-DCH-Encounter-1.hospitalization.dischargeDisposition      | Required                    |
-| Discharge address          | CareConnect-DCH-Location-1.address          | Required                    |
-| Encounter Type             | CareConnect-DCH-Encounter-1.type (childHealthEncounterType)      | Mandatory                   |
-
+| DCH Data Item                     | FHIR resource element                                            | Mandatory/Required/Optional | Note                                                                                  |
+|-----------------------------------|------------------------------------------------------------------|-----------------------------|---------------------------------------------------------------------------------------|
+| Date and Time of Discharge        | CareConnect-DCH-Encounter-1.period.end                           | Mandatory                   |                                                                                       |
+| ODS Site Code                     | CareConnect-DCH-Location-1.identifier (ODS Site Code)            | Mandatory                   |                                                                                       |
+| Discharging Consultant            | CareConnect-DCH-Practitioner-1                                   | Required                    |                                                                                       |
+| Discharging Speciality/Department | DCH-HealthcareService-1.specialty or                             | Required                    |                                                                                       |
+|                                   | CareConnect-DCH-PractitionerRole-1.specialty                     | Required                    |                                                                                       |
+| Discharge method                  | CareConnect-DCH-Encounter-1.hospitalization.dischargeMethod      | Required                    |                                                                                       |
+| Discharge destination             | CareConnect-DCH-Encounter-1.hospitalization.dischargeDisposition | Required                    |                                                                                       |
+| Discharge address                 | CareConnect-DCH-Location-1.address                               | Required                    |                                                                                       |
+| Encounter Type                    | CareConnect-DCH-Encounter-1.type (childHealthEncounterType)      | Mandatory                   | Represented using code '001 - Birth Discharge' OR '002 - Maternity Discharge' only |
