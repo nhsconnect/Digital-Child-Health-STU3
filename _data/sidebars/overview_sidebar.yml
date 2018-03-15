@@ -79,8 +79,14 @@ entries:
         - title: Birth Details
           url: /explore_birth_details.html
           output: web
-        - title: Blood Spot
-          url: /explore_blood_spot.html
+        - title: Blood Spot Sample Taken
+          url: /explore_blood_spot_sample_taken.html
+          output: web
+        - title: Blood Spot Card Received
+          url: /explore_blood_spot_card_received.html
+          output: web
+        - title: Blood Spot Test Outcome
+          url: /explore_blood_spot_test_outcome.html
           output: web
       - title: C - E
 #        url: /explore.html

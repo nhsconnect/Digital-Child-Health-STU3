@@ -12,7 +12,7 @@ summary: "The FHIR profiles used for the Admission Details Event Message Bundle"
 The following FHIR profiles are used to form the Admission Details Event Message Bundle:
 
 - [DCH-Bundle-1](https://fhir.nhs.uk/STU3/StructureDefinition/DCH-Bundle-1)
-- [DCH-MessageHeader-1](https://fhir.nhs.uk/STU3/StructureDefinition/DCH-MessageHeader-1) - where the coding and display for the event element is fixed to 'Admission Details'
+- [DCH-MessageHeader-1](https://fhir.nhs.uk/STU3/StructureDefinition/DCH-MessageHeader-1) - where the coding and display for the event element is fixed to 'CH002 - Admission Details'
 - [CareConnect-DCH-Organization-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-Organization-1)
 - [DCH-HealthcareService-1](https://fhir.nhs.uk/STU3/StructureDefinition/DCH-HealthcareService-1)
 - [CareConnect-DCH-Patient-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-Patient-1)
@@ -23,7 +23,7 @@ The following FHIR profiles are used to form the Admission Details Event Message
 - [DCH-RelatedPerson-1](https://fhir.nhs.uk/STU3/StructureDefinition/DCH-RelatedPerson-1) 
 
 
-### Admission Details event data item mapping to FHIR profiles ###
+### Admission Details Event data item mapping to FHIR profiles ###
 ----------
 The Child Health Event data items are fulfilled by elements within the FHIR resources listed below:
 

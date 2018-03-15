@@ -13,7 +13,7 @@ summary: "The FHIR profiles used for the Clinical Risk Factors Event Message Bun
 The following FHIR profiles are used to form the Clinical Risk Factors Event Message Bundle:
 
 - [DCH-Bundle-1](https://fhir.nhs.uk/STU3/StructureDefinition/DCH-Bundle-1)
-- [DCH-MessageHeader-1](https://fhir.nhs.uk/STU3/StructureDefinition/DCH-MessageHeader-1) - where the coding and display elements for the 'event' type are fixed to 'Clinical Risk Factors'
+- [DCH-MessageHeader-1](https://fhir.nhs.uk/STU3/StructureDefinition/DCH-MessageHeader-1) - where the coding and display elements for the 'event' type are fixed to 'CH007 - Clinical Risk Factors'
 - [CareConnect-DCH-Organization-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-Organization-1)
 - [DCH-HealthcareService-1](https://fhir.nhs.uk/STU3/StructureDefinition/DCH-HealthcareService-1)
 - [CareConnect-DCH-Patient-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-Patient-1)
@@ -23,7 +23,7 @@ The following FHIR profiles are used to form the Clinical Risk Factors Event Mes
 - [CareConnect-DCH-PractitionerRole-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-PractitionerRole-1)
 - [DCH-ClinicalRiskFactor-RiskAssessment-1](https://fhir.nhs.uk/STU3/StructureDefinition/DCH-RiskAssessment-1)
 
-### Clinical Risk Factors event data item mapping to FHIR profiles ###
+### Clinical Risk Factors Event data item mapping to FHIR profiles ###
 
 The Child Health Event data items are fulfilled by elements within the FHIR resources listed below:
 

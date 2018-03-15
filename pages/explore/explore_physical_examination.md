@@ -12,7 +12,7 @@ summary: "The FHIR profiles used for the Physical Examination Event Message Bund
 The following FHIR profiles are used to form the Physical Examination Event Message Bundle:
 
 - [DCH-Bundle-1](https://fhir.nhs.uk/STU3/StructureDefinition/DCH-Bundle-1)
-- [DCH-MessageHeader-1](https://fhir.nhs.uk/STU3/StructureDefinition/DCH-MessageHeader-1) - where the coding and display for the event element is fixed to 'Physical Examination'
+- [DCH-MessageHeader-1](https://fhir.nhs.uk/STU3/StructureDefinition/DCH-MessageHeader-1) - where the coding and display for the event element is fixed to 'CH024 - Physical Examination'
 - [CareConnect-DCH-Organization-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-Organization-1)
 - [DCH-HealthcareService-1](https://fhir.nhs.uk/STU3/StructureDefinition/DCH-HealthcareService-1)
 - [CareConnect-DCH-Patient-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-Patient-1)
@@ -25,7 +25,7 @@ The following FHIR profiles are used to form the Physical Examination Event Mess
 - [CareConnect-DCH-PhysicalExaminationTestes-Procedure-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-PhysicalExaminationTestes-Procedure-1)
 - [CareConnect-DCH-PhysicalExaminationHeart-Procedure-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-PhysicalExaminationHeart-Procedure-1)
 
-### Physical Examination Details event data item mapping to FHIR profiles ###
+### Physical Examination Details Event data item mapping to FHIR profiles ###
 
 The Child Health Event data items are fulfilled by elements within the FHIR resources listed below:
                                                                                                    

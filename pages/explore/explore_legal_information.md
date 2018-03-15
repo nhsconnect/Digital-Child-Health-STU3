@@ -12,7 +12,7 @@ summary: "The FHIR profiles used for the Legal Information Event Message Bundle"
 The following FHIR profiles are used to form the Legal Information Event Message Bundle:
 
 - [DCH-Bundle-1](https://fhir.nhs.uk/STU3/StructureDefinition/DCH-Bundle-1)
-- [DCH-MessageHeader-1](https://fhir.nhs.uk/STU3/StructureDefinition/DCH-MessageHeader-1) - where the coding and display elements for the 'event' type are fixed to 'Legal Information'
+- [DCH-MessageHeader-1](https://fhir.nhs.uk/STU3/StructureDefinition/DCH-MessageHeader-1) - where the coding and display elements for the 'event' type are fixed to 'CH033 - Legal Information'
 - [CareConnect-DCH-Organization-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-Organization-1)
 - [DCH-HealthcareService-1](https://fhir.nhs.uk/STU3/StructureDefinition/DCH-HealthcareService-1)
 - [CareConnect-DCH-Patient-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-Patient-1)
@@ -21,7 +21,7 @@ The following FHIR profiles are used to form the Legal Information Event Message
 - [DCH-LookedAfterChild-EpisodeOfCare-1](https://fhir.nhs.uk/STU3/StructureDefinition/DCH-LookedAfterChild-EpisodeOfCare-1)
 - [DCH-ChildProtection-CarePlan-1](https://fhir.nhs.uk/STU3/StructureDefinition/DCH-ChildProtection-CarePlan-1)
 
-### Legal Information event data item mapping to FHIR profiles ###
+### Legal Information Event data item mapping to FHIR profiles ###
 
 The Child Health Event data items are fulfilled by elements within the FHIR resources listed below:
 

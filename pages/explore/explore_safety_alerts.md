@@ -12,7 +12,7 @@ summary: "The FHIR profiles used for the Safety Alerts Event Message Bundle"
 The following FHIR profiles are used to form the Safety Alerts Event Message Bundle:
 
 - [DCH-Bundle-1](https://fhir.nhs.uk/STU3/StructureDefinition/DCH-Bundle-1)
-- [DCH-MessageHeader-1](https://fhir.nhs.uk/STU3/StructureDefinition/DCH-MessageHeader-1) - where the coding and display for the event element is fixed to 'Safety Alerts'
+- [DCH-MessageHeader-1](https://fhir.nhs.uk/STU3/StructureDefinition/DCH-MessageHeader-1) - where the coding and display for the event element is fixed to 'CH029 - Safety Alerts'
 - [CareConnect-DCH-Organization-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-Organization-1)
 - [DCH-HealthcareService-1](https://fhir.nhs.uk/STU3/StructureDefinition/DCH-HealthcareService-1)
 - [CareConnect-DCH-Patient-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-Patient-1)
@@ -22,7 +22,7 @@ The following FHIR profiles are used to form the Safety Alerts Event Message Bun
 - [CareConnect-DCH-PractitionerRole-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-PractitionerRole-1) 
 - [CareConnect-DCH-SafeguardingRisk-Observation-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-SafeguardingRisk-Observation-1)
 
-### Safety Alerts event data item mapping to FHIR profiles ###
+### Safety Alerts Event data item mapping to FHIR profiles ###
 
 The Child Health Event data items are fulfilled by elements within the FHIR resources listed below:
 

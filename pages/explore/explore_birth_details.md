@@ -12,7 +12,7 @@ summary: "The FHIR profiles used for the Birth Details Event Message Bundle"
 The following FHIR profiles are used to form the Birth Details Event Message Bundle:
 
 - [DCH-Bundle-1](https://fhir.nhs.uk/STU3/StructureDefinition/DCH-Bundle-1)
-- [DCH-MessageHeader-1](https://fhir.nhs.uk/STU3/StructureDefinition/DCH-MessageHeader-1) - where the coding and display for the event element is fixed to 'Birth Details'
+- [DCH-MessageHeader-1](https://fhir.nhs.uk/STU3/StructureDefinition/DCH-MessageHeader-1) - where the coding and display for the event element is fixed to 'CH005 - Birth Details'
 - [CareConnect-DCH-Organization-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-Organization-1)
 - [DCH-HealthcareService-1](https://fhir.nhs.uk/STU3/StructureDefinition/DCH-HealthcareService-1)
 - [CareConnect-DCH-Baby-Patient-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-Baby-Patient-1)
@@ -30,7 +30,7 @@ The following FHIR profiles are used to form the Birth Details Event Message Bun
 - [CareConnect-DCH-IdenticalTwinIndicator-Observation-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-IdenticalTwinIndicator-Observation-1)
 - [CareConnect-DCH-Delivery-Location-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-Delivery-Location-1)
 
-### Birth Details event data item mapping to FHIR profiles ###
+### Birth Details Event data item mapping to FHIR profiles ###
 
 The Child Health Event data items are fulfilled by elements within the FHIR resources listed below:
 

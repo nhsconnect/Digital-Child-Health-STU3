@@ -12,7 +12,7 @@ summary: "The FHIR profiles used for the Feeding Status Event Message Bundle"
 The following FHIR profiles are used to form the Feeding Status Event Message Bundle:
 
 - [DCH-Bundle-1](https://fhir.nhs.uk/STU3/StructureDefinition/DCH-Bundle-1)
-- [DCH-MessageHeader-1](https://fhir.nhs.uk/STU3/StructureDefinition/DCH-MessageHeader-1) - where the coding and display for the event element is fixed to 'Feeding Status'
+- [DCH-MessageHeader-1](https://fhir.nhs.uk/STU3/StructureDefinition/DCH-MessageHeader-1) - where the coding and display for the event element is fixed to 'CH014 - Feeding Status'
 - [CareConnect-DCH-Organization-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-Organization-1)
 - [DCH-HealthcareService-1](https://fhir.nhs.uk/STU3/StructureDefinition/DCH-HealthcareService-1)
 - [CareConnect-DCH-Patient-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-Patient-1)
@@ -20,7 +20,7 @@ The following FHIR profiles are used to form the Feeding Status Event Message Bu
 - [CareConnect-DCH-Location-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-Location-1)
 - [DCH-FeedingStatus-QuestionnaireResponse-1](https://fhir.nhs.uk/STU3/StructureDefinition/DCH-FeedingStatus-QuestionnaireResponse-1)
 
-### Feeding Status event data item mapping to FHIR profiles ###
+### Feeding Status Event data item mapping to FHIR profiles ###
 ----------
 The Child Health Event data items are fulfilled by elements within the FHIR resources listed below.
                                                                                                    

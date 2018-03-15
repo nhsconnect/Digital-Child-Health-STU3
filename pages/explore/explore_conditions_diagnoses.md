@@ -12,7 +12,7 @@ summary: "The FHIR profiles used for the Conditions / Diagnoses Event Message Bu
 The following FHIR profiles are used to form the Conditions / Diagnoses Event Message Bundle:
 
 - [DCH-Bundle-1](https://fhir.nhs.uk/STU3/StructureDefinition/DCH-Bundle-1)
-- [DCH-MessageHeader-1](https://fhir.nhs.uk/STU3/StructureDefinition/DCH-MessageHeader-1) - where the coding and display elements for the 'event' type are fixed to 'Conditions or Diagnoses'
+- [DCH-MessageHeader-1](https://fhir.nhs.uk/STU3/StructureDefinition/DCH-MessageHeader-1) - where the coding and display elements for the 'event' type are fixed to 'CH008 - Conditions or Diagnoses'
 - [CareConnect-DCH-Organization-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-Organization-1)
 - [DCH-HealthcareService-1](https://fhir.nhs.uk/STU3/StructureDefinition/DCH-HealthcareService-1)
 - [CareConnect-DCH-Patient-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-Patient-1)
@@ -21,7 +21,7 @@ The following FHIR profiles are used to form the Conditions / Diagnoses Event Me
 - [CareConnect-DCH-Condition-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-Condition-1)
 - [CareConnect-DCH-FetalDiagnosis-Condition-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-FetalDiagnosis-Condition-1)
 
-### Conditions or Diagnoses event data item mapping to FHIR profiles ###
+### Conditions or Diagnoses Event data item mapping to FHIR profiles ###
 
 The Child Health Event data items are fulfilled by elements within the FHIR resources listed below:
 
