@@ -189,6 +189,19 @@ entries:
         - title: Social Context Person
           url: /explore_social_context_person.html
           output: web
+#  - title: Event Store Query
+#    output: web,pdf
+#    folderitems:
+#    - title: Overview
+#      url: /explore_event_store_overview.html
+#      output: web
+#      type: homepage
+#    - title: Event Store Query Operation
+#      url: /explore_event_store_query.html
+#      output: web
+#    - title: Event Header Design
+#      url: /explore_event_header_design.html
+#      output: web
 
 
 #  - title: Example Scenarios
