@@ -21,7 +21,7 @@ The following FHIR profiles are used to form the Newborn Hearing Event Message B
 - [CareConnect-DCH-Practitioner-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-Practitioner-1)
 - [CareConnect-DCH-PractitionerRole-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-PractitionerRole-1) 
 - [CareConnect-DCH-HearingTest-Procedure-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-HearingTest-Procedure-1)
-- [CareConnect-DCH-HearingScreening-Procedure-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-HearingScreening-Procedure-1)
+- [CareConnect-DCH-HearingScreeningSummaryOutcome-Observation-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-HearingScreeningSummaryOutcome-Observation-1)
 
 ### Newborn Hearing Event data item mapping to FHIR profiles ###
 
@@ -34,4 +34,4 @@ The Child Health Event data items are fulfilled by elements within the FHIR reso
 | Professional Name   | CareConnect-DCH-PractitionerRole-1.code (SDS Job Role Name) | Mandatory                   |                                                                       |
 | SDS Job Role Name   | CareConnect-DCH-Practitioner-1.name                         | Mandatory                   |                                                                       |
 | Hearing Test Result | CareConnect-DCH-HearingTest-Procedure-1.outcome             | Required                    | up to two occurrences of this resource are required, one for each ear |
-| Summary Outcome     | CareConnect-DCH-HearingScreening-Procedure-1.outcome        | Mandatory                   |                                                                       |
+| Summary Outcome     | CareConnect-DCH-HearingScreeningSummaryOutcome-Observation-1.valueCodeableConcept        | Mandatory                   |                                                                       |
