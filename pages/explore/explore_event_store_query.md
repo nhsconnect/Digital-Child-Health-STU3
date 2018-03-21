@@ -3,7 +3,7 @@ title: CareConnect - STU3 FHIR
 keywords:  messaging, bundles
 tags: [fhir,messaging]
 sidebar: foundations_sidebar
-permalink: explore_careconnect.html
+permalink: explore_event_store_query.html
 summary: "Clarification on the application of CareConnect STU3 FHIR profiles for Digital Child Health (DCH) event messages"
 ---
 
