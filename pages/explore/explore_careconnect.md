@@ -1,4 +1,4 @@
----
+﻿---
 title: CareConnect - STU3 FHIR 
 keywords:  messaging, bundles
 tags: [fhir,messaging]
@@ -28,7 +28,7 @@ This Beta specification release adopts the following CareConnect STU3 FHIR profi
 - CareConnect-Medication-1
 - CareConnect-MedicationRequest-1
 
-This Beta specification release also adopts the following **draft** CareConnect STU3 FHIR profiles and their supporting artefacts. These have been developed by NHS Digital as part of an exercise to uplift the CareConnect DSTU2 FHIR Profiles published by INTEROPen to an STU3 equivalent, within a [feature branch](https://github.com/HL7-UK/CareConnect-profiles/tree/feature/interopen) on the [HL7-UK github repository](https://github.com/HL7-UK/CareConnect-profiles-STU3):
+This Beta specification release also adopts the following **draft** CareConnect STU3 FHIR profiles and their supporting artefacts. These have been developed by NHS Digital as part of an exercise to uplift the CareConnect DSTU2 FHIR Profiles published by INTEROPen to an STU3 equivalent, within a [feature branch](https://github.com/nhsconnect/CareConnect-profiles/tree/feature/stu3) on the [NHSConnect CareConnect profiles github repository](https://github.com/nhsconnect/CareConnect-profiles):
 
  - CareConnect-Condition-1
  - CareConnect-FamilyMemberHistory-1
