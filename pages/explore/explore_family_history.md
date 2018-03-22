@@ -31,5 +31,4 @@ The Child Health Event data items are fulfilled by elements within the FHIR reso
 | ODS Site Code                  | CareConnect-DCH-Location-1.identifier (ODS Site Code)                            | Mandatory                   |
 | Family History                 | CareConnect-DCH-FamilyMemberHistory-1.condition.code                             | Mandatory                   |
 | Person in the Family           | CareConnect-DCH-FamilyMemberHistory-1.relationship                               | Mandatory                   |
-| Maternal or paternal relation  | to be confirmed                                                                  | Required                    |
 | Maternal Problems in Pregnancy | CareConnect-DCH-MaternalProblemsInPregnancy-FamilyMemberHistory-1.condition.code | Required                    |
