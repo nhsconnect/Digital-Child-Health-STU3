@@ -24,7 +24,7 @@ The following FHIR profiles are used to form the Medication Event Message Bundle
 - [CareConnect-DCH-Medication-Flag-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-Medication-Flag-1)
 - [CareConnect-DCH-MedicationRequest-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-MedicationRequest-1)
 - [DCH-MedicationAdministration-1](https://fhir.nhs.uk/STU3/StructureDefinition/DCH-MedicationAdministration-1)
-- [CareConnect-MedicationStatement-1](https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-MedicationStatement-1)  
+- [CareConnect-DCH-MedicationStatement-1](https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-DCH-MedicationStatement-1)  
 
 
 ### Medication Event data item mapping to FHIR profiles ###
@@ -47,7 +47,7 @@ The Child Health Event data items are fulfilled by elements within the FHIR reso
 | Course status               | CareConnect-DCH-MedicationRequest-1.status                                  | Required                    |
 | Dose directions description | CareConnect-DCH-MedicationRequest-1.dosageInstruction.text (if prescribed) or             | Required                    |
 |                             | DCH-MedicationAdministration-1.dosage.text (if administered)                               | Required                    |
-| Dose Direction Duration     | CareConnect-DCH-MedicationRequest-1.dosageInstruction.asNeededCodeableConcept                                    | Required                    |
+| Dose Direction Duration     | CareConnect-DCH-MedicationStatement-1.dosage.additionalInstruction                                    | Required                    |
 | Additional instruction      | CareConnect-DCH-MedicationRequest-1.dosageInstruction.additionalInstruction | Required                    |
 | Medical devices             | CareConnect-MedicationStatement-1                                                 | Optional                    |
 | Indication                  | CareConnect-DCH-MedicationRequest-1.reasonCode                                  | Required                    |          
