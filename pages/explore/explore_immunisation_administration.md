@@ -36,7 +36,7 @@ The Child Health Event data items are fulfilled by elements within the FHIR reso
 | Name of Immunisation        | CareConnect-DCH-Immunization-1.vaccineCode                          | Mandatory                   |
 | Dose sequence               | CareConnect-DCH-Immunization-1.vaccinationProtocol.doseSequence     | Required                    |
 | Outcome Status              | CareConnect-DCH-Immunization-1.explanation                          | Mandatory                   |
-| Vaccine Product (DM+D code) | CareConnect-DCH-Immunization-1.vaccineCode                          | Required                    |
+| Vaccine Product             | CareConnect-DCH-Immunization-1.vaccineCode                          | Required                    |
 | Vaccine Manufacturer        | CareConnect-DCH-Immunization-1.manufacturer                         | Required                    |
 | Batch Number                | CareConnect-DCH-Immunization-1.lotNumber                            | Required                    |
 | Site                        | CareConnect-DCH-Immunization-1.site                                 | Required                    |
