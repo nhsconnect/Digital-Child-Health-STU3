@@ -11,6 +11,6 @@ summary: The journey outlines the approach of developing FHIR profiles for Digit
 
 ## Profile journey ##
 
-This site will focus on the FHIR profiles to support the event message design options for the upcoming Beta specification release. The image below details the FHIR development journey for Digital Child Health to date.
+This site will focus on the FHIR profiles to support the event message design options for the Beta specification release. The image below details the FHIR development journey for Digital Child Health to date.
 
 <img src="images/overview/dchjourney.png" style="width:90%;max-width: 90%;">
