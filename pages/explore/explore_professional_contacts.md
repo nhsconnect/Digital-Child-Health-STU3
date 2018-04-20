@@ -41,3 +41,4 @@ The Child Health Event data items are fulfilled by elements within the FHIR reso
 |                               | or CareConnect-DCH-Team-Organization-1.telecom                                                   | Required                    |
 | Start date                    | DCH-ProfessionalContact-EpisodeOfCare-1.period.start                                                                 | Required                   |
 | End date                      | DCH-ProfessionalContact-EpisodeOfCare-1.period.end                                                                   | Required                   |
+| Reason                     | DCH-ProfessionalContact-EpisodeOfCare-1.reason                                                                   | Optional                   |
