@@ -41,9 +41,6 @@ entries:
     - title: Event Publishing/Receiving Requirements
       url: /explore_event_publish_receive.html
       output: web
-    - title: CareConnect FHIR Profiles 
-      url: /explore_careconnect.html
-      output: web
 #    - title: FHIR Profiles
 #      url: /explore_fhir_profiles.html
 #      output: web
