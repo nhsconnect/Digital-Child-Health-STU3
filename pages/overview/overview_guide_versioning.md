@@ -7,7 +7,7 @@ permalink: overview_guide_versioning.html
 summary: An overview of this implementation guide is versioned.
 ---
 
-## Beta (draft) ##
+## Beta ##
 
 This implementation guidance is the **Beta** release to support the development of the Digital Child Health Event Messages. 
 
