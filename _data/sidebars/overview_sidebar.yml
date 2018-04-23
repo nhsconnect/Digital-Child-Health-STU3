@@ -270,8 +270,11 @@ entries:
   - title: Help & Support
     output: web
     folderitems:
-    - title: Communication Channels
-      url: /support_communications.html
+    - title: About
+      url: /support_about.html
+      output: web
+    - title: CareConnect FHIR Profiles
+      url: /support_careconnect.html
       output: web
       subfolders:
       - title: Where Else Can I Look?
