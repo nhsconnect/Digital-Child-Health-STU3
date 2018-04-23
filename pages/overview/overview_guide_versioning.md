@@ -9,7 +9,7 @@ summary: An overview of this implementation guide is versioned.
 
 ## Beta (draft) ##
 
-This implementation guidance is a draft version to support the development of the Digital Child Health Event Message Bundles in preparation for a Beta release. This means that changes and releases are occurring regularly.
+This implementation guidance is the **Beta** release to support the development of the Digital Child Health Event Messages. 
 
 ## Semantic Versioning ##
 
