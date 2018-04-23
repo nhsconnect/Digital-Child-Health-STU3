@@ -11,7 +11,7 @@ summary: "Overview of the Messaging Architecture section"
 
 **Message Patterns and Message Structure**
 
-The Events Management Service is based on a Publish and Subscribe messaging pattern. The events are published to a national events hub, which manages subscriptions to the published events.
+The Events Management Service is based on a Publish and Subscribe messaging pattern. The events are published to a national events hub, which also manages subscriptions to the published events.
 
 **Events**
 
