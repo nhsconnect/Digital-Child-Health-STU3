@@ -17,15 +17,15 @@ The INTEROPen vision is to create a library of nationally defined HL7® FHIR® r
 
 This Beta specification release includes FHIR profiles derived from the following CareConnect STU3 FHIR profiles and their supporting artefacts, which have been published following INTEROPen curation on the [HL7-UK github repository](https://github.com/HL7-UK/CareConnect-profiles-STU3/):
 
+- CareConnect-AllergyIntolerance-1
+- CareConnect-Encounter-1
+- CareConnect-Location-1
+- CareConnect-Medication-1
+- CareConnect-MedicationRequest-1
+- CareConnect-Organization-1
 - CareConnect-Patient-1
 - CareConnect-Practitioner-1
 - CareConnect-PractitionerRole-1 
-- CareConnect-Organization-1
-- CareConnect-Location-1
-- CareConnect-Encounter-1
-- CareConnect-AllergyIntolerance-1
-- CareConnect-Medication-1
-- CareConnect-MedicationRequest-1
 
 This Beta specification release also includes FHIR profiles derived from the following **draft** CareConnect STU3 FHIR profiles and their supporting artefacts. These have been developed by NHS Digital as part of an exercise to uplift the CareConnect DSTU2 FHIR Profiles published by INTEROPen to an STU3 equivalent, within a [feature branch](https://github.com/nhsconnect/CareConnect-profiles/tree/feature/stu3) on the [NHSConnect CareConnect profiles github repository](https://github.com/nhsconnect/CareConnect-profiles):
 
