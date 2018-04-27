@@ -7,8 +7,6 @@ permalink: explore_blood_spot_sample_taken.html
 summary: "The FHIR profiles used for the Blood Spot Sample Taken Event Message Bundle"
 ---
 
-{% include important.html content="The links below will refer to the StructureDefinition url applied to the FHIR profile, which are not yet active. For queries please refer to the Help and Support section." %} 
-
 The following FHIR profiles are used to form the Blood Spot Sample Taken Event Message Bundle:
 
 - [DCH-Bundle-1](https://fhir.nhs.uk/STU3/StructureDefinition/DCH-Bundle-1)

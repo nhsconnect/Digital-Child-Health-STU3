@@ -7,8 +7,6 @@ permalink: explore_emergency_care_attendance.html
 summary: "The FHIR profiles used for the Emergency Care Attendance Event Message Bundle"
 ---
 
-{% include important.html content="The links below will refer to the StructureDefinition url applied to the FHIR profile, which are not yet active. For queries please refer to the Help and Support section." %} 
-
 The following FHIR profiles are used to form the Emergency Care Attendance Event Message Bundle:
 
 - [DCH-Bundle-1](https://fhir.nhs.uk/STU3/StructureDefinition/DCH-Bundle-1)
@@ -18,7 +16,7 @@ The following FHIR profiles are used to form the Emergency Care Attendance Event
 - [CareConnect-DCH-Patient-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-Patient-1)
 - [CareConnect-DCH-Emergency-Encounter-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-Emergency-Encounter-1)
 - [CareConnect-DCH-Location-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-Location-1)
-- [CareConnect-DCH-EmergencyCareInvestigation-Procedure-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-EmergencyCareInvestigation-Procedure-1)
+- [CareConnect-DCH-EmergencyCare-Procedure-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-EmergencyCare-Procedure-1)
 - [DCH-RelatedPerson-1](https://fhir.nhs.uk/STU3/StructureDefinition/DCH-RelatedPerson-1)
 
 ### Emergency Care Attendance Event data item mapping to FHIR profiles ###

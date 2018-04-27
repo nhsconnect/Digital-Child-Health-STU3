@@ -7,8 +7,6 @@ permalink: explore_allergies_and_adverse_reactions.html
 summary: "The FHIR profiles used for the Allergies and Adverse Reactions Event Message Bundle"
 ---
 
-{% include important.html content="The links below will refer to the StructureDefinition url applied to the FHIR profile, which are not yet active. For queries please refer to the Help and Support section." %} 
-
 The following FHIR profiles are used to form the Allergies and Adverse Reactions Event Message Bundle:
 
 - [DCH-Bundle-1](https://fhir.nhs.uk/STU3/StructureDefinition/DCH-Bundle-1)

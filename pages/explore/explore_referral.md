@@ -7,8 +7,6 @@ permalink: explore_referral.html
 summary: "The FHIR profiles used for the Referral Event Message Bundle"
 ---
 
-{% include important.html content="The links below will refer to the StructureDefinition url applied to the FHIR profile, which are not yet active. For queries please refer to the Help and Support section." %} 
-
 The following FHIR profiles are used to form the Referral Event Message Bundle:
 
 - [DCH-Bundle-1](https://fhir.nhs.uk/STU3/StructureDefinition/DCH-Bundle-1)
@@ -34,7 +32,7 @@ The Child Health Event data items are fulfilled by elements within the FHIR reso
 | Professional Name            | CareConnect-DCH-Practitioner-1.name                                 | Mandatory                   |
 | SDS Job Role Name            | CareConnect-DCH-PractitionerRole-1.code (SDS Job Role Name)         | Mandatory                   |
 | Encounter Type               | CareConnect-DCH-Encounter-1.type (childHealthEncounterType)         | Mandatory                   |
-| Specialty Referred to        | DCH-ReferralRequest-1.specialty                                     | Mandatory                   |
+| Service Referred to        | DCH-ReferralRequest-1.serviceRequested                                     | Mandatory                   |
 | Referral Method              | DCH-ReferralRequest-1.referralMethod (extension)                    | Required                    |
 | Specialty referred from      | DCH-ReferralRequest-1.sourceOfReferral (extension)                  | Required                    |
 | Urgency                      | DCH-ReferralRequest-1.priority                                     | Required                    |

@@ -7,8 +7,6 @@ permalink: explore_medication.html
 summary: "The FHIR profiles used for the Medication Event Message Bundle"
 ---
 
-{% include important.html content="The links below will refer to the StructureDefinition url applied to the FHIR profile, which are not yet active. For queries please refer to the Help and Support section." %}
-
 The following FHIR profiles are used to form the Medication Event Message Bundle:
 
 - [DCH-Bundle-1](https://fhir.nhs.uk/STU3/StructureDefinition/DCH-Bundle-1)
@@ -23,7 +21,7 @@ The following FHIR profiles are used to form the Medication Event Message Bundle
 - [CareConnect-DCH-Medication-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-Medication-1)
 - [CareConnect-DCH-MedicationRequest-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-MedicationRequest-1)
 - [DCH-MedicationAdministration-1](https://fhir.nhs.uk/STU3/StructureDefinition/DCH-MedicationAdministration-1)
-- [CareConnect-DCH-MedicationStatement-1](https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-DCH-MedicationStatement-1)  
+- [CareConnect-DCH-MedicationStatement-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-MedicationStatement-1)  
 
 
 ### Medication Event data item mapping to FHIR profiles ###

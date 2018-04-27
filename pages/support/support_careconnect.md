@@ -8,8 +8,6 @@ permalink: support_careconnect.html
 summary: "Clarification on the application of CareConnect STU3 FHIR profiles for Digital Child Health (DCH) event messages"
 ---
 
-{% include warning.html content="This **temporary** site is provided to assist with the development of the **Beta** Digital Child Health Events Specification and is being updated regularly. It is advised not to develop against these specifications until a formal announcement has been made. Note: The [current published Digital Child Health Events Specification](https://nhsconnect.github.io/Digital-Child-Health/Generated/Chapter.1.About/index.html) is the **Alpha** version published on the NHS Developers Network. " %}
-
 ## Background ##
 FHIR Messaging components specified within this site have been developed by NHS Digital and where applicable, use CareConnect profiles created in collaboration with the [INTEROPen](http://interopen.org) community. 
 

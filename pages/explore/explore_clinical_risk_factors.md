@@ -7,9 +7,6 @@ permalink: explore_clinical_risk_factors.html
 summary: "The FHIR profiles used for the Clinical Risk Factors Event Message Bundle"
 ---
 
-
-{% include important.html content="The links below will refer to the StructureDefinition url applied to the FHIR profile, which are not yet active. For queries please refer to the Help and Support section." %} 
-
 The following FHIR profiles are used to form the Clinical Risk Factors Event Message Bundle:
 
 - [DCH-Bundle-1](https://fhir.nhs.uk/STU3/StructureDefinition/DCH-Bundle-1)
@@ -21,7 +18,7 @@ The following FHIR profiles are used to form the Clinical Risk Factors Event Mes
 - [CareConnect-DCH-Location-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-Location-1)
 - [CareConnect-DCH-Practitioner-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-Practitioner-1)
 - [CareConnect-DCH-PractitionerRole-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-PractitionerRole-1)
-- [DCH-ClinicalRiskFactor-RiskAssessment-1](https://fhir.nhs.uk/STU3/StructureDefinition/DCH-RiskAssessment-1)
+- [DCH-ClinicalRiskFactor-RiskAssessment-1](https://fhir.nhs.uk/STU3/StructureDefinition/DCH-ClinicalRiskFactor-RiskAssessment-1)
 
 ### Clinical Risk Factors Event data item mapping to FHIR profiles ###
 

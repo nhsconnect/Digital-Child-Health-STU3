@@ -7,8 +7,6 @@ permalink: explore_event_publish_receive.html
 summary: "Capabilities to be supported via publish and receiving requirements"
 ---
 
-{% include warning.html content="This **temporary** site is provided to assist with the development of the **Beta** Digital Child Health Events Specification and is being updated regularly. It is advised not to develop against these specifications until a formal announcement has been made. Note: The [current published Digital Child Health Events Specification](https://nhsconnect.github.io/Digital-Child-Health/Generated/Chapter.1.About/index.html) is the **Alpha** version published on the NHS Developers Network. " %}
-
 ## Background ##
 The Digital Child Health event messages are subject to supporting the following event publishing and receiving requirements:
 

@@ -7,8 +7,6 @@ permalink: explore_conditions_diagnoses.html
 summary: "The FHIR profiles used for the Conditions / Diagnoses Event Message Bundle"
 ---
 
-{% include important.html content="The links below will refer to the StructureDefinition url applied to the FHIR profile, which are not yet active. For queries please refer to the Help and Support section." %} 
-
 The following FHIR profiles are used to form the Conditions / Diagnoses Event Message Bundle:
 
 - [DCH-Bundle-1](https://fhir.nhs.uk/STU3/StructureDefinition/DCH-Bundle-1)
@@ -28,10 +26,12 @@ The Child Health Event data items are fulfilled by elements within the FHIR reso
 
 | DCH Data Item        | FHIR resource element                                    | Mandatory/Required/Optional | Note                    |
 |----------------------|----------------------------------------------------------|-----------------------------|-------------------------|
-| Condition            | CareConnect-DCH-Diagnosis-Condition-1.code               | Mandatory                   |                         |
+| Condition            | CareConnect-DCH-Diagnosis-Condition-1.code or               | Mandatory                   |                         |
 |                      | CareConnect-DCH-Problem-Condition-1.code                 | Mandatory                   |                         |
-| Condition category   | CareConnect-DCH-Diagnosis-Condition-1.category           | Mandatory                   | fixed value 'diagnosis' |
+| Condition category   | CareConnect-DCH-Diagnosis-Condition-1.category or           | Mandatory                   | fixed value 'diagnosis' |
 |                      | CareConnect-DCH-Problem-Condition-1.category             | Mandatory                   | fixed value 'problem'   |
-| Stage of Disease     | CareConnect-DCH-Condition-1.stage.summary.coding.text    | Optional                    |                         |
-| Condition onset Date | CareConnect-DCH-Condition-1.onsetDateTime or onsetString | Required                    |                         |
+| Stage of Disease     | CareConnect-DCH-Diagnosis-Condition-1.stage.summary.coding.text or    | Optional                    |                         |
+|      | CareConnect-DCH-Problem-Condition-1.stage.summary.coding.text or    | Optional                    |                         |
+| Condition onset Date | CareConnect-DCH-Diagnosis-Condition-1.onsetDateTime or onsetString or | Required                    |                         |
+|  | CareConnect-DCH-Problem-Condition-1.onsetDateTime or onsetString or | Required                    |                         |
 | Fetal Diagnosis      | CareConnect-DCH-FetalDiagnosis-Condition-1               | Optional                    |                         |

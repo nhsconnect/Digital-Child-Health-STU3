@@ -7,8 +7,6 @@ permalink: explore.html
 summary: "Overview of the Messaging Architecture section"
 ---
 
-{% include warning.html content="This **temporary** site is provided to assist with the development of the **Beta** Digital Child Health Events Specification and is being updated regularly. It is advised not to develop against these specifications until a formal announcement has been made. Note: The [current published Digital Child Health Events Specification](https://nhsconnect.github.io/Digital-Child-Health/Generated/Chapter.1.About/index.html) is the **Alpha** version published on the NHS Developers Network. " %}
-
 **Message Patterns and Message Structure**
 
 The Events Management Service is based on a Publish and Subscribe messaging pattern. The events are published to a national events hub, which also manages subscriptions to the published events.

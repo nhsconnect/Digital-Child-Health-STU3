@@ -7,8 +7,6 @@ permalink: explore_assessment_scales.html
 summary: "The FHIR profiles used for the Assessment Scales Event Message Bundle"
 ---
 
-{% include important.html content="The links below will refer to the StructureDefinition url applied to the FHIR profile, which are not yet active. For queries please refer to the Help and Support section." %} 
-
 The following FHIR profiles are used to form the Assessment Scales Event Message Bundle:
 
 - [DCH-Bundle-1](https://fhir.nhs.uk/STU3/StructureDefinition/DCH-Bundle-1)
@@ -21,7 +19,7 @@ The following FHIR profiles are used to form the Assessment Scales Event Message
 - [CareConnect-DCH-Practitioner-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-Practitioner-1)
 - [CareConnect-DCH-PractitionerRole-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-PractitionerRole-1)
 - [CareConnect-DCH-ASQ3AssessmentScale-Observation-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-ASQ3AssessmentScale-Observation-1)
-- [CareConnect-DCH-ASQSEAssessmentScale-Observation-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-ASQSEAssessmentScale-Observation-1)
+- [CareConnect-DCH-ASQSE-AssessmentScale-Observation-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-ASQSE-AssessmentScale-Observation-1)
 - [CareConnect-DCH-AssessmentScale-Observation-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-AssessmentScale-Observation-1)
                                                                                                    
 ### Assessment Scales Event data item mapping to FHIR profiles ###
@@ -48,8 +46,8 @@ The Child Health Event data items are fulfilled by elements within the FHIR reso
 
 | DCH Data Item              | FHIR Resource element                                                                       | Mandatory/Required/Optional |
 |----------------------------|---------------------------------------------------------------------------------------------|-----------------------------|
-| Coded Assessment Tool Type | CareConnect-DCH-ASQSEAssessmentScale-Observation-1.code 									   | Mandatory                   |
-| Score                      | CareConnect-DCH-ASQSEAssessmentScale-Observation-1.component.valueQuantity				   | Mandatory                   |
+| Coded Assessment Tool Type | CareConnect-DCH-ASQSE-AssessmentScale-Observation-1.code 									   | Mandatory                   |
+| Score                      | CareConnect-DCH-ASQSE-AssessmentScale-Observation-1.component.valueQuantity				   | Mandatory                   |
 
 **Other Assessment Tools**
 

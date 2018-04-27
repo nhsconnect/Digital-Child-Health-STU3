@@ -1,7 +1,7 @@
 entries:
 - title: Digital Child Health (DCH)  
   product: Digital Child Health (DCH)
-  version: Beta (draft)
+  version: Beta
   levels: one
   folders:
 
@@ -32,11 +32,11 @@ entries:
       url: /explore.html
       output: web
       type: homepage
-    - title: Bundle Structure
-      url: /explore_bundle_structure.html
-      output: web
     - title: Event Header Design
       url: /explore_event_header_design.html
+      output: web
+    - title: Bundle Structure
+      url: /explore_bundle_structure.html
       output: web
     - title: Event Publishing/Receiving Requirements
       url: /explore_event_publish_receive.html
