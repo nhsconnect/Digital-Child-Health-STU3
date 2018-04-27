@@ -2,4 +2,4 @@
 
 This **temporary** site was provided to assist with the development of the **Beta** Digital Child Health event messaging specification and will be deleted.
 
-The [current published Digital Child Health Events Specification](https://developer.nhs.uk/apis/dch-beta/) is the **Beta** version published on the NHS Developers Network.
+[Health Developer Network - Digital Child Health](https://developer.nhs.uk/library/interoperability/digital-child-health/)
