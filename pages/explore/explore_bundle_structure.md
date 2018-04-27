@@ -30,7 +30,7 @@ The following components are then added to the initial DCH Event Message Bundle 
 
 Finally, using the [Immunisation Administration event](explore_immunisation_administration.html) as an example, the following components are added to the DCH Event Message Bundle structure in order to fulfill the data item requirements specific to the event.
 
-<img src="images/explore/dchdataitems.png" style="width:75%;max-width:75%;">
+<img src="images/explore/dchdataitems.png" style="width:90%;max-width:90%;">
 
 
 
