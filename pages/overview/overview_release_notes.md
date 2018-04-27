@@ -7,7 +7,7 @@ permalink: overview_release_notes.html
 summary: Summary release notes of the versions released in Events Management Service Implementation Guide
 ---
 
-{% include warning.html content="This **temporary** site is provided to assist with the development of the **Beta** Digital Child Health Events Specification and is being updated regularly. It is advised not to develop against these specifications until a formal announcement has been made. Note: The [current published Digital Child Health Events Specification](https://nhsconnect.github.io/Digital-Child-Health/Generated/Chapter.1.About/index.html) is the **Alpha** version published on the NHS Developers Network. " %}
+{% include important.html content="This site is under active development by NHS Digital and is intended to provide the FHIR messaging components for the Digtal Child Health event messages. This project is being developed using an agile methodology so iterative updates to content will be added on a regular basis, and remains subject to clinical review. Changes to this specification following the initial beta release will be documented here." %}
 
 ## Beta ##
 This Beta release includes implementation guidance to support the development of the Digital Child Health Event Messages, supporting the following:

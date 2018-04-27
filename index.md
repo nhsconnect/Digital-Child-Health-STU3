@@ -1,13 +1,11 @@
 ---
-title: Introduction to Digital Child Health
+title: Introduction to Digital Child Health Event Messages (FHIR) 
 keywords: homepage
 tags: [overview]
 sidebar: overview_sidebar
 permalink: index.html
 toc: false
 ---
-
-{% include warning.html content="This **temporary** site is provided to assist with the development of the **Beta** Digital Child Health Events Specification and is being updated regularly. It is advised not to develop against these specifications until a formal announcement has been made. Note: The [current published Digital Child Health Events Specification](https://nhsconnect.github.io/Digital-Child-Health/Generated/Chapter.1.About/index.html) is the **Alpha** version published on the NHS Developers Network. " %}
 
 ## Introduction ##
 
@@ -16,4 +14,6 @@ toc: false
 Child Health Events contain information meaningful to those managing the personal health of themselves or their families, professionals providing direct care to children and young people and those managing the health of populations.
 
 The information contained within an event is recorded within clinical interventions or occurrences that happen throughout a clinical pathway or patient journey. These clinical interventions or occurrences are referenced throughout the [Healthy Child Record Standard](https://theprsb.org/publications/healthy-child-record-standard) and are classed as a form of clinical contact either as part of the Healthy Child Programme as a planned intervention as part of the pathway, or unplanned contact such as a visit to a GP or Emergency Department. To ensure the aims of this strategy are met and small manageable segments of data are interoperable, the events catalogue breaks up the much larger clinical interventions/occurrences into smaller, more manageable 'events' to inform the data item requirements for each child health event message.
+
+{% include important.html content="This site is under active development by NHS Digital and is intended to provide the FHIR messaging components for the Digtal Child Health event messages. This project is being developed using an agile methodology so iterative updates to content will be added on a regular basis, and remains subject to clinical review. Changes to this specification following the initial beta release will be documented in the [Release Notes](overview_release_notes.html) section." %}
  
