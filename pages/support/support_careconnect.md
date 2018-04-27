@@ -15,7 +15,7 @@ The INTEROPen vision is to create a library of nationally defined HL7® FHIR® r
 
 ## Application of CareConnect STU3 FHIR profiles for Digital Child Health ##
 
-This Beta specification release adopts the following CareConnect STU3 FHIR profiles and their supporting artefacts, which have been published following INTEROPen curation on the [HL7-UK github repository](https://github.com/HL7-UK/CareConnect-profiles-STU3/):
+This Beta specification release includes Level 3 profiles based on the following CareConnect STU3 FHIR profiles and their supporting artefacts, which have been published following INTEROPen curation on the [HL7-UK github repository](https://github.com/HL7-UK/CareConnect-profiles-STU3/):
 
 - CareConnect-Patient-1
 - CareConnect-Practitioner-1
@@ -27,7 +27,7 @@ This Beta specification release adopts the following CareConnect STU3 FHIR profi
 - CareConnect-Medication-1
 - CareConnect-MedicationRequest-1
 
-This Beta specification release also adopts the following **draft** CareConnect STU3 FHIR profiles and their supporting artefacts. These have been developed by NHS Digital as part of an exercise to uplift the CareConnect DSTU2 FHIR Profiles published by INTEROPen to an STU3 equivalent, within a [feature branch](https://github.com/nhsconnect/CareConnect-profiles/tree/feature/stu3) on the [NHSConnect CareConnect profiles github repository](https://github.com/nhsconnect/CareConnect-profiles):
+This Beta specification release also includes Level 3 profiles based on the following **draft** CareConnect STU3 FHIR profiles and their supporting artefacts. These have been developed by NHS Digital as part of an exercise to uplift the CareConnect DSTU2 FHIR Profiles published by INTEROPen to an STU3 equivalent, within a [feature branch](https://github.com/nhsconnect/CareConnect-profiles/tree/feature/stu3) on the [NHSConnect CareConnect profiles github repository](https://github.com/nhsconnect/CareConnect-profiles):
 
  - CareConnect-Condition-1
  - CareConnect-FamilyMemberHistory-1

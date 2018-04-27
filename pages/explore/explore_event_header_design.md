@@ -4,11 +4,11 @@ keywords:  messaging, bundles
 tags: [fhir,messaging]
 sidebar: foundations_sidebar
 permalink: explore_event_header_design.html
-summary: "The design approach applied to support the standard event header information applicable to Digital Child Health (DCH)"
+summary: "The standard event header information applicable to Digital Child Health (DCH) event messages"
 ---
 
-## Event header information for Digital Child Health ##
-Each event message will carry a standard set of event header information to help identify the patient, publisher, and actual event, etc.
+## Event header information##
+Each event message will carry a standard set of event header information to help identify the patient, publisher, actual event, etc.
 
 This event header information must consist of the following **mandatory** items and their corresponding FHIR profiles and elements:
 
