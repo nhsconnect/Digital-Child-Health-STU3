@@ -7,9 +7,6 @@ permalink: explore_bundle_structure.html
 summary: "The structure of the bundle used for Digital Child Health (DCH) event messages"
 ---
 
-## Background ##
-
-
 ## The Digital Child Health Event Message Bundle Structure ##
 
 To enable a standardised structure to carry information regarding event messages within the scope of the Digital Child Health Events specification, the Bundle and the Message Header resources combine to make up the initial event message bundle structure:
