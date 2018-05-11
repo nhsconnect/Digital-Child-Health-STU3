@@ -1,7 +1,7 @@
 entries:
 - title: Digital Child Health (DCH)  
   product: Digital Child Health (DCH)
-  version: 1.0.0-Beta
+  version: 1.0.1-Beta
   levels: one
   folders:
 
@@ -58,8 +58,8 @@ entries:
   - title: Messages
     output: web,pdf
     folderitems:
-    - title: Overview
-      url: /explore.html
+    - title: Example Messages
+      url: /explore_example_messages.html
       output: web
       type: homepage
       subfolders:
