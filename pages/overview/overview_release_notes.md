@@ -4,7 +4,7 @@ keywords: development, versioning
 tags: [development]
 sidebar: overview_sidebar
 permalink: overview_release_notes.html
-summary: Summary release notes of the versions released in Events Management Service Implementation Guide
+summary: Summary release notes of the versions released in Digital Child Health Implementation Guide
 ---
 
 This site is under active development by NHS Digital and is intended to provide the FHIR messaging components for the Digtal Child Health event messages. This project is being developed using an agile methodology so iterative updates to content will be added on a regular basis, and remains subject to clinical review. Changes to this specification following the initial beta release will be documented here.
@@ -41,9 +41,6 @@ FHIR Profile updates:
 	- 'performer' referenced to 'CareConnect-DCH-Practitioner-1'
 - [DCH-IndividualRequirement-QuestionnaireResponse-1](https://fhir.nhs.uk/STU3/StructureDefinition/DCH-IndividualRequirements-QuestionnaireResponse-1) - upversioned to 2.0.0
 	- item 'cognition' renamed to 'cognitive'
-
-
-
 
 
 ## Beta 1.0.1 ##
