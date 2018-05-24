@@ -32,6 +32,8 @@ The Child Health Event data items are fulfilled by elements within the FHIR reso
 |                      | CareConnect-DCH-Problem-Condition-1.category             | Mandatory                   | fixed value 'problem'   |
 | Stage of Disease     | CareConnect-DCH-Diagnosis-Condition-1.stage.summary.coding.text or    | Optional                    |                         |
 |      | CareConnect-DCH-Problem-Condition-1.stage.summary.coding.text or    | Optional                    |                         |
-| Condition onset Date | CareConnect-DCH-Diagnosis-Condition-1.onsetDateTime or onsetString or | Required                    |                         |
-|  | CareConnect-DCH-Problem-Condition-1.onsetDateTime or onsetString or | Required                    |                         |
+| Condition onset date | CareConnect-DCH-Diagnosis-Condition-1.onsetDateTime or onsetString or | Optional                    |                         |
+|  | CareConnect-DCH-Problem-Condition-1.onsetDateTime or onsetString  | Optional                    |                         |
+| Condition end date | CareConnect-DCH-Diagnosis-Condition-1.abatementDateTime or abatementString or | Optional                    |                         |
+|  | CareConnect-DCH-Problem-Condition-1.abatementDateTime or abatementString | Optional                    |                         |
 | Fetal Diagnosis      | CareConnect-DCH-FetalDiagnosis-Condition-1               | Optional                    |                         |

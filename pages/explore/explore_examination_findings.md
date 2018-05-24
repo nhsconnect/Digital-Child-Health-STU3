@@ -58,4 +58,4 @@ The Child Health Event data items are fulfilled by elements within the FHIR reso
 | Examination: Vision                             | DCH-ExaminationFindings-QuestionnaireResponse-1.item.examinationVision                          | Required                    |
 | Examination: Bowels                             | DCH-ExaminationFindings-QuestionnaireResponse-1.item.examination.Bowels                         | Required                    |
 | Examination: Urine                              | DCH-ExaminationFindings-QuestionnaireResponse-1.item.examinationUrine                           | Required                    |
-| Encounter Type                                  | CareConnect-DCH-Encounter-1.type (childHealthEncounterType)                                     | Required                    |
+| Encounter Type                                  | CareConnect-DCH-Encounter-1.type (childHealthEncounterType)                                     | Mandatory                    |

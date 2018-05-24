@@ -32,8 +32,8 @@ The Child Health Event data items are fulfilled by elements within the FHIR reso
 | Professional Name           | CareConnect-DCH-Practitioner-1.name                                 | Mandatory                   |
 | SDS Job Role Name           | CareConnect-DCH-PractitionerRole-1.code (SDS Job Role Name)         | Mandatory                   |
 | Name of Immunisation        | CareConnect-DCH-Immunization-1.vaccineCode                          | Mandatory                   |
-| Dose sequence               | CareConnect-DCH-Immunization-1.vaccinationProtocol.doseSequence     | Required                    |
-| Outcome Status              | CareConnect-DCH-Immunization-1.explanation                          | Mandatory                   |
+| Dose sequence               | CareConnect-DCH-Immunization-1.vaccinationProtocol.doseSequence     | Optional                    |
+| Outcome Status              | CareConnect-DCH-Immunization-1.explanation                          | Optional               |
 | Vaccine Product             | CareConnect-DCH-Immunization-1.vaccineCode                          | Required                    |
 | Vaccine Manufacturer        | CareConnect-DCH-Immunization-1.manufacturer                         | Required                    |
 | Batch Number                | CareConnect-DCH-Immunization-1.lotNumber                            | Required                    |

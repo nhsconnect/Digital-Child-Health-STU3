@@ -34,6 +34,6 @@ The Child Health Event data items are fulfilled by elements within the FHIR reso
 | Encounter Type               | CareConnect-DCH-Encounter-1.type (childHealthEncounterType)         | Mandatory                   |
 | Service Referred to        | DCH-ReferralRequest-1.serviceRequested                                     | Mandatory                   |
 | Referral Method              | DCH-ReferralRequest-1.referralMethod (extension)                    | Required                    |
-| Specialty referred from      | DCH-ReferralRequest-1.sourceOfReferral (extension)                  | Required                    |
+| Source of Referral      | DCH-ReferralRequest-1.sourceOfReferral (extension)                  | Required                    |
 | Urgency                      | DCH-ReferralRequest-1.priority                                     | Required                    |
 | Reason for Referral          | DCH-ReferralRequest-1.reasonCode                                        | Mandatory                   | 

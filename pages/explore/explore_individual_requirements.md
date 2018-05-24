@@ -32,4 +32,4 @@ The Child Health Event data items are fulfilled by elements within the FHIR reso
 | Accessible Information - Requires Specific Contact Method     | DCH-IndividualRequirements-QuestionnaireResponse-1.specificContactMethod                           | Required                    |
 | Accessible Information - Requires specific information format | DCH-IndividualRequirements-QuestionnaireResponse-1.specificInformationFormat                       | Required                    |
 | Mobility Needs                                                | DCH-IndividualRequirements-QuestionnaireResponse-1.mobilityNeeds                         | Required                    |
-| Cognition                                                     | DCH-IndividualRequirements-QuestionnaireResponse-1.cognition                        | Required                    |
+| Cognitive                                                     | DCH-IndividualRequirements-QuestionnaireResponse-1.cognitive                        | Required                    |

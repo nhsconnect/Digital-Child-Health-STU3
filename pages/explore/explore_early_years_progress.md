@@ -27,9 +27,9 @@ The Child Health Event data items are fulfilled by elements within the FHIR reso
 | DCH Data Item                              | FHIR Resource element                                               | Mandatory/Required/Optional |
 |--------------------------------------------|---------------------------------------------------------------------|-----------------------------|
 | Date                                       | CareConnect-DCH-Encounter-1.period.start                            | Mandatory                   |
-| Site Code                                  | CareConnect-DCH-Location-1.identifier                               | Mandatory                   |
-| Professional Type                          | CareConnect-DCH-PractitionerRole-1.code (SDS Job Role Name) | Mandatory                   |
-| Professional Name                          | CareConnect-DCH-Practitioner.name                                   | Mandatory                   |
+| Site Code                                  | CareConnect-DCH-Location-1.identifier                               | Required                   |
+| Professional Type                          | CareConnect-DCH-PractitionerRole-1.code (SDS Job Role Name) | Required                    |
+| Professional Name                          | CareConnect-DCH-Practitioner.name                                   | Required                    |
 | Parental Consent                           | DCH-EarlyYearsProgress-QuestionnaireResponse-1.parentalConsent                        | Required                    |
 | Communication and Language                 | DCH-EarlyYearsProgress-QuestionnaireResponse-1.communicationAndLanguage                    | Required                    |
 | Physical Development                       | DCH-EarlyYearsProgress-QuestionnaireResponse-1.physicalDevelopment                    | Required                    |

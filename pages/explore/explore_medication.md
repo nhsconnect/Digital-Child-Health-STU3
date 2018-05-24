@@ -41,10 +41,10 @@ The Child Health Event data items are fulfilled by elements within the FHIR reso
 | Form                        | CareConnect-DCH-Medication-1.form                                 | Required                    |
 | Route                       | DCH-MedicationAdministration-1.dosage.route (if administered) or                             | Required                    |
 |                             | CareConnect-DCH-MedicationRequest-1.dosageInstruction.route (if prescribed)                               | Required                    |
-| Course status               | CareConnect-DCH-MedicationRequest-1.status                                  | Required                    |
-| Dose directions description | CareConnect-DCH-MedicationRequest-1.dosageInstruction.text (if prescribed) or             | Required                    |
-|                             | DCH-MedicationAdministration-1.dosage.text (if administered)                               | Required                    |
+| Course status               | CareConnect-DCH-MedicationRequest-1.status                                  | Optional                    |
+| Dose directions description | CareConnect-DCH-MedicationRequest-1.dosageInstruction.text (if prescribed) or             | Optional                    |
+|                             | DCH-MedicationAdministration-1.dosage.text (if administered)                               | Optional                    |
 | Dose Direction Duration     | CareConnect-DCH-MedicationStatement-1.dosage.additionalInstruction                                    | Required                    |
-| Additional instruction      | CareConnect-DCH-MedicationRequest-1.dosageInstruction.additionalInstruction | Required                    |
+| Additional instruction      | CareConnect-DCH-MedicationRequest-1.dosageInstruction.additionalInstruction | Optional                    |
 | Medical devices             | CareConnect-MedicationStatement-1                                                 | Optional                    |
 | Indication                  | CareConnect-DCH-MedicationRequest-1.reasonCode                                  | Required                    |          

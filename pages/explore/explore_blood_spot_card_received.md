@@ -25,5 +25,5 @@ The Child Health Event data items are fulfilled by elements within the FHIR reso
 
 | DCH Data Item           | FHIR resource element                     | Mandatory/Required/Optional |
 |-------------------------|-------------------------------------------|-----------------------------|
-| Date                    | DCH-NewbornBloodSpotScreening-Specimen-1.receivedTime               | Required                    |
-| Laboratory Identifier | CareConnect-DCH-Organisation-1.identifier | Required                    |
+| Date                    | DCH-NewbornBloodSpotScreening-Specimen-1.receivedTime               | Mandatory                    |
+| Laboratory Identifier | CareConnect-DCH-Organisation-1.identifier | Mandatory                    |

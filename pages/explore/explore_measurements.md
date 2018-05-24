@@ -37,7 +37,7 @@ The Child Health Event data items are fulfilled by elements within the FHIR reso
 | ODS Site Code            | CareConnect-DCH-Location-1.identifier (ODS Site Code)        | Mandatory                   |                                                                                                                                                          
 | Professional Name        | CareConnect-DCH-Practitioner-1.name                          | Mandatory                   |                                                                                                                                                          
 | SDS Job Role Name        | CareConnect-DCH-PractitionerRole-1.code (SDS Job Role Name)  | Mandatory                   |                                                                                                                                                          
-| Birth Weight             | CareConnect-DCH-BirthWeight-Observation-1.valueQuantity      | Mandatory                   |                                                                                    
+| Birth Weight             | CareConnect-DCH-BirthWeight-Observation-1.valueQuantity      | Required                  |                                                                                    
 | Birth head circumference | CareConnect-DCH-HeadCircumferenceAtBirth-Observation-1.valueQuantity      | Required       |                                                                      
 | Head Circumference       | CareConnect-DCH-HeadCircumference-Observation-1.valueQuantity      | Required              |
 | Weight                   | CareConnect-DCH-Weight-Observation-1.valueQuantity      | Required                    | 
