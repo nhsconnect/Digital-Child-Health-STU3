@@ -39,7 +39,7 @@ FHIR Profile updates:
 	- 'receivedTime' is now 1..1
 - [CareConnect-DCH-BirthWeight-Observation-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-BirthWeight-Observation-1) - upversioned to 2.0.0
 	- 'performer' referenced to 'CareConnect-DCH-Practitioner-1'
-- [DCH-IndividualRequirement-QuestionnaireResponse-1](https://fhir.nhs.uk/STU3/StructureDefinition/DCH-IndividualRequirements-QuestionnaireResponse-1) - upversioned to 2.0.0
+- [DCH-IndividualRequirements-QuestionnaireResponse-1](https://fhir.nhs.uk/STU3/StructureDefinition/DCH-IndividualRequirements-QuestionnaireResponse-1) - upversioned to 2.0.0
 	- item 'cognition' renamed to 'cognitive'
 
 
