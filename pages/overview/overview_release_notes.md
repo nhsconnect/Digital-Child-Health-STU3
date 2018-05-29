@@ -35,12 +35,15 @@ FHIR Profile updates:
 	- 'Extension.valueCodeableConcept:valueCodeableConcept.coding.display' is now 1..1
 - [DCH-FeedingStatus-QuestionnaireResponse-1](https://fhir.nhs.uk/STU3/StructureDefinition/DCH-FeedingStatus-QuestionnaireResponse-1) - upversioned to 2.0.0:
 	- added item 'approximateDateBreastfeedingStopped'
+- [DCH-EarlyYearsProgress-QuestionnaireResponse-1](https://fhir.nhs.uk/STU3/StructureDefinition/DCH-EarlyYearsProgress-QuestionnaireResponse-1) - upversioned to 2.0.0:
+	- code, system and display elements for question 'parentalConsent' changed to 1..1
 - [DCH-NewbornBloodSpotScreening-Specimen-1](https://fhir.nhs.uk/STU3/StructureDefinition/DCH-NewbornBloodSpotScreening-Specimen-1) - upversioned to 2.0.0
 	- 'receivedTime' is now 1..1
 - [CareConnect-DCH-BirthWeight-Observation-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-BirthWeight-Observation-1) - upversioned to 2.0.0
 	- 'performer' referenced to 'CareConnect-DCH-Practitioner-1'
 - [DCH-IndividualRequirements-QuestionnaireResponse-1](https://fhir.nhs.uk/STU3/StructureDefinition/DCH-IndividualRequirements-QuestionnaireResponse-1) - upversioned to 2.0.0
 	- item 'cognition' renamed to 'cognitive'
+	- code, system and display elements for all questions changed to 1..1
 
 
 ## Beta 1.0.1 ##
