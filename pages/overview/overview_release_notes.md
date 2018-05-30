@@ -16,7 +16,7 @@ Following stakeholder feedback, this implementation guidance has been updated as
 - **Blood Spot Card Received** - All items changed to Mandatory
 - **Conditions** - Added item Condition end date
 - **Discharge Details** - Encounter Type changed to Required
-- **Early Years Progress** - Site Name, Professional Name and Professional Type changed to Required
+- **Early Years Progress** - Site Code, Professional Name and Professional Type changed to Required
 - **Feeding Status** - Date and Time of First Milk Feed changed to Required; new item Approximate Date Breastfeeding Stopped added
 - **Immunisation Administration** - Outcome Status and Dose Sequence changed to Optional
 - **Individual Requirements** - Cognition item changed to Cognitive
@@ -24,7 +24,9 @@ Following stakeholder feedback, this implementation guidance has been updated as
 - **Measurements** - Birth Weight changed to Required
 - **Medication** - Course status, Dose directions description, Dose Direction Duration and Additional instruction changed to Optional
 - **Referral** - Specialty Referred From changed to Source Of Referral
- 
+
+The **DCH-DSTU2-STU3-Map** provided in the [About](support_about.html) section has been updated to reflect these changes.
+
 FHIR Profile updates:
 
 - [CareConnect-DCH-ASQ3AssessmentScale-Observation-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-ASQ3AssessmentScale-Observation-1) - upversioned to 1.1.0
