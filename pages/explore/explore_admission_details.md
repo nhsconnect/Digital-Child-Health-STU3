@@ -31,7 +31,7 @@ The Child Health Event data items are fulfilled by elements within the FHIR reso
 | ODS Site Code               | CareConnect-DCH-Location-1.identifier (ODS Site Code)   | Mandatory                   |
 | Name of Location            | CareConnect-DCH-Location-1.name   | Required                   |
 | Responsible Consultant      | CareConnect-DCH-Practitioner-1                          | Required                    |
-| Name of Location            | CareConnect-DCH-Location-1    | Required                   |
+| Patient Location            | CareConnect-DCH-Location-1.type.text    | Required                   |
 | Reason for Admission        | CareConnect-DCH-Encounter-1.reason.text                      | Required                    |
 | Admission Method            | CareConnect-DCH-Encounter-1.hospitalization.admissionMethod | Required                    |
 | Speciality                  | DCH-HealthcareService-1.serviceType.specialty or          | Required                    |

@@ -42,6 +42,7 @@ FHIR Profile updates:
 - [DCH-IndividualRequirements-QuestionnaireResponse-1](https://fhir.nhs.uk/STU3/StructureDefinition/DCH-IndividualRequirements-QuestionnaireResponse-1) - upversioned to 2.0.0
 	- item 'cognition' renamed to 'cognitive'
 - [DCH-MessageHeader-1](https://fhir.nhs.uk/STU3/StructureDefinition/DCH-MessageHeader-1) - upversioned to 2.0.0: 
+	- 'DCH-MessageHeader-1.id' is now 1..1
 	- 'DCH-MessageHeader-1.responsible.reference' is now 1..1
 - [DCH-NewbornBloodSpotScreening-Specimen-1](https://fhir.nhs.uk/STU3/StructureDefinition/DCH-NewbornBloodSpotScreening-Specimen-1) - upversioned to 2.0.0
 	- 'receivedTime' is now 1..1
