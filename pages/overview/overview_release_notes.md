@@ -12,6 +12,7 @@ This site is under active development by NHS Digital and is intended to provide 
 ## Beta 2.0.0 ##
 Following stakeholder feedback, this implementation guidance has been updated as follows:
 
+- **Admission Details** - Patient Location clarified to use CareConnect-DCH-Location-1.type.text
 - **Birth Details** - Location of Birth changed to Required
 - **Blood Spot Card Received** - All items changed to Mandatory
 - **Conditions** - Added item Condition end date
@@ -41,6 +42,13 @@ FHIR Profile updates:
 	- added item 'approximateDateBreastfeedingStopped'
 - [DCH-IndividualRequirements-QuestionnaireResponse-1](https://fhir.nhs.uk/STU3/StructureDefinition/DCH-IndividualRequirements-QuestionnaireResponse-1) - upversioned to 2.0.0
 	- item 'cognition' renamed to 'cognitive'
+- [DCH-Bundle-1] - upversioned to 2.0.0
+	- type element uses fixed value 'message'
+	- entry.fullUrl is now 1..1
+	- entry.resource is now 1..1
+	- entry.search is now 0..0
+	- entry.request is now 0..0
+	- entry.response is now 0..0 
 - [DCH-MessageHeader-1](https://fhir.nhs.uk/STU3/StructureDefinition/DCH-MessageHeader-1) - upversioned to 2.0.0: 
 	- 'DCH-MessageHeader-1.id' is now 1..1
 	- 'DCH-MessageHeader-1.responsible.reference' is now 1..1
