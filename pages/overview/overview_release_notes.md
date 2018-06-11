@@ -36,19 +36,19 @@ FHIR Profile updates:
 	- 'component' is now 1..*
 - [CareConnect-DCH-BirthWeight-Observation-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-BirthWeight-Observation-1) - upversioned to 2.0.0
 	- 'performer' referenced to 'CareConnect-DCH-Practitioner-1'
-- [DCH-EarlyYearsProgress-QuestionnaireResponse-1](https://fhir.nhs.uk/STU3/StructureDefinition/DCH-EarlyYearsProgress-QuestionnaireResponse-1) - upversioned to 2.0.0:
-	- code, system and display elements for question 'parentalConsent' changed to 1..1
-- [DCH-FeedingStatus-QuestionnaireResponse-1](https://fhir.nhs.uk/STU3/StructureDefinition/DCH-FeedingStatus-QuestionnaireResponse-1) - upversioned to 2.0.0:
-	- added item 'approximateDateBreastfeedingStopped'
-- [DCH-IndividualRequirements-QuestionnaireResponse-1](https://fhir.nhs.uk/STU3/StructureDefinition/DCH-IndividualRequirements-QuestionnaireResponse-1) - upversioned to 2.0.0
-	- item 'cognition' renamed to 'cognitive'
-- [DCH-Bundle-1] - upversioned to 2.0.0
+- [DCH-Bundle-1](https://fhir.nhs.uk/STU3/StructureDefinition/DCH-Bundle-1) - upversioned to 2.0.0
 	- type element uses fixed value 'message'
 	- entry.fullUrl is now 1..1
 	- entry.resource is now 1..1
 	- entry.search is now 0..0
 	- entry.request is now 0..0
 	- entry.response is now 0..0 
+- [DCH-EarlyYearsProgress-QuestionnaireResponse-1](https://fhir.nhs.uk/STU3/StructureDefinition/DCH-EarlyYearsProgress-QuestionnaireResponse-1) - upversioned to 2.0.0:
+	- code, system and display elements for question 'parentalConsent' changed to 1..1
+- [DCH-FeedingStatus-QuestionnaireResponse-1](https://fhir.nhs.uk/STU3/StructureDefinition/DCH-FeedingStatus-QuestionnaireResponse-1) - upversioned to 2.0.0:
+	- added item 'approximateDateBreastfeedingStopped'
+- [DCH-IndividualRequirements-QuestionnaireResponse-1](https://fhir.nhs.uk/STU3/StructureDefinition/DCH-IndividualRequirements-QuestionnaireResponse-1) - upversioned to 2.0.0
+	- item 'cognition' renamed to 'cognitive'
 - [DCH-MessageHeader-1](https://fhir.nhs.uk/STU3/StructureDefinition/DCH-MessageHeader-1) - upversioned to 2.0.0: 
 	- 'DCH-MessageHeader-1.id' is now 1..1
 	- 'DCH-MessageHeader-1.responsible.reference' is now 1..1
