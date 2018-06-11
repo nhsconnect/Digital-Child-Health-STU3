@@ -36,6 +36,8 @@ FHIR Profile updates:
 	- 'component' is now 1..*
 - [CareConnect-DCH-BirthWeight-Observation-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-BirthWeight-Observation-1) - upversioned to 2.0.0
 	- 'performer' referenced to 'CareConnect-DCH-Practitioner-1'
+- [CareConnect-DCH-HearingTestOutcome-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-HearingTest-Procedure-1) - upversioned to 2.0.0
+	- 'outcome' value set binding corrected to use 'DCH Hearing Test Outcome'
 - [CareConnect-DCH-Patient-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-Patient-1) - upversioned to 1.1.0
 	- 'address' is now 0..*
 - [DCH-Bundle-1](https://fhir.nhs.uk/STU3/StructureDefinition/DCH-Bundle-1) - upversioned to 2.0.0
