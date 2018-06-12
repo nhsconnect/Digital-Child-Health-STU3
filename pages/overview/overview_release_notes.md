@@ -59,7 +59,9 @@ FHIR Profile updates:
 - [DCH-NewbornBloodSpotScreening-Specimen-1](https://fhir.nhs.uk/STU3/StructureDefinition/DCH-NewbornBloodSpotScreening-Specimen-1) - upversioned to 2.0.0
 	- 'receivedTime' is now 1..1
 	- 'code', 'system' and 'display' elements for all questions changed to 1..1
-- [Extension-DCH-MessageEventType-1](https://fhir.nhs.uk/STU3/StructureDefinition/Extension-DCH-MessageEventType-1) - upversioned to 2.0.0:
+- [DCH Professional Comment Type](https://fhir.nhs.uk/STU3/CodeSystem/DCH-ProfessionalCommentType-1) - upversioned to 2.0.0
+	- all codes updated to use correct code format.
+- [Extension-DCH-MessageEventType-1](https://fhir.nhs.uk/STU3/StructureDefinition/Extension-DCH-MessageEventType-1) - upversioned to 2.0.0
 	- 'Extension.valueCodeableConcept:valueCodeableConcept.coding.system' is now 1..1
 	- 'Extension.valueCodeableConcept:valueCodeableConcept.coding.code' is now 1..1
 	- 'Extension.valueCodeableConcept:valueCodeableConcept.coding.display' is now 1..1
