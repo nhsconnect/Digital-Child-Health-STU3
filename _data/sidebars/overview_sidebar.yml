@@ -38,6 +38,9 @@ entries:
     - title: Bundle Structure
       url: /explore_bundle_structure.html
       output: web
+    - title: Digital Child Health Events Model
+      url: /explore_dch_events_model.html
+      output: web
     - title: Event Publishing/Receiving Requirements
       url: /explore_event_publish_receive.html
       output: web
