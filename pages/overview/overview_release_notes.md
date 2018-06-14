@@ -12,7 +12,7 @@ This site is under active development by NHS Digital and is intended to provide 
 ## Beta 2.0.0 ##
 Following stakeholder feedback, this implementation guidance has been updated as follows:
 
-- [Digital Child Health Events Model](dch_events_model.html) - a new page sharing Digital Child Health Events Model mapping to Healthy Child Programme interventions
+- [Digital Child Health Events Model](explore_dch_events_model.html) - a new page sharing Digital Child Health Events Model mapping to Healthy Child Programme interventions
 - **Admission Details** - Patient Location clarified to use CareConnect-DCH-Location-1.type.text
 - **Birth Details** - Location of Birth changed to Required
 - **Blood Spot Card Received** - All items changed to Mandatory
