@@ -25,6 +25,7 @@ Following stakeholder feedback, this implementation guidance has been updated as
 - **Information and Advice Given** - Recipient changed to Required
 - **Measurements** - Birth Weight changed to Required
 - **Medication** - Course status, Dose directions description, Dose Direction Duration and Additional instruction changed to Optional
+- **Professional Contacts** - Event data item mapping clarified to detail team or care professional association requirements
 - **Referral** - Specialty Referred From changed to Source Of Referral
 
 The **DCH-DSTU2-STU3-Map** provided in the [About](support_about.html) section has been updated to reflect these changes.
