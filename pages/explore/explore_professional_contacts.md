@@ -39,7 +39,8 @@ Depending on the association, the Child Health Event data items are fulfilled by
 | End date                      | DCH-ProfessionalContact-EpisodeOfCare-1.period.end                                                                   | Required                   |
 | Reason                     | DCH-ProfessionalContact-EpisodeOfCare-1.reason                                                                   | Optional                   |
 
-## Professional Contacts Event with care professional association ##                                                                                                  
+## Professional Contacts Event with care professional association ##  
+                                                                                                
 | DCH Data Item                 | FHIR resource element                                                                            | Mandatory/Required/Optional |
 |-------------------------------|--------------------------------------------------------------------------------------------------|-----------------------------|
 | Organisation                  | CareConnect-DCH-Organisation-1.identifier (ODS Code or ODS Site Code)                       | Mandatory                    |
