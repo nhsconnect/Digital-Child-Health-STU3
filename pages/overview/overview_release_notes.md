@@ -9,7 +9,7 @@ summary: Summary release notes of the versions released in Digital Child Health 
 
 This site is under active development by NHS Digital and is intended to provide the FHIR messaging components for the Digtal Child Health event messages. This project is being developed using an agile methodology so iterative updates to content will be added on a regular basis, and remains subject to clinical review. Changes to this specification following the initial beta release will be documented here.
 
-## Beta 2.0.0 ##
+## Beta 1.1.0 ##
 Following stakeholder feedback, this implementation guidance has been updated as follows:
 
 - [Digital Child Health Events Model](explore_dch_events_model.html) - a new page sharing Digital Child Health Events Model mapping to Healthy Child Programme interventions
@@ -36,38 +36,38 @@ FHIR Profile updates:
 	- 'component' is now 1..*
 - [CareConnect-DCH-ASQSE-AssessmentScale-Observation-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-ASQSE-AssessmentScale-Observation-1) - upversioned to 1.1.0
 	- 'component' is now 1..*
-- [CareConnect-DCH-BirthWeight-Observation-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-BirthWeight-Observation-1) - upversioned to 2.0.0
+- [CareConnect-DCH-BirthWeight-Observation-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-BirthWeight-Observation-1) - upversioned to 1.1.0
 	- 'performer' referenced to 'CareConnect-DCH-Practitioner-1'
-- [CareConnect-DCH-Encounter-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-Encounter-1) - upversioned to 2.0.0
+- [CareConnect-DCH-Encounter-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-Encounter-1) - upversioned to 1.1.0
 	- 'participant.individual' updated to include [DCH-RelatedPerson-1](https://fhir.nhs.uk/STU3/StructureDefinition/DCH-RelatedPerson-1) 
-- [CareConnect-DCH-Emergency-Encounter-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-Emergency-Encounter-1) - upversioned to 2.0.0
+- [CareConnect-DCH-Emergency-Encounter-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-Emergency-Encounter-1) - upversioned to 1.1.0
 	- 'participant.individual' updated to include [DCH-RelatedPerson-1](https://fhir.nhs.uk/STU3/StructureDefinition/DCH-RelatedPerson-1) 
-- [CareConnect-DCH-HearingTestOutcome-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-HearingTest-Procedure-1) - upversioned to 2.0.0
+- [CareConnect-DCH-HearingTestOutcome-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-HearingTest-Procedure-1) - upversioned to 1.1.0
 	- 'outcome' value set binding corrected to use 'DCH Hearing Test Outcome'
 - [CareConnect-DCH-Patient-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-Patient-1) - upversioned to 1.1.0
 	- 'address' is now 0..*
-- [DCH-Bundle-1](https://fhir.nhs.uk/STU3/StructureDefinition/DCH-Bundle-1) - upversioned to 2.0.0
+- [DCH-Bundle-1](https://fhir.nhs.uk/STU3/StructureDefinition/DCH-Bundle-1) - upversioned to 1.1.0
 	- 'type' element uses fixed value 'message'
 	- 'entry.fullUrl' is now 1..1
 	- 'entry.resource' is now 1..1
 	- 'entry.search' is now 0..0
 	- 'entry.request' is now 0..0
 	- 'entry.response' is now 0..0 
-- [DCH-EarlyYearsProgress-QuestionnaireResponse-1](https://fhir.nhs.uk/STU3/StructureDefinition/DCH-EarlyYearsProgress-QuestionnaireResponse-1) - upversioned to 2.0.0:
+- [DCH-EarlyYearsProgress-QuestionnaireResponse-1](https://fhir.nhs.uk/STU3/StructureDefinition/DCH-EarlyYearsProgress-QuestionnaireResponse-1) - upversioned to 1.1.0:
 	- 'code', 'system' and 'display' elements for question 'parentalConsent' changed to 1..1
-- [DCH-FeedingStatus-QuestionnaireResponse-1](https://fhir.nhs.uk/STU3/StructureDefinition/DCH-FeedingStatus-QuestionnaireResponse-1) - upversioned to 2.0.0:
+- [DCH-FeedingStatus-QuestionnaireResponse-1](https://fhir.nhs.uk/STU3/StructureDefinition/DCH-FeedingStatus-QuestionnaireResponse-1) - upversioned to 1.1.0:
 	- added item 'approximateDateBreastfeedingStopped'
-- [DCH-IndividualRequirements-QuestionnaireResponse-1](https://fhir.nhs.uk/STU3/StructureDefinition/DCH-IndividualRequirements-QuestionnaireResponse-1) - upversioned to 2.0.0
+- [DCH-IndividualRequirements-QuestionnaireResponse-1](https://fhir.nhs.uk/STU3/StructureDefinition/DCH-IndividualRequirements-QuestionnaireResponse-1) - upversioned to 1.1.0
 	- item 'cognition' renamed to 'cognitive'
-- [DCH-MessageHeader-1](https://fhir.nhs.uk/STU3/StructureDefinition/DCH-MessageHeader-1) - upversioned to 2.0.0: 
+- [DCH-MessageHeader-1](https://fhir.nhs.uk/STU3/StructureDefinition/DCH-MessageHeader-1) - upversioned to 1.1.0: 
 	- 'DCH-MessageHeader-1.id' is now 1..1
 	- 'DCH-MessageHeader-1.responsible.reference' is now 1..1
-- [DCH-NewbornBloodSpotScreening-Specimen-1](https://fhir.nhs.uk/STU3/StructureDefinition/DCH-NewbornBloodSpotScreening-Specimen-1) - upversioned to 2.0.0
+- [DCH-NewbornBloodSpotScreening-Specimen-1](https://fhir.nhs.uk/STU3/StructureDefinition/DCH-NewbornBloodSpotScreening-Specimen-1) - upversioned to 1.1.0
 	- 'receivedTime' is now 1..1
 	- 'code', 'system' and 'display' elements for all questions changed to 1..1
-- [DCH Professional Comment Type](https://fhir.nhs.uk/STU3/CodeSystem/DCH-ProfessionalCommentType-1) - upversioned to 2.0.0
+- [DCH Professional Comment Type](https://fhir.nhs.uk/STU3/CodeSystem/DCH-ProfessionalCommentType-1) - upversioned to 1.1.0
 	- all codes updated to use correct code format.
-- [Extension-DCH-MessageEventType-1](https://fhir.nhs.uk/STU3/StructureDefinition/Extension-DCH-MessageEventType-1) - upversioned to 2.0.0
+- [Extension-DCH-MessageEventType-1](https://fhir.nhs.uk/STU3/StructureDefinition/Extension-DCH-MessageEventType-1) - upversioned to 1.1.0
 	- 'Extension.valueCodeableConcept:valueCodeableConcept.coding.system' is now 1..1
 	- 'Extension.valueCodeableConcept:valueCodeableConcept.coding.code' is now 1..1
 	- 'Extension.valueCodeableConcept:valueCodeableConcept.coding.display' is now 1..1
