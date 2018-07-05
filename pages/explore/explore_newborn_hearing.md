@@ -30,6 +30,6 @@ The Child Health Event data items are fulfilled by elements within the FHIR reso
 | ODS Site Code       | CareConnect-DCH-Location-1.identifier                       | Mandatory                   |                                                                       |
 | Professional Name   | CareConnect-DCH-PractitionerRole-1.code (SDS Job Role Name) | Mandatory                   |                                                                       |
 | SDS Job Role Name   | CareConnect-DCH-Practitioner-1.name                         | Mandatory                   |                                                                       |
-| Hearing Test Results (AABR) | CCareConnect-DCH-AABRHearingTest-Observation-1.code            | Required         | up to two occurrences of this resource are required, one for each ear |
+| Hearing Test Results (AABR) | CareConnect-DCH-AABRHearingTest-Observation-1.code            | Required         | two occurrences of this resource are required, one for each ear |
 | Hearing Test Result (AOAE) | CareConnect-DCH-AOAEHearingTest-Observation-1.code             | Required          | up to four occurrences of this resource are required, with two for each test performed |
 | Summary Outcome     | CareConnect-DCH-HearingScreeningSummaryOutcome-Observation-1.valueCodeableConcept        | Mandatory                   |                                                                       |

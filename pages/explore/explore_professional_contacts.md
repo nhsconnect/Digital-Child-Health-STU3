@@ -48,7 +48,7 @@ Depending on the association, the Child Health Event data items are fulfilled by
 | Name                          | CareConnect-DCH-Practitioner-1.name                                                              | Required                    |
 | Role                          | CareConnect-DCH-PractitionerRole-1.code (careProfessionalType)                                       | Mandatory                   |
 | Care Professional Association | DCH-ProfessionalContact-EpisodeOfCare-1.type                                                                         | Mandatory                   |
-| Specialty                    | CareConnect-DCH-PractitioneRole-1.specialty 										               | Mandatory                   |
+| Specialty                    | CareConnect-DCH-PractitionerRole-1.specialty 										               | Mandatory                   |
 | Telephone Number              | CareConnect-DCH-Practitioner-1.telecom                                                           | Required                    |
 | Start date                    | DCH-ProfessionalContact-EpisodeOfCare-1.period.start                                                                 | Required                   |
 | End date                      | DCH-ProfessionalContact-EpisodeOfCare-1.period.end                                                                   | Required                   |
