@@ -60,6 +60,8 @@ FHIR Profile updates:
 	- 'code', 'system' and 'display' elements for question 'parentalConsent' changed to 1..1
 - [DCH-FeedingStatus-QuestionnaireResponse-1](https://fhir.nhs.uk/STU3/StructureDefinition/DCH-FeedingStatus-QuestionnaireResponse-1) - upversioned to 1.1.0:
 	- added item 'approximateDateBreastfeedingStopped'
+- [DCH-HealthcareService-1](https://fhir.nhs.uk/STU3/StructureDefinition/DCH-HealthcareService-1) - upversioned to 1.1.0
+	- 'specialty' is now 0..1
 - [DCH-IndividualRequirements-QuestionnaireResponse-1](https://fhir.nhs.uk/STU3/StructureDefinition/DCH-IndividualRequirements-QuestionnaireResponse-1) - upversioned to 1.1.0
 	- item 'cognition' renamed to 'cognitive'
 - [DCH-MessageHeader-1](https://fhir.nhs.uk/STU3/StructureDefinition/DCH-MessageHeader-1) - upversioned to 1.1.0: 
