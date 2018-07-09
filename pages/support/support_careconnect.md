@@ -1,4 +1,4 @@
-﻿---
+---
 title: CareConnect FHIR Profiles
 keywords:  messaging, bundles
 tags: [fhir,messaging]
@@ -25,7 +25,7 @@ This Beta specification release includes FHIR profiles derived from the followin
 - [CareConnect-Organization-1](https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Organization-1)
 - [CareConnect-Patient-1](https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Patient-1)
 - [CareConnect-Practitioner-1](https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Practitioner-1)
-- [CareConnect-PractitionerRole-1 ](https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-PractitionerRole-1)
+- [CareConnect-PractitionerRole-1](https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-PractitionerRole-1)
 
 This Beta specification release also includes FHIR profiles derived from the following **draft** CareConnect STU3 FHIR profiles and their supporting artefacts. These have been developed by NHS Digital as part of an exercise to uplift the CareConnect DSTU2 FHIR Profiles published by INTEROPen to an STU3 equivalent, within a [feature branch](https://github.com/nhsconnect/CareConnect-profiles/tree/feature/stu3) on the [NHSConnect CareConnect profiles github repository](https://github.com/nhsconnect/CareConnect-profiles):
 
