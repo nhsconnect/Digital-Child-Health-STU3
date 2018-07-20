@@ -20,7 +20,7 @@ Following stakeholder feedback and INTEROPen curation, this implementation guida
 - **Discharge Details** - Encounter Type changed to Required
 - **Early Years Progress** - Site Code, Professional Name and Professional Type changed to Required
 - **Feeding Status** - Date and Time of First Milk Feed changed to Required; new item Approximate Date Breastfeeding Stopped added
-- **Immunisation Administration** - Outcome Status and Dose Sequence changed to Optional
+- **Immunisation Administration** - Outcome Status and Dose Sequence changed to Optional, added FHIR profiles to support sharing of Information and Advice Given, and Allergies and Adverse Reactions 
 - **Individual Requirements** - Cognition item changed to Cognitive
 - **Information and Advice Given** - Recipient changed to Required
 - **Measurements** - Birth Weight changed to Required
@@ -47,6 +47,9 @@ FHIR Profile updates:
 	- 'participant.individual' updated to include [DCH-RelatedPerson-1](https://fhir.nhs.uk/STU3/StructureDefinition/DCH-RelatedPerson-1) 
 - [CareConnect-DCH-HearingTestOutcome-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-HearingTest-Procedure-1) - profile removed following INTEROPen curation
 - [CareConnect-DCH-HearingScreeningSummaryOutcome-Observation-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-HearingScreeningSummaryOutcome-Observation-1)
+	- code value set binding updated to use DCH-HearingScreeningOutcome-1 
+- [CareConnect-DCH-Immunization-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-Immunization-1)
+	- updated to include changes from INTEROPen FHIR profile including vaccination procedure coding
 - [CareConnect-DCH-Patient-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-Patient-1) - upversioned to 1.1.0
 	- 'address' is now 0..*
 - [DCH-Bundle-1](https://fhir.nhs.uk/STU3/StructureDefinition/DCH-Bundle-1) - upversioned to 1.1.0
@@ -76,7 +79,10 @@ FHIR Profile updates:
 	- 'Extension.valueCodeableConcept:valueCodeableConcept.coding.system' is now 1..1
 	- 'Extension.valueCodeableConcept:valueCodeableConcept.coding.code' is now 1..1
 	- 'Extension.valueCodeableConcept:valueCodeableConcept.coding.display' is now 1..1
-
+- Following INTEROPen curation, the following Level 3 profiles have been removed and replaced with Level 2 CareConnect profiles:
+	- CareConnect-Organisation-1
+	- CareConnect-Location-1
+- Extension-coding-sctdescid - FHIR profiles which reference this extension have been corrected to reference the extension published by HL7 [Extension-coding-sctdescid](https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-coding-sctdescid)
 
 ## Beta 1.0.1 ##
 This implementation guidance has been updated to:
