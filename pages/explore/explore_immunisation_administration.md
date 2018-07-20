@@ -19,6 +19,8 @@ The following FHIR profiles are used to form the Immunisation Administration Eve
 - [CareConnect-DCH-Practitioner-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-Practitioner-1)
 - [CareConnect-DCH-PractitionerRole-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-PractitionerRole-1)
 - [CareConnect-DCH-Immunization-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-Immunization-1)
+- [CareConnect-DCH-Composition-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-Composition-1)
+- [CareConnect-DCH-AllergyIntolerance-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-AllergyIntolerance-1)
 
 
 ### Immunisation Administration Event data item mapping to FHIR profiles ###
@@ -41,3 +43,5 @@ The Child Health Event data items are fulfilled by elements within the FHIR reso
 | Route                       | CareConnect-DCH-Immunization-1.route                                | Required                    |
 | Dose Amount                 | CareConnect-DCH-Immunization-1.doseQuantity                         | Optional                    |
 | Reported                    | CareConnect-DCH-Immunization-1.primarySource                        | Required                    |
+| Information and Advice Given                    | CareConnect-DCH-Composition-1                        | Required                    |
+| Allergies and Adverse Reactions                    | CareConnect-DCH-AllergyIntolerance-1                        | Required                    |

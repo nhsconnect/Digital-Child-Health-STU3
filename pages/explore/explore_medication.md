@@ -26,12 +26,13 @@ The following FHIR profiles are used to form the Medication Event Message Bundle
 
 ### Medication Event data item mapping to FHIR profiles ###
 
-The Child Health Event data items are fulfilled by elements within the FHIR resources listed below:
+The Child Health Event data items are fulfilled by elements within the FHIR resources listed below, to reflect medication either administered or prescribed:
+
+**Medication Administered**
 
 | DCH Data Item               | FHIR Resource element                                                     | Mandatory/Required/Optional |
 |-----------------------------|---------------------------------------------------------------------------|-----------------------------|
-| Date                        | DCH-MedicationAdministration-1.effectiveTimeDateTime (if administered) or                     | Mandatory                   |
-|                             | CareConnect-DCH-MedicationRequest-1.authoredOn (if prescribed)                     	| Mandatory                   |
+| Date                        | DCH-MedicationAdministration-1.effectiveTimeDateTime                      | Mandatory                   |
 | Start Date                  | CareConnect-DCH-MedicationRequest-1.dosageInstruction.timing.repeat.boundsPeriod.start   | Required                    |
 | End Date                    | CareConnect-DCH-MedicationRequest-1.dosageInstruction.timing.repeat.boundsPeriod.end     | Required                    |
 | ODS Site Code               | CareConnect-DCH-Location.identifier (ODS Site Code)                       | Required                    |
@@ -39,12 +40,31 @@ The Child Health Event data items are fulfilled by elements within the FHIR reso
 | SDS Job Role Name           | CareConnect-DCH-PractitionerRole-1.code (SDS Job Role Name)       | Required                    |
 | Medication Name             | CareConnect-DCH-Medication-1.code	                                | Mandatory                   |
 | Form                        | CareConnect-DCH-Medication-1.form                                 | Required                    |
-| Route                       | DCH-MedicationAdministration-1.dosage.route (if administered) or                             | Required                    |
-|                             | CareConnect-DCH-MedicationRequest-1.dosageInstruction.route (if prescribed)                               | Required                    |
+| Route                       | DCH-MedicationAdministration-1.dosage.route                             | Required                    |
 | Course status               | CareConnect-DCH-MedicationRequest-1.status                                  | Optional                    |
-| Dose directions description | CareConnect-DCH-MedicationRequest-1.dosageInstruction.text (if prescribed) or             | Optional                    |
-|                             | DCH-MedicationAdministration-1.dosage.text (if administered)                               | Optional                    |
+| Dose directions description | DCH-MedicationAdministration-1.dosage.text             | Optional                    |
 | Dose Direction Duration     | CareConnect-DCH-MedicationStatement-1.dosage.additionalInstruction                                    | Required                    |
 | Additional instruction      | CareConnect-DCH-MedicationRequest-1.dosageInstruction.additionalInstruction | Optional                    |
-| Medical devices             | CareConnect-MedicationStatement-1                                                 | Optional                    |
+| Medical devices             | CareConnect-DCH-MedicationStatement-1                                                 | Optional                    |
+| Indication                  | CareConnect-DCH-MedicationRequest-1.reasonCode                                  | Required                    |
+
+
+**Medication Prescribed**
+
+| DCH Data Item               | FHIR Resource element                                                     | Mandatory/Required/Optional |
+|-----------------------------|---------------------------------------------------------------------------|-----------------------------|
+| Date                        | CareConnect-DCH-MedicationRequest-1.authoredOn                     | Mandatory                   |
+| Start Date                  | CareConnect-DCH-MedicationRequest-1.dosageInstruction.timing.repeat.boundsPeriod.start   | Required                    |
+| End Date                    | CareConnect-DCH-MedicationRequest-1.dosageInstruction.timing.repeat.boundsPeriod.end     | Required                    |
+| ODS Site Code               | CareConnect-DCH-Location.identifier (ODS Site Code)                       | Required                    |
+| Professional Name           | CareConnect-DCH-Practitioner-1.name                                       | Required                    |
+| SDS Job Role Name           | CareConnect-DCH-PractitionerRole-1.code (SDS Job Role Name)       | Required                    |
+| Medication Name             | CareConnect-DCH-Medication-1.code	                                | Mandatory                   |
+| Form                        | CareConnect-DCH-Medication-1.form                                 | Required                    |
+| Route                       | CareConnect-DCH-MedicationRequest-1.dosageInstruction.route                             | Required                    |
+| Course status               | CareConnect-DCH-MedicationRequest-1.status                                  | Optional                    |
+| Dose directions description | CareConnect-DCH-MedicationRequest-1.dosageInstruction.text             | Optional                    |
+| Dose Direction Duration     | CareConnect-DCH-MedicationStatement-1.dosage.additionalInstruction                                    | Required                    |
+| Additional instruction      | CareConnect-DCH-MedicationRequest-1.dosageInstruction.additionalInstruction | Optional                    |
+| Medical devices             | CareConnect-DCH-MedicationStatement-1                                                 | Optional                    |
 | Indication                  | CareConnect-DCH-MedicationRequest-1.reasonCode                                  | Required                    |          
