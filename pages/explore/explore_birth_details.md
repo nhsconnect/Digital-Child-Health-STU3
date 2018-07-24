@@ -11,7 +11,7 @@ The following FHIR profiles are used to form the Birth Details Event Message Bun
 
 - [DCH-Bundle-1](https://fhir.nhs.uk/STU3/StructureDefinition/DCH-Bundle-1)
 - [DCH-MessageHeader-1](https://fhir.nhs.uk/STU3/StructureDefinition/DCH-MessageHeader-1) - where the coding and display for the event element is fixed to 'CH005 - Birth Details'
-- [CareConnect-DCH-Organization-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-Organization-1)
+- [CareConnect-Organization-1](https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Organization-1)
 - [DCH-HealthcareService-1](https://fhir.nhs.uk/STU3/StructureDefinition/DCH-HealthcareService-1)
 - [CareConnect-DCH-Baby-Patient-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-Baby-Patient-1)
 - [CareConnect-DCH-Birth-Encounter-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-Birth-Encounter-1)

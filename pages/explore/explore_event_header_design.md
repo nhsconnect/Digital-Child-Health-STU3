@@ -22,7 +22,7 @@ This event header information must consist of the following **mandatory** items 
 | type of service originating the event  | DCH-HealthcareService-1     | type 			                                                             |
 | service provider originating the event | CareConnect-DCH-Encounter-1 | serviceProvider                                                             |
 | IT system holding the event data       | DCH-MessageHeader-1         | source                                                                      |
-| location at which the event occurred   | CareConnect-DCH-Location-1 | location                                                                    |
+| location at which the event occurred   | CareConnect-Location-1 | location                                                                    |
 | event date time                        | CareConnect-DCH-Encounter-1 | period.start                                                                |
 | event publisher                        | DCH-MessageHeader-1         | responsible                                                                 |
 | event published date                   | DCH-MessageHeader-1         | timestamp                                                                   |

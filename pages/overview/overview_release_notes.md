@@ -13,7 +13,7 @@ This site is under active development by NHS Digital and is intended to provide 
 Following stakeholder feedback and INTEROPen curation, this implementation guidance has been updated as follows:
 
 - [Digital Child Health Events Model](explore_dch_events_model.html) - a new page sharing Digital Child Health Events Model mapping to Healthy Child Programme interventions
-- **Admission Details** - Patient Location clarified to use CareConnect-DCH-Location-1.type.text
+- **Admission Details** - Patient Location clarified to use CareConnect-Location-1.type.text
 - **Birth Details** - Location of Birth changed to Required
 - **Blood Spot Card Received** - All items changed to Mandatory
 - **Conditions** - Added item Condition end date
@@ -80,8 +80,13 @@ FHIR Profile updates:
 	- 'Extension.valueCodeableConcept:valueCodeableConcept.coding.code' is now 1..1
 	- 'Extension.valueCodeableConcept:valueCodeableConcept.coding.display' is now 1..1
 - Following INTEROPen curation, the following Level 3 profiles have been removed and replaced with Level 2 CareConnect profiles:
+
 	- **CareConnect-DCH-Organisation-1** replaced with CareConnect-Organization-1
 	- **CareConnect-DCH-Location-1** replaced with CareConnect-Location-1
+
+	- **CareConnect-Organization-1** replaced with CareConnect-Organisation-1
+	- **CareConnect-Location-1** replaced with CareConnect-Location-1
+
 - **Extension-coding-sctdescid** - FHIR profiles which reference this extension have been corrected to reference the extension published by HL7 [Extension-coding-sctdescid](https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-coding-sctdescid)
 
 ## Beta 1.0.1 ##
