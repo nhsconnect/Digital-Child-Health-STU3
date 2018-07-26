@@ -79,6 +79,12 @@ FHIR Profile updates:
 	- 'code', 'system' and 'display' elements for all questions changed to 1..1
 - [DCH Professional Comment Type](https://fhir.nhs.uk/STU3/CodeSystem/DCH-ProfessionalCommentType-1) - upversioned to 1.1.0
 	- all codes updated to use correct code format.
+- [DCH-RelatedPerson-1](https://fhir.nhs.uk/STU3/StructureDefinition/DCH-RelatedPerson-1) - upversioned to 1.1.0:
+	- 'gender' is now 0..1 
+- [DCH-SocialContextHousehold-QuestionnaireResponse-1](https://fhir.nhs.uk/STU3/StructureDefinition/DCH-SocialContextHousehold-QuestionnaireResponse-1) - upversioned to 1.1.0: 
+	- 'identifier' is now 0..1
+- [DCH-SocialContextPerson-QuestionnaireResponse-1](https://fhir.nhs.uk/STU3/StructureDefinition/DCH-SocialContextPerson-QuestionnaireResponse-1) - upversioned to 1.1.0: 
+	- 'identifier' is now 0..1
 - [Extension-DCH-MessageEventType-1](https://fhir.nhs.uk/STU3/StructureDefinition/Extension-DCH-MessageEventType-1) - upversioned to 1.1.0
 	- 'Extension.valueCodeableConcept:valueCodeableConcept.coding.system' is now 1..1
 	- 'Extension.valueCodeableConcept:valueCodeableConcept.coding.code' is now 1..1
