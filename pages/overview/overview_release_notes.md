@@ -13,7 +13,7 @@ This site is under active development by NHS Digital and is intended to provide 
 Following stakeholder feedback and INTEROPen curation, this implementation guidance has been updated as follows:
 
 - [Digital Child Health Events Model](explore_dch_events_model.html) - a new page sharing Digital Child Health Events Model mapping to Healthy Child Programme interventions
-- **Admission Details** - Patient Location clarified to use CareConnect-Location-1.type.text
+- **Admission Details** - Patient Location clarified to use CareConnect-DCH-Location-1.type.text
 - **Birth Details** - Location of Birth changed to Required
 - **Blood Spot Card Received** - All items changed to Mandatory
 - **Conditions** - Added item Condition end date
@@ -26,7 +26,10 @@ Following stakeholder feedback and INTEROPen curation, this implementation guida
 - **Measurements** - Birth Weight changed to Required
 - **Newborn Hearing** - updated following INTEROPen curation: Observation profiles for AABR and AOAE hearing test outcomes added
 - **Medication** - Course status, Dose directions description, Dose Direction Duration and Additional instruction changed to Optional
-- **Professional Contacts** - Event data item mapping clarified to detail team or care professional association requirements
+- **Professional Contacts** - Event data item mapping clarified to detail team or care professional association requirements. Following INTEROPen curation, the event has been redesigned as follows:
+	- 'Specialty' data item removed
+	- [CodeSystem DCH-ProfessionalType-1](https://fhir.nhs.uk/STU3/CodeSystem/DCH-ProfessionalType-1) updated to use new codes
+	- **CareConnect-DCH-Team-Organization-1** profile removed and replaced with [DCH-CareTeam-1](https://fhir.nhs.uk/STU3/StructureDefinition/DCH-CareTeam-1)
 - **Referral** - Specialty Referred From changed to Source Of Referral
 
 The **DCH-DSTU2-STU3-Map** provided in the [About](support_about.html) section has been updated to reflect these changes.
@@ -65,6 +68,7 @@ FHIR Profile updates:
 	- added item 'approximateDateBreastfeedingStopped'
 - [DCH-HealthcareService-1](https://fhir.nhs.uk/STU3/StructureDefinition/DCH-HealthcareService-1) - upversioned to 1.1.0
 	- 'specialty' is now 0..1
+	- Following INTEROPen curation - the terminology binding for 'type' will now use the [Care Connect Care Setting Type Value Set](https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-CareSettingType-1).
 - [DCH-IndividualRequirements-QuestionnaireResponse-1](https://fhir.nhs.uk/STU3/StructureDefinition/DCH-IndividualRequirements-QuestionnaireResponse-1) - upversioned to 1.1.0
 	- item 'cognition' renamed to 'cognitive'
 - [DCH-MessageHeader-1](https://fhir.nhs.uk/STU3/StructureDefinition/DCH-MessageHeader-1) - upversioned to 1.1.0: 
@@ -80,13 +84,8 @@ FHIR Profile updates:
 	- 'Extension.valueCodeableConcept:valueCodeableConcept.coding.code' is now 1..1
 	- 'Extension.valueCodeableConcept:valueCodeableConcept.coding.display' is now 1..1
 - Following INTEROPen curation, the following Level 3 profiles have been removed and replaced with Level 2 CareConnect profiles:
-
 	- **CareConnect-DCH-Organisation-1** replaced with CareConnect-Organization-1
 	- **CareConnect-DCH-Location-1** replaced with CareConnect-Location-1
-
-	- **CareConnect-Organization-1** replaced with CareConnect-Organisation-1
-	- **CareConnect-Location-1** replaced with CareConnect-Location-1
-
 - **Extension-coding-sctdescid** - FHIR profiles which reference this extension have been corrected to reference the extension published by HL7 [Extension-coding-sctdescid](https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-coding-sctdescid)
 
 ## Beta 1.0.1 ##
