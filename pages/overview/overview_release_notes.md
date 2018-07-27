@@ -27,9 +27,7 @@ Following stakeholder feedback and INTEROPen curation, this implementation guida
 - **Medication** - Course status, Dose directions description, Dose Direction Duration and Additional instruction changed to Optional
 - **Referral** - Specialty Referred From changed to Source Of Referral
 
-The **DCH-DSTU2-STU3-Map** provided in the [About](support_about.html) section has been updated to reflect these changes.
-
-Changes following INTEROPen curation:
+**Changes following INTEROPen curation**
 
 - **Event header** - [DCH-HealthcareService-1](https://fhir.nhs.uk/STU3/StructureDefinition/DCH-HealthcareService-1) - the terminology binding for 'type' will now use the [Care Connect Care Setting Type Value Set](https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-CareSettingType-1).
 - **Immunisation Administration** - Added FHIR profiles to support sharing of Information and Advice Given, and Allergies and Adverse Reactions 
@@ -44,7 +42,7 @@ Changes following INTEROPen curation:
 	- **CareConnect-DCH-Organisation-1** replaced with CareConnect-Organization-1
 	- **CareConnect-DCH-Location-1** replaced with CareConnect-Location-1
 
-FHIR Profile updates:
+**FHIR Profile updates**
 
 - [CareConnect-DCH-ASQ3AssessmentScale-Observation-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-ASQ3AssessmentScale-Observation-1) - upversioned to 1.1.0
 	- 'component' is now 1..*
@@ -60,7 +58,7 @@ FHIR Profile updates:
 - [CareConnect-DCH-HearingScreeningSummaryOutcome-Observation-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-HearingScreeningSummaryOutcome-Observation-1)
 	- code value set binding updated to use DCH-HearingScreeningOutcome-1 
 - [CareConnect-DCH-Immunization-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-Immunization-1)
-	- updated to include changes from INTEROPen FHIR profile including vaccination procedure coding
+	- updated to use latest INTEROPen FHIR profile including vaccination procedure coding
 - [CareConnect-DCH-Patient-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-Patient-1) - upversioned to 1.1.0
 	- 'address' is now 0..*
 - [DCH-Bundle-1](https://fhir.nhs.uk/STU3/StructureDefinition/DCH-Bundle-1) - upversioned to 1.1.0
@@ -98,6 +96,8 @@ FHIR Profile updates:
 	- 'Extension.valueCodeableConcept:valueCodeableConcept.coding.code' is now 1..1
 	- 'Extension.valueCodeableConcept:valueCodeableConcept.coding.display' is now 1..1
 - **Extension-coding-sctdescid** - FHIR profiles which reference this extension have been corrected to reference the extension published by HL7 [Extension-coding-sctdescid](https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-coding-sctdescid)
+
+All example instances, and the **DCH-DSTU2-STU3-Map** provided in the [About](support_about.html) section have been updated to reflect these changes.
 
 ## Beta 1.0.1 ##
 This implementation guidance has been updated to:
