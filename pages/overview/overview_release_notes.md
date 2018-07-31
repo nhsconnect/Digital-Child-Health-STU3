@@ -54,7 +54,7 @@ Following stakeholder feedback and INTEROPen curation, this implementation guida
 	- 'participant.individual' updated to include [DCH-RelatedPerson-1](https://fhir.nhs.uk/STU3/StructureDefinition/DCH-RelatedPerson-1) 
 - [CareConnect-DCH-Emergency-Encounter-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-Emergency-Encounter-1) - upversioned to 1.1.0
 	- 'participant.individual' updated to include [DCH-RelatedPerson-1](https://fhir.nhs.uk/STU3/StructureDefinition/DCH-RelatedPerson-1) 
-- [CareConnect-DCH-HearingTestOutcome-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-HearingTest-Procedure-1) - profile removed following INTEROPen curation
+- **CareConnect-DCH-HearingTest-Procedure-1** - profile removed following INTEROPen curation
 - [CareConnect-DCH-HearingScreeningSummaryOutcome-Observation-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-HearingScreeningSummaryOutcome-Observation-1)
 	- code value set binding updated to use DCH-HearingScreeningOutcome-1 
 - [CareConnect-DCH-Immunization-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-Immunization-1)

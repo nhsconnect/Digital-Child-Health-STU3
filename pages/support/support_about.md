@@ -1,4 +1,4 @@
-﻿---
+---
 title: Help & Support - About 
 keywords: support, communications, community 
 tags: [support]
@@ -23,12 +23,12 @@ For questions and comments about this documentation please email the <a href="ma
 ## Healthy Child Record Standard ##
 The Digital Child Health Event Message Bundles have been developed to support the [Healthy Child Record Standard](https://theprsb.org/standards/healthychildrecord/) published by the [Professional Record Standards Body](https://theprsb.org/) (PRSB).
 
-## [INTEROPen](http://www.interopen.org/)
+## [INTEROPen](http://www.interopen.org)
 FHIR Messaging components specified within this site have been developed by NHS Digital and use CareConnect profiles created in collaboration with the INTEROPen community. 
 
 The INTEROPen vision is to create a library of nationally defined HL7® FHIR® resources and interaction patterns that implementers can adopt to simplify integration and interoperability within UK health and social care.
 
 See [CareConnect FHIR Profiles](support_careconnect.html) for further clarification on the use of CareConnect FHIR profiles within this specification.
 
-Find out more on the [INTEROPen website](http://interopen.org/).
+Find out more on the [INTEROPen website](http://interopen.org).
 
