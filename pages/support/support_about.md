@@ -13,10 +13,6 @@ summary: "Additional information about this specification to assist with FHIR AP
 ## FHIR ##
 The FHIR profiles for this specification have been developed using the [FHIR Release STU3](https://www.hl7.org/fhir/STU3/index.html) specification.
 
-A workbook detailing how the Digital Child Health data item requirements are fulfilled using the Alpha Specification in DSTU2 and the Beta Specification in STU3 is available for download:
-
-[DCH-DSTU2-STU3-Map](content/uploads/DCH-DSTU2-STU3-Map.xls) [XLS, 76KB].
-
 ## Questions and Comments ##
 For questions and comments about this documentation please email the <a href="mailto:interoperabilityteam@nhs.net?subject=Digital%20Child%20Health%20FHIR%20Specification">Interoperability Team</a>.
 
