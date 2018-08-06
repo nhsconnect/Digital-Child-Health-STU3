@@ -2,6 +2,7 @@
 title: Help & Support - About 
 keywords: support, communications, community 
 tags: [support]
+toc: false
 sidebar: overview_sidebar
 permalink: support_about.html
 summary: "Additional information about this specification to assist with FHIR API development."
