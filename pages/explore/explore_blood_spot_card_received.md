@@ -1,5 +1,5 @@
 ---
-title: Blood Spot Event Message Bundle
+title: Blood Spot Card Received Event Message Bundle
 keywords:  messaging, bundles
 tags: [fhir,messaging]
 sidebar: foundations_sidebar

@@ -1,5 +1,5 @@
 ---
-title: Blood Spot Event Message Bundle
+title: Blood Spot Sample Taken Event Message Bundle
 keywords:  messaging, bundles
 tags: [fhir,messaging]
 sidebar: foundations_sidebar
