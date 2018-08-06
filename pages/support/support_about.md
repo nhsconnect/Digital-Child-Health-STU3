@@ -1,12 +1,12 @@
-﻿---
+---
 title: Help & Support - About 
 keywords: support, communications, community 
 tags: [support]
-toc: false
 sidebar: overview_sidebar
 permalink: support_about.html
 summary: "Additional information about this specification to assist with FHIR API development."
 ---
+
 
 {% include important.html content="This site is under active development by NHS Digital and is intended to provide the FHIR messaging components for the Digital Child Health event messages, and remains subject to clinical review. This project is being developed using an agile methodology so iterative updates to content will be added on a regular basis. Changes to this specification following the initial beta release will be documented in the [Release Notes](overview_release_notes.html) section." %}
  

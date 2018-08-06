@@ -1,5 +1,5 @@
 ---
-title: Introduction to Digital Child Health Event Messages (FHIR) 
+title: Introduction to Digital Child Health Event Messages 
 keywords: homepage
 tags: [overview]
 sidebar: overview_sidebar
