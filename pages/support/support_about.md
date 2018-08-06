@@ -17,7 +17,7 @@ The FHIR profiles for this specification have been developed using the [FHIR Rel
 For questions and comments about this documentation please email the <a href="mailto:interoperabilityteam@nhs.net?subject=Digital%20Child%20Health%20FHIR%20Specification">Interoperability Team</a>.
 
 ## Healthy Child Record Standard ##
-The Digital Child Health Event Message Bundles have been developed to support the [Healthy Child Record Standard](https://theprsb.org/standards/healthychildrecord) published by the [Professional Record Standards Body](https://theprsb.org) (PRSB).
+The development of Digital Child Health Event Message Bundles has been informed by the [Healthy Child Record Standard](https://theprsb.org/standards/healthychildrecord) published by the [Professional Record Standards Body](https://theprsb.org).
 
 ## [INTEROPen](http://www.interopen.org)
 FHIR Messaging components specified within this site have been developed by NHS Digital and use CareConnect profiles created in collaboration with the INTEROPen community. 
