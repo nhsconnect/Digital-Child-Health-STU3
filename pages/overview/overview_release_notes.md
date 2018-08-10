@@ -25,77 +25,24 @@ Following stakeholder feedback and INTEROPen curation, this implementation guida
 - **Information and Advice Given** - Recipient changed to Required
 - **Measurements** - Birth Weight changed to Required
 - **Medication** - Course status, Dose directions description, Dose Direction Duration and Additional instruction changed to Optional
+- **Newborn Hearing** - Procedure profiles for AABR and AOAE hearing tests and outcomes added:
+	- [CareConnect-DCH-AABRHearingTest-Procedure-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-AABRHearingTest-Procedure-1)
+	- [CareConnect-DCH-AOAEHearingTest-Procedure-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-AOAEHearingTest-Procedure-1)
 - **Referral** - Specialty Referred From changed to Source Of Referral
 
 **Changes following INTEROPen curation**
 
+- **Birth Details** - Event remodelled to use [CareConnect-DCH-Patient-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-Patient-1) and [CareConnect-DCH-Encounter-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-Encounter-1)
 - **Event header** - [DCH-HealthcareService-1](https://fhir.nhs.uk/STU3/StructureDefinition/DCH-HealthcareService-1) - the terminology binding for 'type' will now use the [Care Connect Care Setting Type Value Set](https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-CareSettingType-1).
 - **Immunisation Administration** - Added FHIR profiles to support sharing of Information and Advice Given, and Allergies and Adverse Reactions 
-- **Newborn Hearing** - Observation profiles for AABR and AOAE hearing test outcomes added:
-	- [CareConnect-DCH-AABRHearingTest-Observation-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-AABRHearingTest-Observation-1)
-	- [CareConnect-DCH-AOAEHearingTest-Observation-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-AOAEHearingTest-Observation-1)
 - **Professional Contacts** - Event data item mapping clarified to detail team or care professional association requirements. The event has been redesigned as follows:
 	- 'Specialty' data item removed
 	- [CodeSystem DCH-ProfessionalType-1](https://fhir.nhs.uk/STU3/CodeSystem/DCH-ProfessionalType-1) updated to use new codes
 	- **CareConnect-DCH-Team-Organization-1** profile removed and replaced with [DCH-CareTeam-1](https://fhir.nhs.uk/STU3/StructureDefinition/DCH-CareTeam-1)
+
 - The following Level 3 profiles have been removed and replaced with Level 2 CareConnect profiles:
 	- **CareConnect-DCH-Organisation-1** replaced with CareConnect-Organization-1
 	- **CareConnect-DCH-Location-1** replaced with CareConnect-Location-1
-
-**FHIR Profile updates**
-
-- [CareConnect-DCH-ASQ3AssessmentScale-Observation-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-ASQ3AssessmentScale-Observation-1) - upversioned to 1.1.0
-	- 'component' is now 1..*
-- [CareConnect-DCH-ASQSE-AssessmentScale-Observation-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-ASQSE-AssessmentScale-Observation-1) - upversioned to 1.1.0
-	- 'component' is now 1..*
-- [CareConnect-DCH-BirthWeight-Observation-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-BirthWeight-Observation-1) - upversioned to 1.1.0
-	- 'performer' referenced to 'CareConnect-DCH-Practitioner-1'
-- [CareConnect-DCH-Encounter-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-Encounter-1) - upversioned to 1.1.0
-	- 'participant.individual' updated to include [DCH-RelatedPerson-1](https://fhir.nhs.uk/STU3/StructureDefinition/DCH-RelatedPerson-1) 
-- [CareConnect-DCH-Emergency-Encounter-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-Emergency-Encounter-1) - upversioned to 1.1.0
-	- 'participant.individual' updated to include [DCH-RelatedPerson-1](https://fhir.nhs.uk/STU3/StructureDefinition/DCH-RelatedPerson-1) 
-- **CareConnect-DCH-HearingTest-Procedure-1** - profile removed following INTEROPen curation
-- [CareConnect-DCH-HearingScreeningSummaryOutcome-Observation-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-HearingScreeningSummaryOutcome-Observation-1)
-	- code value set binding updated to use DCH-HearingScreeningOutcome-1 
-- [CareConnect-DCH-Immunization-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-Immunization-1)
-	- updated to use latest INTEROPen FHIR profile including vaccination procedure coding
-- [CareConnect-DCH-Patient-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-Patient-1) - upversioned to 1.1.0
-	- 'address' is now 0..*
-- [DCH-Bundle-1](https://fhir.nhs.uk/STU3/StructureDefinition/DCH-Bundle-1) - upversioned to 1.1.0
-	- 'type' element uses fixed value 'message'
-	- 'entry.fullUrl' is now 1..1
-	- 'entry.resource' is now 1..1
-	- 'entry.search' is now 0..0
-	- 'entry.request' is now 0..0
-	- 'entry.response' is now 0..0 
-- [DCH-EarlyYearsProgress-QuestionnaireResponse-1](https://fhir.nhs.uk/STU3/StructureDefinition/DCH-EarlyYearsProgress-QuestionnaireResponse-1) - upversioned to 1.1.0:
-	- 'code', 'system' and 'display' elements for question 'parentalConsent' changed to 1..1
-- [DCH-FeedingStatus-QuestionnaireResponse-1](https://fhir.nhs.uk/STU3/StructureDefinition/DCH-FeedingStatus-QuestionnaireResponse-1) - upversioned to 1.1.0:
-	- added item 'approximateDateBreastfeedingStopped'
-- [DCH-HealthcareService-1](https://fhir.nhs.uk/STU3/StructureDefinition/DCH-HealthcareService-1) - upversioned to 1.1.0
-	- 'specialty' is now 0..1
-	- Following INTEROPen curation - the terminology binding for 'type' will now use the [Care Connect Care Setting Type Value Set](https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-CareSettingType-1).
-- [DCH-IndividualRequirements-QuestionnaireResponse-1](https://fhir.nhs.uk/STU3/StructureDefinition/DCH-IndividualRequirements-QuestionnaireResponse-1) - upversioned to 1.1.0
-	- item 'cognition' renamed to 'cognitive'
-- [DCH-MessageHeader-1](https://fhir.nhs.uk/STU3/StructureDefinition/DCH-MessageHeader-1) - upversioned to 1.1.0: 
-	- 'DCH-MessageHeader-1.id' is now 1..1
-	- 'DCH-MessageHeader-1.responsible.reference' is now 1..1
-- [DCH-NewbornBloodSpotScreening-Specimen-1](https://fhir.nhs.uk/STU3/StructureDefinition/DCH-NewbornBloodSpotScreening-Specimen-1) - upversioned to 1.1.0
-	- 'receivedTime' is now 1..1
-	- 'code', 'system' and 'display' elements for all questions changed to 1..1
-- [DCH Professional Comment Type](https://fhir.nhs.uk/STU3/CodeSystem/DCH-ProfessionalCommentType-1) - upversioned to 1.1.0
-	- all codes updated to use correct code format.
-- [DCH-RelatedPerson-1](https://fhir.nhs.uk/STU3/StructureDefinition/DCH-RelatedPerson-1) - upversioned to 1.1.0:
-	- 'gender' is now 0..1 
-- [DCH-SocialContextHousehold-QuestionnaireResponse-1](https://fhir.nhs.uk/STU3/StructureDefinition/DCH-SocialContextHousehold-QuestionnaireResponse-1) - upversioned to 1.1.0: 
-	- 'identifier' is now 0..1
-- [DCH-SocialContextPerson-QuestionnaireResponse-1](https://fhir.nhs.uk/STU3/StructureDefinition/DCH-SocialContextPerson-QuestionnaireResponse-1) - upversioned to 1.1.0: 
-	- 'identifier' is now 0..1
-- [Extension-DCH-MessageEventType-1](https://fhir.nhs.uk/STU3/StructureDefinition/Extension-DCH-MessageEventType-1) - upversioned to 1.1.0
-	- 'Extension.valueCodeableConcept:valueCodeableConcept.coding.system' is now 1..1
-	- 'Extension.valueCodeableConcept:valueCodeableConcept.coding.code' is now 1..1
-	- 'Extension.valueCodeableConcept:valueCodeableConcept.coding.display' is now 1..1
-- **Extension-coding-sctdescid** - FHIR profiles which reference this extension have been corrected to reference the extension published by HL7 [Extension-coding-sctdescid](https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-coding-sctdescid)
 
 All example instances, and the **DCH-DSTU2-STU3-Map** provided in the [About](support_about.html) section have been updated to reflect these changes.
 
