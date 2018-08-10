@@ -17,6 +17,7 @@ Following stakeholder feedback and INTEROPen curation, this implementation guida
 - **Birth Details** - Location of Birth changed to Required
 - **Blood Spot Card Received** - All items changed to Mandatory
 - **Conditions** - Added item Condition end date
+- **Clinical Risk Factors** - Relevant Clinical Risk Factor and Clinical Risk Assessment revised to accept coded or plain text values
 - **Discharge Details** - Encounter Type changed to Required
 - **Early Years Progress** - Site Code, Professional Name and Professional Type changed to Required
 - **Feeding Status** - Date and Time of First Milk Feed changed to Required; new item Approximate Date Breastfeeding Stopped added
