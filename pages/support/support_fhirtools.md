@@ -20,7 +20,7 @@ There is no affiliation between INTEROPen and any of the suppliers listed below.
   <div style="flex:1 6 40%;padding:0 1em 0 1em;min-width:15em;">
     <img src="images/support/clinfhirlauncher.png" alt="ClinFHIR Launcher Screenshot" style="width:100%; max-width:100%;box-shadow: 0 0.2em 0.4em rgba(0, 94, 184,0.3);margin:0;">
   </div>
-</div>
+</div>forge
 
 ### [ClinFHIR CodeSystem Editor](http://clinfhir.com/codeSystem.html)
 
@@ -110,7 +110,7 @@ There is no affiliation between INTEROPen and any of the suppliers listed below.
   </div>
 </div>
 
-## [Forge](https://fhir.furore.com/forge/)
+## [Forge](https://fire.ly/forge)
 
 <div style="display:flex;flex-wrap:wrap;padding:0 0 1em 0">
   <div style="flex:3 1 60%;padding:0 0 1em 0;">
