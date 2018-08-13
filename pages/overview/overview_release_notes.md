@@ -24,7 +24,7 @@ Following stakeholder feedback and INTEROPen curation, this implementation guida
 - **Immunisation Administration** - Outcome Status and Dose Sequence changed to Optional
 - **Individual Requirements** - Cognition item changed to Cognitive
 - **Information and Advice Given** - Recipient changed to Required
-- **Measurements** - Birth Weight changed to Required
+- **Measurements** - Birth Weight changed to Required, updated to use generic profiles for HeadCircumference and Weight observations
 - **Medication** - Course status, Dose directions description, Dose Direction Duration and Additional instruction changed to Optional
 - **Newborn Hearing** - Procedure profiles for AABR and AOAE hearing tests and outcomes added:
 	- [CareConnect-DCH-AABRHearingTest-Procedure-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-AABRHearingTest-Procedure-1)
