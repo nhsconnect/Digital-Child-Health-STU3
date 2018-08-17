@@ -45,7 +45,6 @@ Depending on the association, the Child Health Event data items are fulfilled by
 | Organisation                  | CareConnect-Organization-1.identifier (ODS Code or ODS Site Code)                       | Mandatory                    |
 | Name                          | CareConnect-DCH-Practitioner-1.name                                                              | Required                    |
 | Role                          | CareConnect-DCH-PractitionerRole-1.code (careProfessionalType)                                       | Required                  |
-| Role                          | DCH-CareTeam-1.participant.role                                      | Required                   |
 | Care Professional Association | DCH-ProfessionalContact-EpisodeOfCare-1.type                                                                         | Mandatory                   |
 | Contact details              | CareConnect-DCH-Practitioner-1.telecom                                                           | Required                    |
 | Start date                    | DCH-ProfessionalContact-EpisodeOfCare-1.period.start                                                                 | Required                   |
