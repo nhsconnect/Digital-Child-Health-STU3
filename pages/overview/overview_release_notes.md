@@ -40,6 +40,8 @@ Following stakeholder feedback and INTEROPen curation, this implementation guida
 	- 'Specialty' data item removed
 	- [CodeSystem DCH-ProfessionalType-1](https://fhir.nhs.uk/STU3/CodeSystem/DCH-ProfessionalType-1) updated to use new codes
 	- **CareConnect-DCH-Team-Organization-1** profile removed and replaced with [DCH-CareTeam-1](https://fhir.nhs.uk/STU3/StructureDefinition/DCH-CareTeam-1)
+	- 'Role' changed to Required
+	- 'Telephone number' changed to 'Contact details'
 
 - The following Level 3 profiles have been removed and replaced with Level 2 CareConnect profiles:
 	- **CareConnect-DCH-Organisation-1** replaced with CareConnect-Organization-1

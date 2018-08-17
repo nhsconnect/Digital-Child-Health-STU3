@@ -31,9 +31,9 @@ Depending on the association, the Child Health Event data items are fulfilled by
 |-------------------------------|--------------------------------------------------------------------------------------------------|-----------------------------|
 | Organisation                  | CareConnect-Organization-1.identifier (ODS Code or ODS Site Code)                       | Mandatory                    |
 | Team                          | DCH-CareTeam-1                                                              | Required                   |
-| Role                          | DCH-CareTeam-1.participant.role                                      | Mandatory                   |
+| Role                          | DCH-CareTeam-1.participant.role                                      | Required                   |
 | Care Professional Association | DCH-ProfessionalContact-EpisodeOfCare-1.type                                                                         | Mandatory                   |
-| Telephone Number              | CareConnect-Organization-1.telecom                                                              | Required                    |
+| Contact details             | CareConnect-Organization-1.telecom                                                              | Required                    |
 | Start date                    | DCH-ProfessionalContact-EpisodeOfCare-1.period.start                                                                 | Required                   |
 | End date                      | DCH-ProfessionalContact-EpisodeOfCare-1.period.end                                                                   | Required                   |
 | Reason                        | DCH-ProfessionalContact-EpisodeOfCare-1.reason                                                                   | Optional                   |
@@ -44,9 +44,10 @@ Depending on the association, the Child Health Event data items are fulfilled by
 |-------------------------------|--------------------------------------------------------------------------------------------------|-----------------------------|
 | Organisation                  | CareConnect-Organization-1.identifier (ODS Code or ODS Site Code)                       | Mandatory                    |
 | Name                          | CareConnect-DCH-Practitioner-1.name                                                              | Required                    |
-| Role                          | CareConnect-DCH-PractitionerRole-1.code (careProfessionalType)                                       | Mandatory                   |
+| Role                          | CareConnect-DCH-PractitionerRole-1.code (careProfessionalType)                                       | Required                  |
+| Role                          | DCH-CareTeam-1.participant.role                                      | Required                   |
 | Care Professional Association | DCH-ProfessionalContact-EpisodeOfCare-1.type                                                                         | Mandatory                   |
-| Telephone Number              | CareConnect-DCH-Practitioner-1.telecom                                                           | Required                    |
+| Contact details              | CareConnect-DCH-Practitioner-1.telecom                                                           | Required                    |
 | Start date                    | DCH-ProfessionalContact-EpisodeOfCare-1.period.start                                                                 | Required                   |
 | End date                      | DCH-ProfessionalContact-EpisodeOfCare-1.period.end                                                                   | Required                   |
 | Reason                        | DCH-ProfessionalContact-EpisodeOfCare-1.reason                                                                   | Optional                   |
