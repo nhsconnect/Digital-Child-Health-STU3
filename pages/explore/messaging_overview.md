@@ -9,13 +9,13 @@ summary: "Overview of the Messaging Architecture section"
 
 **Message Patterns and Message Structure**
 
-The Events Management Service is based on a Publish and Subscribe messaging pattern. The events are published to a national events hub, which also manages subscriptions to the published events.
+The [Events Management Service](http://developer.nhs.uk/apis/ems-beta) is based on a Publish and Subscribe messaging pattern. The events are published to a national events hub, which also manages subscriptions to the published events.
 
 **Events**
 
-The event originator will construct an event message, as outlined in this implementation guide. Event messages will be sent over the NHS Message Exchange for Social Care and Health (MESH) to the Events Management System hub. 
+The event originator will construct an event message, as outlined in this implementation guide. Event messages will be sent into the Events Management Service hub using a simple [FHIR Event Publication API](http://developer.nhs.uk/apis/ems-beta/publication_publish.html).
 
-For further information relating to MESH see [Message Exchange for Social Care and Health (MESH)](https://digital.nhs.uk/message-exchange-social-care-health).
+Onward delivery to subscribers will initially be over MESH, although other delivery channels may be developed in future if there is a demand for them. For further information relating to MESH see [Message Exchange for Social Care and Health (MESH)](https://digital.nhs.uk/message-exchange-social-care-health).
 
 **Events Diagram**
 

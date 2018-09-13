@@ -10,6 +10,9 @@ summary: Summary release notes of the versions released in Digital Child Health 
 This site is under active development by NHS Digital and is intended to provide the FHIR messaging components for the Digital Child Health event messages. This project is being developed using an agile methodology so iterative updates to content will be added on a regular basis, and remains subject to clinical review. Changes to this specification following the initial beta release will be documented here.
 
 ## Beta 1.1.0 ##
+
+The Messaging Overview has been updated to align with the publish and subscribe functionality detailed by the [Events Management Service](http://developer.nhs.uk/apis/ems-beta)
+.
 Following stakeholder feedback and INTEROPen curation, this implementation guidance has been updated:
 
 - [Digital Child Health Events Model](explore_dch_events_model.html) - a new page sharing Digital Child Health Events Model mapping to Healthy Child Programme interventions
