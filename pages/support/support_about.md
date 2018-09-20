@@ -8,7 +8,7 @@ summary: "Additional information about this specification to assist with FHIR AP
 ---
 
 
-{% include important.html content="This site is under active development by NHS Digital and is intended to provide the FHIR messaging components for the Digital Child Health event messages, and remains subject to clinical review. This project is being developed using an agile methodology so iterative updates to content will be added on a regular basis. Changes to this specification following the initial beta release will be documented in the [Release Notes](overview_release_notes.html) section." %}
+{% include important.html content="This site is under active development by NHS Digital and is intended to provide the FHIR messaging components for the Digital Child Health event messages. This project is being developed using an agile methodology so iterative updates to content will be added on a regular basis. Changes to this specification following the initial beta release will be documented in the [Release Notes](overview_release_notes.html) section." %}
  
 ## FHIR ##
 The FHIR profiles for this specification have been developed using the [FHIR Release STU3](https://www.hl7.org/fhir/STU3/index.html) specification.

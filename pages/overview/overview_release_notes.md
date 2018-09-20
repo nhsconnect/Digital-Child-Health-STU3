@@ -11,28 +11,42 @@ This site is under active development by NHS Digital and is intended to provide 
 
 ## Beta 1.1.0 ##
 
-The Messaging Overview has been updated to align with the publish and subscribe functionality detailed by the [Events Management Service](http://developer.nhs.uk/apis/ems-beta)
-.
-Following stakeholder feedback and INTEROPen curation, this implementation guidance has been updated:
+Following stakeholder feedback and INTEROPen curation, this implementation guidance has been updated as detailed below.
+
+The Messaging Overview has been updated to align with the publish and subscribe functionality detailed by the [Events Management Service](http://developer.nhs.uk/apis/ems-beta). Additionally, the following messages have been removed from the specification as they are no longer within the scope of the publish and subscribe functionality:
+
+- Additional Demographics
+- Assessment Scales
+- Clinical Risk Factors
+- Development Skills
+- Early Years Progress
+- Education History 
+- Examination Findings
+- Family History
+- Feeding Status
+- Information and Advice Given
+- Parental Comment
+- Plan and Requested Actions
+- Professional Comment
+- Referral
+- Related Persons
+- Social Context (Household)
+- Social Context (Person)
+
+An [additional content section](explore_additional_content.html) has been added for reference to FHIR profiles that have been developed to support these areas in child health, should this content prove useful locally. This is with the exception of **Additional Demographics** and **Related Persons**, which fall into a demographics scope and not Digital Child Health. 
 
 - [Digital Child Health Events Model](explore_dch_events_model.html) - a new page sharing Digital Child Health Events Model mapping to Healthy Child Programme interventions
 - **Admission Details** - Patient Location clarified to use CareConnect-DCH-Location-1.type.text
 - **Birth Details** - Location of Birth changed to Required
 - **Blood Spot Card Received** - All items changed to Mandatory
 - **Conditions** - Added item Condition end date
-- **Clinical Risk Factors** - Relevant Clinical Risk Factor and Clinical Risk Assessment revised to accept coded or plain text values
 - **Discharge Details** - Encounter Type changed to Required
-- **Early Years Progress** - Site Code, Professional Name and Professional Type changed to Required
-- **Feeding Status** - Date and Time of First Milk Feed changed to Required; new item Approximate Date Breastfeeding Stopped added
 - **Immunisation Administration** - Outcome Status and Dose Sequence changed to Optional
-- **Individual Requirements** - Cognition item changed to Cognitive
-- **Information and Advice Given** - Recipient changed to Required
 - **Measurements** - Birth Weight changed to Required, updated to use generic profiles for HeadCircumference and Weight observations
 - **Medication** - Course status, Dose directions description, Dose Direction Duration and Additional instruction changed to Optional
 - **Newborn Hearing** - Procedure profiles for AABR and AOAE hearing tests and outcomes added:
 	- [CareConnect-DCH-AABRHearingTest-Procedure-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-AABRHearingTest-Procedure-1)
 	- [CareConnect-DCH-AOAEHearingTest-Procedure-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-AOAEHearingTest-Procedure-1)
-- **Referral** - Specialty Referred From changed to Source Of Referral
 
 **Changes following INTEROPen curation**
 
