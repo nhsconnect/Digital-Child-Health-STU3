@@ -18,14 +18,14 @@ The Messaging Overview has been updated to align with the publish and subscribe 
 - Additional Demographics
 - Assessment Scales
 - Clinical Risk Factors
-- Development Skills
+- Developmental Skills
 - Early Years Progress
-- Education History 
+- Educational History 
 - Examination Findings
 - Family History
 - Feeding Status
 - Information and Advice Given
-- Parental Comment
+- Parent Guardian or Personal Comment
 - Plan and Requested Actions
 - Professional Comment
 - Referral

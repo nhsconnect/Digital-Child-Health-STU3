@@ -23,7 +23,7 @@ In addition to the event message bundles detailed in this specification, the Dig
 
 - [DCH-ClinicalRiskFactor-RiskAssessment-1](https://fhir.nhs.uk/STU3/StructureDefinition/DCH-ClinicalRiskFactor-RiskAssessment-1)
 
-## Development Skills ##
+## Developmental Skills ##
 
 - [CareConnect-DCH-DevelopmentalSkill-Condition-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-DevelopmentalSkill-Condition-1)
 
@@ -52,7 +52,7 @@ In addition to the event message bundles detailed in this specification, the Dig
 
 - [DCH-InformationAndAdviceGiven-Communication-1](https://fhir.nhs.uk/STU3/StructureDefinition/DCH-InformationAndAdviceGiven-Communication-1)
 
-## Parental Comment ##
+## Parent Guardian or Personal Comment ##
 
 - [DCH-ParentGuardianOrPersonalComment-Communication-1](https://fhir.nhs.uk/STU3/StructureDefinition/DCH-ParentGuardianOrPersonalComment-Communication-1)
 
