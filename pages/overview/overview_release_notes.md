@@ -35,16 +35,25 @@ The Messaging Overview has been updated to align with the publish and subscribe 
 
 An [additional content section](explore_additional_content.html) has been added for reference to FHIR profiles that have been developed to support these areas in child health, should this content prove useful locally. This is with the exception of **Additional Demographics** and **Related Persons**, which fall into a demographics scope and not Digital Child Health. 
 
-- [Digital Child Health Events Model](explore_dch_events_model.html) - a new page sharing Digital Child Health Events Model mapping to Healthy Child Programme interventions
-- **Admission Details** - Patient Location clarified to use CareConnect-DCH-Location-1.type.text
-- **Birth Details** - Location of Birth changed to Required
-- **Blood Spot Card Received** - All items changed to Mandatory
-- **Conditions** - Added item Condition end date
-- **Discharge Details** - Encounter Type changed to Required
-- **Immunisation Administration** - Outcome Status and Dose Sequence changed to Optional
-- **Measurements** - Birth Weight changed to Required, updated to use generic profiles for HeadCircumference and Weight observations
-- **Medication** - Course status, Dose directions description, Dose Direction Duration and Additional instruction changed to Optional
-- **Newborn Hearing** - Procedure profiles for AABR and AOAE hearing tests and outcomes added:
+**[Digital Child Health Events Model](explore_dch_events_model.html)** - a new page sharing Digital Child Health Events Model mapping to Healthy Child Programme interventions
+
+**Admission Details** - Patient Location clarified to use CareConnect-DCH-Location-1.type.text
+
+**Birth Details** - Location of Birth changed to Required
+
+**Blood Spot Card Received** - All items changed to Mandatory
+
+**Conditions** - Added item Condition end date
+
+**Discharge Details** - Encounter Type changed to Required
+
+**Immunisation Administration** - Outcome Status and Dose Sequence changed to Optional
+
+**Measurements** - Birth Weight changed to Required, updated to use generic profiles for HeadCircumference and Weight observations
+
+**Medication** - Course status, Dose directions description, Dose Direction Duration and Additional instruction changed to Optional
+
+**Newborn Hearing** - Procedure profiles for AABR and AOAE hearing tests and outcomes added:
 	- [CareConnect-DCH-AABRHearingTest-Procedure-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-AABRHearingTest-Procedure-1)
 	- [CareConnect-DCH-AOAEHearingTest-Procedure-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-AOAEHearingTest-Procedure-1)
 
