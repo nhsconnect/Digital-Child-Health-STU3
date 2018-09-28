@@ -26,6 +26,7 @@ The following FHIR profiles are used to form the Blood Spot Test Outcome Event M
 - [CareConnect-DCH-NewbornBloodSpotScreeningMSUD-Procedure-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-NewbornBloodSpotScreeningMSUD-Procedure-1)
 - [CareConnect-DCH-NewbornBloodSpotScreeningGA1-Procedure-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-NewbornBloodSpotScreeningGA1-Procedure-1)
 - [CareConnect-DCH-NewbornBloodSpotScreeningIVA-Procedure-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-NewbornBloodSpotScreeningIVA-Procedure-1)
+- [DCH-ProfessionalComment-Communication-1](https://fhir.nhs.uk/STU3/StructureDefinition/DCH-ProfessionalComment-Communication-1) 
 
 
 ### Blood Spot Test Outcome Event data item mapping to FHIR profiles ###
@@ -44,4 +45,5 @@ The Child Health Event data items are fulfilled by elements within the FHIR reso
 | Outcome - MAPLE SYRUP URINE DISEASE                      | CareConnect-DCH-NewbornBloodSpotScreeningMSUD-Procedure-1.outcome | Mandatory                   |
 | Outcome - GLUTARIC ACIDURIA TYPE 1                       | CareConnect-DCH-NewbornBloodSpotScreeningGA1-Procedure-1.outcome | Mandatory                   |
 | Outcome - ISOVALERIC ACIDAEMIA                            | CareConnect-DCH-NewbornBloodSpotScreeningIVA-Procedure-1.outcome | Mandatory                   |
+| Comment        											| DCH-ProfessionalComment-Communication-1   						| Optional                    | 
 

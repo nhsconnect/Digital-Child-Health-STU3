@@ -22,6 +22,7 @@ The following FHIR profiles are used to form the Physical Examination Event Mess
 - [CareConnect-DCH-PhysicalExaminationEyes-Procedure-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-PhysicalExaminationEyes-Procedure-1)
 - [CareConnect-DCH-PhysicalExaminationTestes-Procedure-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-PhysicalExaminationTestes-Procedure-1)
 - [CareConnect-DCH-PhysicalExaminationHeart-Procedure-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-PhysicalExaminationHeart-Procedure-1)
+- [DCH-ProfessionalComment-Communication-1](https://fhir.nhs.uk/STU3/StructureDefinition/DCH-ProfessionalComment-Communication-1)
 
 ### Physical Examination Details Event data item mapping to FHIR profiles ###
 
@@ -30,7 +31,7 @@ The Child Health Event data items are fulfilled by elements within the FHIR reso
 | DCH Data Item         | FHIR resource element                                         | Mandatory/Required/Optional | Note                                                                                  |
 |-----------------------|---------------------------------------------------------------|-----------------------------|---------------------------------------------------------------------------------------|
 | Date/Time             | CareConnect-DCH-Encounter-1.period.start                      | Mandatory                   |                                                                                       |
-| ODS Site Code         | CareConnect-Location-1.identifier (ODS Site Code)         | Mandatory                   |                                                                                       |
+| ODS Site Code         | CareConnect-Location-1.identifier (ODS Site Code)         	| Mandatory                   |                                                                                       |
 | Professional Name     | CareConnect-DCH-Practitioner-1.name                           | Mandatory                   |                                                                                       |
 | SDS Job Role Name     | CareConnect-DCH-PractitionerRole-1.code (SDS Job Role Name)   | Mandatory                   |                                                                                       |
 | Outcome Status Hips   | CareConnect-DCH-PhysicalExaminationHips-Procedure-1.outcome   | Mandatory                   |                                                                                       |
@@ -38,3 +39,4 @@ The Child Health Event data items are fulfilled by elements within the FHIR reso
 | Outcome Status Testes | CareConnect-DCH-PhysicalExaminationTestes-Procedure-1.outcome | Mandatory                   |                                                                                       |
 | Outcome Status Heart  | CareConnect-DCH-PhysicalExaminationHeart-Procedure-1.outcome  | Mandatory                   |                                                                                       |
 | Encounter Type        | CareConnect-DCH-Encounter-1.type (childHealthEncounterType)   | Mandatory                   | Represented using code '006 - Physical Examination' OR '009 - 6-8 Week GP Led Review' |
+| Comment        		| DCH-ProfessionalComment-Communication-1   					| Optional                    |  																					  |

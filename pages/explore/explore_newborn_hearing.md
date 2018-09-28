@@ -19,6 +19,7 @@ summary: "The FHIR profiles used for the Newborn Hearing Event Message Bundle"
 - [CareConnect-DCH-AABRHearingTest-Procedure-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-AABRHearingTest-Procedure-1)
 - [CareConnect-DCH-AOAEHearingTest-Procedure-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-AOAEHearingTest-Procedure-1)
 - [CareConnect-DCH-HearingScreeningSummaryOutcome-Observation-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-HearingScreeningSummaryOutcome-Observation-1)
+- [DCH-ProfessionalComment-Communication-1](https://fhir.nhs.uk/STU3/StructureDefinition/DCH-ProfessionalComment-Communication-1) 
 
 ### Newborn Hearing Event data item mapping to FHIR profiles ###
 
@@ -33,3 +34,4 @@ The Child Health Event data items are fulfilled by elements within the FHIR reso
 | Hearing Test Results (AABR) | CareConnect-DCH-AABRHearingTest-Procedure-1.outcome           | Required         | two occurrences of this resource are required, one for each ear |
 | Hearing Test Result (AOAE) | CareConnect-DCH-AOAEHearingTest-Procedure-1.outcome             | Required          | up to four occurrences of this resource are required, with two for each test performed |
 | Summary Outcome     | CareConnect-DCH-HearingScreeningSummaryOutcome-Observation-1.valueCodeableConcept        | Mandatory                   |                                                                       |
+| Comment        		| DCH-ProfessionalComment-Communication-1   					| Optional                    |  																					  |
