@@ -13,27 +13,7 @@ This site is under active development by NHS Digital and is intended to provide 
 
 Following stakeholder feedback and INTEROPen curation, this implementation guidance has been updated as detailed below.
 
-The Messaging Overview has been updated to align with the publish and subscribe functionality detailed by the [Events Management Service](http://developer.nhs.uk/apis/ems-beta). Additionally, the following messages have been removed from the specification as they are no longer within the scope of the publish and subscribe functionality:
-
-- Additional Demographics
-- Assessment Scales
-- Clinical Risk Factors
-- Developmental Skills
-- Early Years Progress
-- Educational History 
-- Examination Findings
-- Family History
-- Feeding Status
-- Information and Advice Given
-- Parent Guardian or Personal Comment
-- Plan and Requested Actions
-- Professional Comment
-- Referral
-- Related Persons
-- Social Context (Household)
-- Social Context (Person)
-
-An [additional content section](explore_additional_content.html) has been added for reference to FHIR profiles that have been developed to support these areas in child health, should this content prove useful locally. This is with the exception of **Additional Demographics** and **Related Persons**, which fall into a demographics scope and not Digital Child Health. 
+The Messaging Overview has been updated to align with the publish and subscribe functionality detailed by the [Events Management Service](http://developer.nhs.uk/apis/ems-beta). 
 
 **[Digital Child Health Events Model](explore_dch_events_model.html)** - a new page sharing Digital Child Health Events Model mapping to Healthy Child Programme interventions
 
