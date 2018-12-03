@@ -195,12 +195,12 @@ entries:
         - title: Social Context Person
           url: /explore_social_context_person.html
           output: web
-  - title: Additional Content
-    output: web
-    folderitems:
-    - title: Additional DCH Content
-      url: /explore_additional_content.html
-      output: web
+#  - title: Additional Content
+#    output: web
+#    folderitems:
+#    - title: Additional DCH Content
+#      url: /explore_additional_content.html
+#      output: web
 #    folderitems:
 #    - title: Overview
 #      url: /explore_event_store_overview.html
