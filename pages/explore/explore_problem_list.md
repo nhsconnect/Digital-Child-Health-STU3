@@ -1,13 +1,13 @@
 ---
-title: Conditions / Diagnoses Event Message Bundle
+title: Problem List Event Message Bundle
 keywords:  messaging, bundles
 tags: [fhir,messaging]
 sidebar: foundations_sidebar
 permalink: explore_conditions_diagnoses.html
-summary: "The FHIR profiles used for the Conditions / Diagnoses Event Message Bundle"
+summary: "The FHIR profiles used for the Problem List Event Message Bundle"
 ---
 
-The following FHIR profiles are used to form the Conditions / Diagnoses Event Message Bundle:
+The following FHIR profiles are used to form the Problem List Event Message Bundle:
 
 - [DCH-Bundle-1](https://fhir.nhs.uk/STU3/StructureDefinition/DCH-Bundle-1)
 - [DCH-MessageHeader-1](https://fhir.nhs.uk/STU3/StructureDefinition/DCH-MessageHeader-1) - where the coding and display elements for the 'event' type are fixed to 'CH008 - Conditions or Diagnoses'
@@ -26,14 +26,10 @@ The Child Health Event data items are fulfilled by elements within the FHIR reso
 
 | DCH Data Item        | FHIR resource element                                    | Mandatory/Required/Optional | Note                    |
 |----------------------|----------------------------------------------------------|-----------------------------|-------------------------|
-| Condition            | CareConnect-DCH-Diagnosis-Condition-1.code or               | Mandatory                   |                         |
-|                      | CareConnect-DCH-Problem-Condition-1.code                 | Mandatory                   |                         |
-| Condition category   | CareConnect-DCH-Diagnosis-Condition-1.category or           | Mandatory                   | fixed value 'diagnosis' |
-|                      | CareConnect-DCH-Problem-Condition-1.category             | Mandatory                   | fixed value 'problem'   |
-| Stage of Disease     | CareConnect-DCH-Diagnosis-Condition-1.stage.summary.coding.text or    | Optional                    |                         |
-|      | CareConnect-DCH-Problem-Condition-1.stage.summary.coding.text     | Optional                    |                         |
-| Condition onset date | CareConnect-DCH-Diagnosis-Condition-1.onsetDateTime or onsetString or | Optional                    |                         |
-|  | CareConnect-DCH-Problem-Condition-1.onsetDateTime or onsetString  | Optional                    |                         |
-| Condition end date | CareConnect-DCH-Diagnosis-Condition-1.abatementDateTime or abatementString  | Optional                    |                         |
-|  | CareConnect-DCH-Problem-Condition-1.abatementDateTime or abatementString | Optional                    |                         |
+| Condition            | CareConnect-DCH-Diagnosis-Condition-1.code               | Mandatory                   |                         |
+
+| Condition onset date | CareConnect-DCH-Diagnosis-Condition-1.onsetDateTime or onsetString | Required                    |                         |
+
+| Condition end date | CareConnect-DCH-Diagnosis-Condition-1.abatementDateTime or abatementString  | Required                    |                         |
+
 | Fetal Diagnosis      | CareConnect-DCH-FetalDiagnosis-Condition-1               | Optional                    |                         |
