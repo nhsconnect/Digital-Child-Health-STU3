@@ -17,7 +17,6 @@ The following FHIR profiles are used to form the Problem List Event Message Bund
 - [CareConnect-DCH-Encounter-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-Encounter-1)
 - [CareConnect-Location-1](https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Location-1)
 - [CareConnect-DCH-Diagnosis-Condition-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-Diagnosis-Condition-1)
-- [CareConnect-DCH-Problem-Condition-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-Problem-Condition-1)
 - [CareConnect-DCH-FetalDiagnosis-Condition-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-FetalDiagnosis-Condition-1)
 
 ### Conditions or Diagnoses Event data item mapping to FHIR profiles ###
