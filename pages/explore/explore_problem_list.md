@@ -26,7 +26,7 @@ The Child Health Event data items are fulfilled by elements within the FHIR reso
 | DCH Data Item        | FHIR resource element                                    | Mandatory/Required/Optional | Note                    |
 |----------------------|----------------------------------------------------------|-----------------------------|-------------------------|
 | Condition            | CareConnect-DCH-Diagnosis-Condition-1.code               | Mandatory                   |                         |
-| Condition onset date | CareConnect-DCH-Diagnosis-Condition-1.onsetDateTime or onsetString | Required                    |                         |
+| Condition onset date | CareConnect-DCH-Diagnosis-Condition-1.onsetDateTime or onsetString | Required                    |To allow free text and date, rather than just date                         |
 | Condition end date | CareConnect-DCH-Diagnosis-Condition-1.abatementDateTime or abatementString  | Required                    |                         |
 | Fetal Diagnosis      | CareConnect-DCH-FetalDiagnosis-Condition-1               | Optional                    |                         |
-| Comment      | CareConnect-DCH-Diagnosis-Condition-1.text                 | Optional                    | Free text (no maximum characters)                        |
+| Comment      | CareConnect-DCH-Diagnosis-Condition-1.note                 | Optional                    | Free text (no maximum characters)                        |
