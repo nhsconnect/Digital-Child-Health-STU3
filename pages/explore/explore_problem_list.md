@@ -3,7 +3,7 @@ title: Problem List Event Message Bundle
 keywords:  messaging, bundles
 tags: [fhir,messaging]
 sidebar: foundations_sidebar
-permalink: explore_conditions_diagnoses.html
+permalink: explore_problem_list.html
 summary: "The FHIR profiles used for the Problem List Event Message Bundle"
 ---
 
