@@ -36,3 +36,13 @@ The Child Health Event data items are fulfilled by elements within the FHIR reso
 | Condition end date | CareConnect-DCH-Diagnosis-Condition-1.abatementDateTime or abatementString  | Required                    |Uses the [FHIR date time format](http://hl7.org/fhir/stu3/datatypes.html#dateTime )                         |
 | Fetal Diagnosis      | CareConnect-DCH-FetalDiagnosis-Condition-1               | Optional                    |                         |
 | Comment      | CareConnect-DCH-Diagnosis-Condition-1.note                 | Optional                    | Free text (no maximum characters)                        |
+
+
+### Reference Linkage Diagram ###
+To be added
+
+### Examples ###
+
+<script src="XML Link Goes Here"></script>
+
+<script src="JSON Link Goes Here"></script>
