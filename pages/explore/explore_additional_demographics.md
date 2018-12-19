@@ -40,74 +40,34 @@ However, CareConnect-Patient-1 has a required binding to the [CareConnect-Ethnic
 The following mapping SHOULD be used to map the ethnicCategory value to the reduced valueset.
 
 <table>
-<tr>
-<th scope="col">DCH (16+1) valueSet</th>
-<th scope="col">DCH display</th>
-<th scope="col">CareConnect-EthnicCategory-1 valueSet</th>
-<th scope="col">CareConnect-EthnicCategory-1 display</th>	​ 	​ 	​
-​</tr>
+<tr><th>16+1 valueSet</th><th>Mapping to PDS valueSet</th></tr>
+<tr><td>A - British, Mixed British</td><td>A - British, Mixed British</td></tr>
+<tr><td>B - Irish</td><td>B - Irish</td></tr>
+<tr><td>C - Any Other White Background</td><td>C - Any other White background<br/>C2 - Northern Irish<br/>C3 - Other white, white unspecified<br/>CA - English<br/>CB - Scottish<br/>CC - Welsh<br/>CD - Cornish<br/>CE - Cypriot(part not stated)<br/>CF - Greek<br/>CG - Greek Cypriot<br/>CH - Turkish<br/>CJ - Turkish Cypriot<br/>CK - Italian<br/>CL - Irish Traveller<br/>CM - Traveller<br/>CN - Gypsy/Romany<br/>CP -Polish<br/>CQ - All republics which made up the former USSR<br/>CR - Kosovan<br/>CS - Albanian<br/>CT - Bosnian<br/>CU - Croatian<br/>CV - Serbian<br/>CW - Other republics which madeup the former Yugoslavia<br/>CX - Mixed white<br/>CY - Other white European, European unspecified, European mixed<br/></td></tr>
+<tr><td>D - White & Black Caribbean</td><td>D - White & Black Caribbean</td></tr>
+<tr><td>E - White & Black African</td><td>E - White & Black African</td></tr>
+<tr><td>F - White & Asian</td><td>F - White & Asian</td></tr>
+<tr><td>G - Any Other Mixed Background</td><td>G - Any other mixed background<br/>GA - Black and Asian<br/>GB - Black and Chinese<br/>GC - Black and White<br/>GD - Chinese and White<br/>GE - Asian and Chinese<br/>GF - Other Mixed, Mixed Unspecified</td></tr>
+<tr><td>H - Indian</td><td>H - Indian</td></tr>
+<tr><td>J - Pakistani</td><td>J - Pakistani</td></tr>
+<tr><td>K - Bangladeshi</td><td>K - Bangladeshi</td></tr>
+<tr><td>L - Any Other Asian Background</td><td>LA - Mixed Asian<br/>LB - Punjabi<br/>LC - Kashmiri<br/>LD - East African Asian<br/>LE - Sri Lanka<br/>LF - Tamil<br/>LG - Sinhalese<br/>LH - British Asian<br/>LJ - Caribbean Asian<br/>LK - Other Asian, Asian unspecified</td></tr>
+<tr><td>M - Caribbean</td><td>M - Caribbean</td></tr>
+<tr><td>N - African</td><td>N - African</td></tr>
+<tr><td>P - Any Other Black Background</td><td>P - Any other Black background<br/>PA - Somali<br/>PB - Mixed Black<br/>PC - Nigerian<br/>PD - Black British<br/>PE - Other Black, Black unspecified</td></tr>
+<tr><td>R - Chinese</td><td>R - Chinese</td></tr>
+<tr><td>S - Any Other Ethnic Group</td><td>S - Any other ethnic group<br/>SA - Vietnamese<br/>SB - Japanese<br/>SC - Filipino<br/>SD - Malaysian<br/>SE - Any Other Group</td></tr>
+<tr><td>Z - Not Stated</td><td>Z - Not Stated</td></tr>
+</table>
 
-Partial Table - WIP - Awaiting confirmation of mapping
+### Linkage Diagram ###
 
-<tr>
-  <td rowspan="6">A</td><td rowspan="6">British, Mixed British</td>
-  <td>A</td><td>British, Mixed British</td>
-</tr>
-<tr><td>C2</td><td>Northern Irish</td></tr>
-<tr>​<td>CA</td><td>English</td></tr>
-<tr>​<td>CB</td><td>Scottish</td></tr>
-<tr>​<td>CC</td><td>Welsh</td></tr>
-<tr>​<td>CD</td><td>Cornish</td></tr>
-<tr>
-  <td>B</td><td>Irish</td>
-  ​<td>B</td><td>Irish</td>
-</tr>
-<tr>
-  <td rowspan="2">C</td><td rowspan="2">Any other White background</td>
-  ​<td>C</td><td>Any other White background</td>
-</tr>
-<tr>
-  <td>C3</td><td>Other white, white unspecified</td>
-</tr>
-<tr>
-  <td>D</td><td>White and Black Caribbean</td>
-</tr>
-<tr>
-  <td>E</td><td>White and Black African</td>
-</tr>
-<tr>
-  <td>F</td><td>White and Asian</td>
-</tr>
-<tr>
-  <td>G</td><td>Any other mixed background</td>
-</tr>
-<tr>
-  <td>H</td><td>Indian or British Indian</td>
-</tr>
-<tr>
-  <td>J</td><td>Pakistani or British Pakistani</td>
-</tr>
-<tr>
-  <td>K</td><td>Bangladeshi or British Bangladeshi</td>
-</tr>
-<tr>
-  <td>L</td><td>Any other Asian background</td>
-</tr>
-<tr>
-  <td>M</td><td>Caribbean</td>
-</tr>
-<tr>
-  <td>N</td><td>African</td>
-</tr>
-<tr>
-  <td>P</td><td>Any other Black background</td>
-</tr>
-<tr>
-  <td>R</td><td>Chinese</td>
-</tr>
-<tr>
-  <td>S</td><td>Any other ethnic group</td>
-</tr>
-<tr>
-  <td>Z</td><td>Not stated</td>
-</tr>
+![Additional Demographics Linkage Diagram](../images/explore/AdditionalDemographics.png)
+
+### Additional Demographics XML Example ###
+
+<script src="https://gist.github.com/IOPS-DEV/22e06b06e7d5382f12f51869fb459f49.js"></script>
+
+### Additional Demographics JSON Example ###
+
+<script src="https://gist.github.com/IOPS-DEV/0e3175b7d83561e307c356c6341d3c2e.js"></script>
