@@ -32,3 +32,12 @@ The Child Health Event data items are fulfilled by elements within the FHIR reso
 | Introduction of Solids                       | DCH-FeedingStatus-QuestionnaireResponse-1.item.introductionOfSolids        | Required                    |
 | Approximate Date breastfeeding stopped       | DCH-FeedingStatus-QuestionnaireResponse-1.item.approximateDateBreastfeedingStopped        | Required                    |
 | Feeding Concerns                             | DCH-FeedingStatus-QuestionnaireResponse-1.item.feedingConcerns        | Optional                   |
+
+### Reference Linkage Diagram ###
+To be added
+
+### Examples ###
+
+<script src="https://gist.github.com/IOPS-DEV/ab3efd71ea452f9dcbb1ba114af62572.js"></script>
+
+<script src="https://gist.github.com/IOPS-DEV/51761312eb79458d72aa2b0c2efbb9df.js"></script>
