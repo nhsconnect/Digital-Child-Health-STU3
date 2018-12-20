@@ -62,7 +62,7 @@ The following mapping SHOULD be used to map the ethnicCategory value to the redu
 
 ### Linkage Diagram ###
 
-![Additional Demographics Linkage Diagram](../images/explore/AdditionalDemographics.png)
+<img src="images/explore/AdditionalDemographics.png">
 
 ### Additional Demographics XML Example ###
 
