@@ -43,6 +43,6 @@ To be added
 
 ### Examples ###
 
-<script src="XML Link Goes Here"></script>
+<script src="https://gist.github.com/IOPS-DEV/86f4c784c063366f7e90a32cc9e9c50f.js"></script>
 
-<script src="JSON Link Goes Here"></script>
+<script src="https://gist.github.com/IOPS-DEV/a5123084e12eef41b1cdbb0f78fe8370.js"></script>
