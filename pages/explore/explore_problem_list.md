@@ -39,7 +39,8 @@ The Child Health Event data items are fulfilled by elements within the FHIR reso
 
 
 ### Reference Linkage Diagram ###
-To be added
+
+![Problem List Linkage Diagram](../images/explore/ProblemList.png)
 
 ### Problem List Bundle XML Example ###
 

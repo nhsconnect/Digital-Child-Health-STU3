@@ -53,7 +53,8 @@ The Child Health Event data items are fulfilled by elements within the FHIR reso
 | Identical Twin Indicator	      | CareConnect-DCH-IdenticalTwinIndicator-Observation-1.code               | Optional                    |
 
 ### Reference Linkage Diagram ###
-To be added
+
+![Birth Details Linkage Diagram](../images/explore/BirthDetails.png)
 
 ### Examples ###
 

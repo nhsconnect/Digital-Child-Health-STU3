@@ -34,7 +34,8 @@ The Child Health Event data items are fulfilled by elements within the FHIR reso
 | Feeding Concerns                             | DCH-FeedingStatus-QuestionnaireResponse-1.item.feedingConcerns        | Optional                   |
 
 ### Reference Linkage Diagram ###
-To be added
+
+![Feeding Status Linkage Diagram](../images/explore/FeedingStatus.png)
 
 ### Examples ###
 

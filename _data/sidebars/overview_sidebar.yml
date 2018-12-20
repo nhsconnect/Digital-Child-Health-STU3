@@ -82,9 +82,9 @@ entries:
 #        - title: Assessment Scales
 #          url: /explore_assessment_scales.html
 #          output: web
-#        - title: Birth Details
-#          url: /explore_birth_details.html
-#          output: web
+        - title: Birth Details
+          url: /explore_birth_details.html
+          output: web
 #        - title: Blood Spot Sample Taken
 #          url: /explore_blood_spot_sample_taken.html
 #          output: web
@@ -97,7 +97,7 @@ entries:
       - title: C - E
 #        url: /explore.html
         output: web
-#        subfolderitems:
+        subfolderitems:
 #        - title: Clinical Risk Factors
 #          url: /explore_clinical_risk_factors.html
 #          output: web
@@ -119,19 +119,19 @@ entries:
 #        - title: Emergency Care Attendance
 #          url: /explore_emergency_care_attendance.html
 #          output: web
-#        - title: Examination Findings
-#          url: /explore_examination_findings.html
-#          output: web
+        - title: Examination Findings
+          url: /explore_examination_findings.html
+          output: web
       - title: F - L
 #        url: /explore.html
         output: web
-#        subfolderitems:
+        subfolderitems:
 #        - title: Family History
 #          url: /explore_family_history.html
 #          output: web
-#        - title: Feeding Status
-#          url: /explore_feeding_status.html
-#          output: web
+        - title: Feeding Status
+          url: /explore_feeding_status.html
+          output: web
 #        - title: Immunisation Administration
 #          url: /explore_immunisation_administration.html
 #          output: web
@@ -160,7 +160,7 @@ entries:
       - title: P - Q
 #        url: /explore.html
         output: web
-#        subfolderitems:
+        subfolderitems:
 #        - title: Parent Guardian or Personal Comment
 #          url: /explore_parent_guardian_or_personal_comment.html
 #          output: web
@@ -173,6 +173,9 @@ entries:
 #        - title: Plan and Requested Actions
 #          url: /explore_plan_and_requested_actions.html
 #          output: web
+        - title: Problem List
+          url: /explore_problem_list.html
+          output: web
 #        - title: Professional Comment
 #          url: /explore_professional_comment.html
 #          output: web
