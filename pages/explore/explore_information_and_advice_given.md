@@ -42,8 +42,8 @@ The Child Health Event data items are fulfilled by elements within the FHIR reso
 
 ### Information and Advice Given Bundle XML Example ###
 
-<script src="LINK TO FOLLOW"></script>
+<script src="https://gist.github.com/IOPS-DEV/23d2e722f353f904501a853e7054b56a.js"></script>
 
 ###  Information and Advice Given Bundle JSON Example ###
 
-<script src="LINK TO FOLLOW"></script>
+<script src="https://gist.github.com/IOPS-DEV/86d31cb3975134db49f826b9fd93b2d1.js"></script>
