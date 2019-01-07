@@ -32,12 +32,13 @@ The Child Health Event data items are fulfilled by elements within the FHIR reso
 | ODS/ORD Site Code              | CareConnect-Location-1.identifier (ODS Site Code)               | Required
 | Performing Professional          | CareConnect-DCH-Practitioner-1.name                                 | Required                   |
 | SDS Job Role Name           | CareConnect-DCH-PractitionerRole-1.code (SDS Job Role Name) 		| Required                   |
-| Information Or Advice Given | DCH-InformationAndAdviceGiven-Communication-1.payload.contentString  | Required                    |
+| Information Or Advice Given (coded text) | DCH-InformationAndAdviceGiven-Communication-1.reasonCode  | Required                    |
+| Information Or Advice Given (free text) | DCH-InformationAndAdviceGiven-Communication-1.payload.contentString  | Required                    |
 | Recipient                   | DCH-RelatedPerson-1.relationship                                    | Required                    |
 
 ### Reference Linkage Diagram ###
 
-<img src="LINK TO FOLLOW">
+<img src="images/explore/InformationAndAdviceGiven.png">
 
 ### Information and Advice Given Bundle XML Example ###
 
