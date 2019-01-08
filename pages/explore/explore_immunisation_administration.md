@@ -26,21 +26,21 @@ The following FHIR profiles are used to form the Immunisation Administration Eve
 
 The Child Health Event data items are fulfilled by elements within the FHIR resources listed below:
 
-| DCH Data Item               | FHIR resource element                                               | Mandatory/Required/Optional |
+| DCH Data Item               | FHIR resource element                                               | Mandatory/Required/Optional | Note                    |
 |-----------------------------|---------------------------------------------------------------------|-----------------------------|
-| Date                        | CareConnect-DCH-Immunisation-1.date                                 | Mandatory                   |
-| ODS Site code               | CareConnect-Location-1.identifier (ODS Site Code)               | Mandatory                   |
-| Professional Name           | CareConnect-DCH-Practitioner-1.name                                 | Mandatory                   |
-| SDS Job Role Name           | CareConnect-DCH-PractitionerRole-1.code (SDS Job Role Name)         | Mandatory                   |
-| Name of Immunisation        | CareConnect-DCH-Immunization-1.vaccinationProcedure                 | Mandatory                   |
-| Dose sequence               | CareConnect-DCH-Immunization-1.vaccinationProtocol.doseSequence     | Optional                    |
-| Outcome Status              | CareConnect-DCH-Immunization-1.explanation                          | Optional                    |
-| Vaccine Product             | CareConnect-DCH-Immunization-1.vaccineCode                          | Required                    |
-| Vaccine Manufacturer        | CareConnect-DCH-Immunization-1.manufacturer                         | Required                    |
-| Batch Number                | CareConnect-DCH-Immunization-1.lotNumber                            | Required                    |
-| Site                        | CareConnect-DCH-Immunization-1.site                                 | Required                    |
-| Route                       | CareConnect-DCH-Immunization-1.route                                | Required                    |
-| Dose Amount                 | CareConnect-DCH-Immunization-1.doseQuantity                         | Optional                    |
-| Reported                    | CareConnect-DCH-Immunization-1.primarySource                        | Required                    |
-| Information and Advice Given                    | CareConnect-DCH-Composition-1                   | Required                    |
-| Allergies and Adverse Reactions                    | CareConnect-DCH-AllergyIntolerance-1         | Required                    |
+| Date/Time                        | CareConnect-DCH-Immunisation-1.date                                 | Mandatory                   | Format is YYYY-MM-DD”T”HH:MM:SS                        |
+| ODS/ORD Site code                | CareConnect-Location-1.identifier (ODS Site Code)               | Required                   |                         |
+| Performing Professional           | CareConnect-DCH-Practitioner-1.name                                 | Required                   |                         |
+| SDS Job Role Name           | CareConnect-DCH-PractitionerRole-1.code (SDS Job Role Name)         | Required                   |                         |
+| Name of Immunisation        | CareConnect-DCH-Immunization-1.vaccinationProcedure                 | Mandatory                   |                         |
+| Dose sequence               | CareConnect-DCH-Immunization-1.vaccinationProtocol.doseSequence     | Optional                    |                         |
+| Outcome Status              | CareConnect-DCH-Immunization-1.explanation                          | Optional                    |                         |
+| Vaccine Product             | CareConnect-DCH-Immunization-1.vaccineCode                          | Required                    |                         |
+| Vaccine Manufacturer        | CareConnect-DCH-Immunization-1.manufacturer                         | Required                    |                         |
+| Batch Number                | CareConnect-DCH-Immunization-1.lotNumber                            | Required                    |                         |
+| Site                        | CareConnect-DCH-Immunization-1.site                                 | Required                    |                         |
+| Route                       | CareConnect-DCH-Immunization-1.route                                | Required                    |                         |
+| Dose Amount                 | CareConnect-DCH-Immunization-1.doseQuantity                         | Optional                    |                         |
+| Reported                    | CareConnect-DCH-Immunization-1.primarySource                        | Required                    |                         |
+| Information and Advice Given                    | CareConnect-DCH-Composition-1                   | Required                    |                         |
+| Allergies and Adverse Reactions                    | CareConnect-DCH-AllergyIntolerance-1         | Required                    |                         |
