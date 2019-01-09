@@ -7,9 +7,30 @@ permalink: explore.html
 summary: "Overview of the Messaging Architecture section"
 ---
 
+**NOTE: The publication of Digital Child Health event messages to the [National Events Management Service](http://developer.nhs.uk/apis/ems-beta) (NEMS) will rely on the successful implementation of support for each event by the NEMS. Currently only the following Digital Child Health events are within the scope of this implementation by the NEMS:**
+
+- Admission Details
+- Allergies and Adverse Reactions
+- Birth Details
+- Blood Spot Sample Taken
+- Blood Spot Card Received
+- Blood Spot Test Outcome
+- Conditions/Diagnoses
+- Discharge Details
+- Emergency Care Attendance
+- Immunisation Administration
+- Individual Requirements
+- Legal Information
+- Measurements
+- Medication
+- Newborn Hearing
+- Physical Examination
+- Professional Contacts
+- Safety Alerts 
+
 **Message Patterns and Message Structure**
 
-The [Events Management Service](http://developer.nhs.uk/apis/ems-beta) is based on a Publish and Subscribe messaging pattern. The events are published to a national events hub, which also manages subscriptions to the published events.
+The [National Events Management Service](http://developer.nhs.uk/apis/ems-beta) is based on a Publish and Subscribe messaging pattern. The events are published to a national events hub, which also manages subscriptions to the published events.
 
 **Events**
 
