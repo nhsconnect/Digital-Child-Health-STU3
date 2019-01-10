@@ -30,3 +30,15 @@ The Child Health Event data items are fulfilled by elements within the FHIR reso
 | Developmental Skill    | CareConnect-DCH-DevelopmentalSkill-Condition-1.code                  | Mandatory                   |
 | Result of observation/enquiry  | CareConnect-DCH-DevelopmentalSkill-Condition-1.stage.summary         | Mandatory                   |
 | Comments    | CareConnect-DCH-DevelopmentalSkill-Condition-1.note    | Optional                   |
+
+### Linkage Diagram ###
+
+<img src="images/explore/DevelopmentSkills.png">
+
+### Development Skills XML Example ###
+
+<script src="https://gist.github.com/IOPS-DEV/14ae03d15ae23d0721a63f13a5ae816f.js"></script>
+
+### Development Skills JSON Example ###
+
+<script src="https://gist.github.com/IOPS-DEV/647f1d989d1a30cbf2b87cb82e897663.js"></script>
