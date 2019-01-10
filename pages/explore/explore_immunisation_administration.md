@@ -28,10 +28,14 @@ The Child Health Event data items are fulfilled by elements within the FHIR reso
 
 | DCH Data Item               | FHIR resource element                                               | Mandatory/Required/Optional | Note                    |
 |-----------------------------|---------------------------------------------------------------------|-----------------------------|
-| Date/Time                        | CareConnect-DCH-Immunisation-1.date                                 | Mandatory                   | Format is YYYY-MM-DD”T”HH:MM:SS                        |
-| ODS/ORD Site code                | CareConnect-Location-1.identifier (ODS Site Code)               | Required                   |                         |
-| Performing Professional           | CareConnect-DCH-Practitioner-1.name                                 | Required                   |                         |
-| SDS Job Role Name           | CareConnect-DCH-PractitionerRole-1.code (SDS Job Role Name)         | Required                   |                         |
+| Date/Time                   | CareConnect-DCH-Immunisation-1.date                                 | Mandatory                   | Format is YYYY-MM-DD”T”HH:MM:SS                        |
+| ODS/ORD Site code           | CareConnect-Location-1.identifier (ODS Site Code)                   | Required                    |                         |
+| Performing Professional     | CareConnect-DCH-Practitioner-1.name                                 | Required                    |                         |
+| SDS Job Role Name           | CareConnect-DCH-PractitionerRole-1.code (SDS Job Role Name)         | Required                    |                         |
+| Reported Date            	  | CareConnect-DCH-Immunization-1.date                                 | Required                    |                         |
+| Primary Source              | CareConnect-DCH-Immunization-1.primarySource                        | Mandatory                   | Boolean (FALSE (if reported)/True                        |
+| Report Origin               | CareConnect-DCH-Immunization-1.reportOrigin                         | Required                    |                         |
+
 | Name of Immunisation        | CareConnect-DCH-Immunization-1.vaccinationProcedure                 | Mandatory                   |                         |
 | Dose sequence               | CareConnect-DCH-Immunization-1.vaccinationProtocol.doseSequence     | Optional                    |                         |
 | Outcome Status              | CareConnect-DCH-Immunization-1.explanation                          | Optional                    |                         |
