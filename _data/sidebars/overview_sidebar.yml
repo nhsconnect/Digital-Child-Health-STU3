@@ -104,9 +104,9 @@ entries:
 #        - title: Conditions / Diagnoses
 #          url: /explore_conditions_diagnoses.html
 #          output: web
-#        - title: Developmental Skills
-#          url: /explore_developmental_skills.html
-#          output: web
+        - title: Developmental Skills
+          url: /explore_developmental_skills.html
+          output: web
 #        - title: Discharge Details
 #          url: /explore_discharge_details.html
 #          output: web
