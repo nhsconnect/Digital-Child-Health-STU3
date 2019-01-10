@@ -26,23 +26,24 @@ The following FHIR profiles are used to form the Information and Advice Given Ev
 
 The Child Health Event data items are fulfilled by elements within the FHIR resources listed below:
 
-| DCH Data Item               | FHIR resource element                                               | Mandatory/Required/Optional |
-|-----------------------------|---------------------------------------------------------------------|-----------------------------|
-| Date/Time                        | DCH-InformationAndAdviceGiven-Communication-1.sent                            | Mandatory                   |
-| ODS/ORD Site Code              | CareConnect-Location-1.identifier (ODS Site Code)               | Required
-| Performing Professional          | CareConnect-DCH-Practitioner-1.name                                 | Required                   |
-| SDS Job Role Name           | CareConnect-DCH-PractitionerRole-1.code (SDS Job Role Name) 		| Required                   |
-| Information Or Advice Given | DCH-InformationAndAdviceGiven-Communication-1.payload.contentString  | Required                    |
-| Recipient                   | DCH-RelatedPerson-1.relationship                                    | Required                    |
+| DCH Data Item               | FHIR resource element                                               | Mandatory/Required/Optional | Note                    |
+|-----------------------------|---------------------------------------------------------------------|-----------------------------|-------------------------|
+| Date/Time                        | DCH-InformationAndAdviceGiven-Communication-1.sent                            | Mandatory                   | Format is YYYY-MM-DD”T”HH:MM:SS                       |
+| ODS/ORD Site Code              | CareConnect-Location-1.identifier (ODS Site Code)               | Required                   |                         |
+| Performing Professional          | CareConnect-DCH-Practitioner-1.name                                 | Required                   |                         |
+| SDS Job Role Name           | CareConnect-DCH-PractitionerRole-1.code (SDS Job Role Name) 		| Required                   |                         |
+| Information Or Advice Given (coded text) | DCH-InformationAndAdviceGiven-Communication-1.reasonCode  | Required                    |                         |
+| Information Or Advice Given (free text) | DCH-InformationAndAdviceGiven-Communication-1.payload.contentString  | Required                    |                         |
+| Recipient                   | DCH-RelatedPerson-1.relationship                                    | Required                    |                         |
 
 ### Reference Linkage Diagram ###
 
-<img src="LINK TO FOLLOW">
+<img src="images/explore/InformationAndAdviceGiven.png">
 
 ### Information and Advice Given Bundle XML Example ###
 
-<script src="LINK TO FOLLOW"></script>
+<script src="https://gist.github.com/IOPS-DEV/23d2e722f353f904501a853e7054b56a.js"></script>
 
 ###  Information and Advice Given Bundle JSON Example ###
 
-<script src="LINK TO FOLLOW"></script>
+<script src="https://gist.github.com/IOPS-DEV/86d31cb3975134db49f826b9fd93b2d1.js"></script>
