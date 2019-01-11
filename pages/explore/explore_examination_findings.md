@@ -22,6 +22,9 @@ The following FHIR profiles are used to form the Examination Findings Event Mess
 
 ### Examination Findings Event data item mapping to FHIR profiles ###
 
+This Mapping table defines the FHIR elements that SHALL be used to encode the Healthy Child Event Specification data items for each DCH Event Message payload.  
+Some common data item mappings, such as patient, publisher or Date/Time of event information, are defined within the [Header mapping table](../explore_event_header_design.html) and SHALL be considered in parallel with the payload mapping.
+
 The Child Health Event data items are fulfilled by elements within the FHIR resources listed below:
 
 | DCH Data Item                                   | FHIR resource element                                                                           | Mandatory/Required/Optional |
@@ -35,6 +38,8 @@ The Child Health Event data items are fulfilled by elements within the FHIR reso
 | Examination Finding                             | CareConnect-DCH-ExaminationFinding-Procedure-1.outcome.coding.code                 | Required                    |
 
 ### Linkage Diagram ###
+
+This Linkage diagram defines the required references that SHALL be made between resources within the DCH Event Message bundle. It includes both Header and Payload resources (but omits the DCH-Bundle-1 wrapper).
 
 <img src="images/explore/ExaminationFindings.png">
 
