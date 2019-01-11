@@ -1,13 +1,13 @@
 ---
-title: Measurements Event Message Bundle
+title: Observations Event Message Bundle
 keywords:  messaging, bundles
 tags: [fhir,messaging]
 sidebar: foundations_sidebar
 permalink: explore_measurements.html
-summary: "The FHIR profiles used for the Measurements Event Message Bundle"
+summary: "The FHIR profiles used for the Observations Event Message Bundle"
 ---
 
-The following FHIR profiles are used to form the Measurements Event Message Bundle:
+The following FHIR profiles are used to form the Observations Event Message Bundle:
 
 - [DCH-Bundle-1](https://fhir.nhs.uk/STU3/StructureDefinition/DCH-Bundle-1)
 - [DCH-MessageHeader-1](https://fhir.nhs.uk/STU3/StructureDefinition/DCH-MessageHeader-1) - where the coding and display for the event element is fixed to 'CH018 - Measurements'
@@ -25,7 +25,10 @@ The following FHIR profiles are used to form the Measurements Event Message Bund
 - [CareConnect-DCH-BMICentile-Observation-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-BMICentile-Observation-1)
 - [CareConnect-DCH-NCMPWithdrawal-Observation-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-NCMPWithdrawal-Observation-1)
 
-### Measurement Event data item mapping to FHIR profiles ###
+### Observations Event data item mapping to FHIR profiles ###
+
+This Mapping table defines the FHIR elements that SHALL be used to encode the Healthy Child Event Specification data items for each DCH Event Message payload.  
+Some common data item mappings, such as patient, publisher or Date/Time of event information, are defined within the [Header mapping table](../explore_event_header_design.html) and SHALL be considered in parallel with the payload mapping.
 
 The Child Health Event data items are fulfilled by elements within the FHIR resources listed below.
                                                                                                    
@@ -44,3 +47,14 @@ The Child Health Event data items are fulfilled by elements within the FHIR reso
 | BMI centile              | CareConnect-DCH-BMICentile-Observation-1.valueQuantity        | Required                    |                                    |
 | Encounter Type           | CareConnect-DCH-Encounter-1.type (childHealthEncounterType)   | Mandatory                   |                                    |
 | NCMP Withdrawal Reason   | CareConnect-DCH-NCMPWithdrawal-Observation-1.valueCoding      | Required                    |                                    |                                                                                                                                                    
+### Reference Linkage Diagram ###
+
+This Linkage diagram defines the required references that SHALL be made between resources within the DCH Event Message bundle. It includes both Header and Payload resources (but omits the DCH-Bundle-1 wrapper).
+
+<img src="images/explore/BirthDetails1.png">
+
+### Examples ###
+
+<script src="https://gist.github.com/IOPS-DEV/20d86f149c4bf1abae4ec53bbd60b883.js"></script>
+
+<script src="https://gist.github.com/IOPS-DEV/113951f86f8db0eae46433cdfe46481e.js"></script>
