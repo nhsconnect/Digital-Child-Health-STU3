@@ -3,7 +3,7 @@ title: Vaccination Administration Event Message Bundle
 keywords:  messaging, bundles
 tags: [fhir,messaging]
 sidebar: foundations_sidebar
-permalink: explore_vaccinations.html
+permalink: explore_vaccination_administration.html
 summary: "The FHIR profiles used for the Vaccination Administration Event Message Bundle"
 ---
 
