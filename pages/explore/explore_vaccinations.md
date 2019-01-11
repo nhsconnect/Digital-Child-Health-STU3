@@ -31,13 +31,17 @@ The Child Health Event data items are fulfilled by elements within the FHIR reso
 
 | DCH Data Item               | FHIR resource element                                               | Mandatory/Required/Optional | Note                    |
 |-----------------------------|---------------------------------------------------------------------|-----------------------------|
-| Date/Time                   | CareConnect-DCH-Immunisation-1.date                                 | Mandatory                   | Format is YYYY-MM-DD”T”HH:MM:SS                        |
+| Date/Time                   | CareConnect-DCH-Immunisation-1.date                                 | Mandatory                   | Format is YYYY-MM-DD”T”HH:MM:SS  If the immunizaton is one not reported by the child or parent/carer, then Immunization.date will nomally be the same as Encounter.period.start                       |
 | ODS/ORD Site code           | CareConnect-Location-1.identifier (ODS Site Code)                   | Required                    |                         |
 | Performing Professional     | CareConnect-DCH-Practitioner-1.name                                 | Required                    |                         |
 | SDS Job Role Name           | CareConnect-DCH-PractitionerRole-1.code (SDS Job Role Name)         | Required                    |                         |
-| Reported Date            	  | CareConnect-DCH-Immunization-1.date                                 | Required                    |                         |
+| Reported Date            	  | CareConnect-DCH-Immunization-1.date                                 | Required                    | Immunization.date will either be the date on which the vaccination intervention was carried out or the reported date.                        |
 | Primary Source              | CareConnect-DCH-Immunization-1.primarySource                        | Mandatory                   | Boolean (FALSE (if reported)/True                        |
 | Report Origin               | CareConnect-DCH-Immunization-1.reportOrigin                         | Required                    |                         |
+| Vaccination Procedure       | CareConnect-DCH-Immunization-1.extension:vaccinationProcedure       | Required                    |                         |
+|Vaccination Situation (Not Given Outcome)       | CareConnect-DCH-Immunization-1.explanation.reasonNotGiven | Required                    |                         |
+
+
 
 | Name of Immunisation        | CareConnect-DCH-Immunization-1.vaccinationProcedure                 | Mandatory                   |                         |
 | Dose sequence               | CareConnect-DCH-Immunization-1.vaccinationProtocol.doseSequence     | Optional                    |                         |
