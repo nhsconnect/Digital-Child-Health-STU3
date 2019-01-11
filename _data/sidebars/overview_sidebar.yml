@@ -144,16 +144,16 @@ entries:
       - title: M - O
 #        url: /explore.html
         output: web
-#        subfolderitems:
-#        - title: Measurements
-#          url: /explore_measurements.html
-#          output: web
+        subfolderitems:
 #        - title: Medication
 #          url: /explore_medication.html
 #          output: web
 #        - title: Newborn Hearing
 #          url: /explore_newborn_hearing.html
 #          output: web
+        - title: Observations
+          url: /explore_observations.html
+          output: web
       - title: P - Q
 #        url: /explore.html
         output: web

@@ -3,7 +3,7 @@ title: Observations Event Message Bundle
 keywords:  messaging, bundles
 tags: [fhir,messaging]
 sidebar: foundations_sidebar
-permalink: explore_measurements.html
+permalink: explore_observations.html
 summary: "The FHIR profiles used for the Observations Event Message Bundle"
 ---
 
@@ -38,20 +38,45 @@ The Child Health Event data items are fulfilled by elements within the FHIR reso
 | ODS Site Code            | CareConnect-Location-1.identifier (ODS Site Code)             | Mandatory                   |                                    |
 | Professional Name        | CareConnect-DCH-Practitioner-1.name                           | Mandatory                   |                                    |
 | SDS Job Role Name        | CareConnect-DCH-PractitionerRole-1.code (SDS Job Role Name)   | Mandatory                   |                                    |
-| Birth Weight             | CareConnect-DCH-Weight-Observation-1.valueQuantity            | Required                    | Observation.code uses SNOMED CT '364589006 - Birth weight' |
-| Birth head circumference | CareConnect-DCH-HeadCircumference-Observation-1.valueQuantity | Required                    | Observation.code uses SNOMED CT '169876006 - Birth head circumference'  |
-| Head Circumference       | CareConnect-DCH-HeadCircumference-Observation-1.valueQuantity | Required                    | Observation.code uses SNOMED CT '363812007 - Head circumference'  |
-| Weight                   | CareConnect-DCH-Weight-Observation-1.valueQuantity            | Required                    | Observation.code uses SNOMED CT '27113001 - Body weight'  |
-| Height                   | CareConnect-DCH-Height-Observation-1.valueQuantity            | Required                    |                                    |
-| Length                   | CareConnect-DCH-Length-Observation-1.valueQuantity            | Required                    |                                    |
-| BMI centile              | CareConnect-DCH-BMICentile-Observation-1.valueQuantity        | Required                    |                                    |
 | Encounter Type           | CareConnect-DCH-Encounter-1.type (childHealthEncounterType)   | Mandatory                   |                                    |
-| NCMP Withdrawal Reason   | CareConnect-DCH-NCMPWithdrawal-Observation-1.valueCoding      | Required                    |                                    |                                                                                                                                                    
+
+Observation measurement data items are fulfilled as Observation.valueQuantity elements within separate instances of a FHIR Observation resource.
+
+All Observations are Required
+
+Profiles used by each Observation type are listed below.
+
+| DCH Data Item            | FHIR resource element                                         | Note                               |
+|--------------------------|---------------------------------------------------------------|---------------------------------------------|
+| Birth Weight             | CareConnect-DCH-Weight-Observation-1.valueQuantity                                     | Observation.code SHALL use 364589006 \| Birth weight \| |
+| Birth Head Circumference | CareConnect-DCH-HeadCircumference-Observation-1.valueQuantity                          | Observation.code SHALL use 169876006 \| Birth head circumference \| |
+| Head Circumference       | CareConnect-DCH-HeadCircumference-Observation-1.valueQuantity                          | Observation.code SHALL use 363812007 \| Head circumference \| |
+| Weight                   | CareConnect-DCH-Weight-Observation-1.valueQuantity                                     | Observation.code SHALL use 27113001 \| Body weight \| |
+| Body Height              | CareConnect-DCH-Height-Observation-1.valueQuantity                                     | Observation.code SHALL use 50373000 \| Body height \| |
+| Body Length              | CareConnect-DCH-Length-Observation-1.valueQuantity                                     | Observation.code SHALL use 248334005 \| Body length \| |
+| BMI Centile              | CareConnect-DCH-BMICentile-Observation-1.valueQuantity                                 | Observation.code SHALL use 446974000 \| Body mass index centile \| |
+| Systolic Blood Pressure  | CareConnect-BloodPressure-Observation-1.component[systolicComponent].valueQuantity     | * |
+| Diastolic Blood Pressure | CareConnect-BloodPressure-Observation-1.component[diastolicComponent].valueQuantity| * |
+| Heart Rate               | CareConnect-HeartRate-Observation-1.valueQuantity                                      | |
+| Temperature              | CareConnect-BodyTemperature-Observation-1.valueQuantity                                | For child health, a further Observation.code of 386725007 should be added, with userSelected set to true |
+| Respiration Rate         | CareConnect-RespiratoryRate-Observation-1.valueQuantity                                | |
+| O2 Saturation            | CareConnect-OxygenSaturation-Observation-1.valueQuantity                               | For child health, a further Observation.code of 431314004 should be added, with userSelected set to true |
+| NCMP Withdrawal Reason   | CareConnect-DCH-NCMPWithdrawal-Observation-1.valueCodeableConcept.Coding.code          | ** |
+
+\* Relevant blood pressure measurement SNOMED CT coding is fixed in the CareConnect-BloodPressure-Observation-1 profile.  
+Additional Blood Pressure observations may be reported using further Observation.component elements. For which, Observation.component.code SHALL be coded with the relevant SNOMED CT concept << 75367002 \| Blood pressure \| {i.e. descendant of}
+
+\** Observation.valueCodeableConcept SHALL be coded with the relevant SNOMED CT concept << 376251000000101 \| Excluded from national child measurement programme \| {i.e. descendant of}
+
 ### Reference Linkage Diagram ###
 
 This Linkage diagram defines the required references that SHALL be made between resources within the DCH Event Message bundle. It includes both Header and Payload resources (but omits the DCH-Bundle-1 wrapper).
 
-<img src="images/explore/BirthDetails1.png">
+<img src="images/explore/Observations1.png">
+
+Allowed Child Health Observations are: 
+
+<img src="images/explore/Observations2.png">
 
 ### Examples ###
 
