@@ -138,9 +138,9 @@ entries:
 #        - title: Individual Requirements
 #          url: /explore_individual_requirements.html
 #          output: web
-#        - title: Information and Advice Given
-#          url: /explore_information_and_advice_given.html
-#          output: web
+        - title: Information and Advice Given
+          url: /explore_information_and_advice_given.html
+          output: web
 #        - title: Legal Information
 #          url: /explore_legal_information.html
 #          output: web

@@ -1,13 +1,13 @@
 ---
-title: Immunisation Administration Event Message Bundle
+title: Vaccination Administration Event Message Bundle
 keywords:  messaging, bundles
 tags: [fhir,messaging]
 sidebar: foundations_sidebar
-permalink: explore_immunisation_administration.html
-summary: "The FHIR profiles used for the Immunisation Administration Event Message Bundle"
+permalink: explore_vaccinations.html
+summary: "The FHIR profiles used for the Vaccination Administration Event Message Bundle"
 ---
 
-The following FHIR profiles are used to form the Immunisation Administration Event Message Bundle:
+The following FHIR profiles are used to form the Vaccination Administration Event Message Bundle:
 
 - [DCH-Bundle-1](https://fhir.nhs.uk/STU3/StructureDefinition/DCH-Bundle-1)
 - [DCH-MessageHeader-1](https://fhir.nhs.uk/STU3/StructureDefinition/DCH-MessageHeader-1) - where the coding and display for the event element is fixed to 'CH015 - Immunisation Administration'
@@ -22,16 +22,20 @@ The following FHIR profiles are used to form the Immunisation Administration Eve
 - [CareConnect-DCH-Composition-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-Composition-1)
 - [CareConnect-DCH-AllergyIntolerance-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-AllergyIntolerance-1)
 
-### Immunisation Administration Event data item mapping to FHIR profiles ###
+### Vaccination Administration Event data item mapping to FHIR profiles ###
 
 The Child Health Event data items are fulfilled by elements within the FHIR resources listed below:
 
 | DCH Data Item               | FHIR resource element                                               | Mandatory/Required/Optional | Note                    |
 |-----------------------------|---------------------------------------------------------------------|-----------------------------|
-| Date/Time                        | CareConnect-DCH-Immunisation-1.date                                 | Mandatory                   | Format is YYYY-MM-DD”T”HH:MM:SS                        |
-| ODS/ORD Site code                | CareConnect-Location-1.identifier (ODS Site Code)               | Required                   |                         |
-| Performing Professional           | CareConnect-DCH-Practitioner-1.name                                 | Required                   |                         |
-| SDS Job Role Name           | CareConnect-DCH-PractitionerRole-1.code (SDS Job Role Name)         | Required                   |                         |
+| Date/Time                   | CareConnect-DCH-Immunisation-1.date                                 | Mandatory                   | Format is YYYY-MM-DD”T”HH:MM:SS                        |
+| ODS/ORD Site code           | CareConnect-Location-1.identifier (ODS Site Code)                   | Required                    |                         |
+| Performing Professional     | CareConnect-DCH-Practitioner-1.name                                 | Required                    |                         |
+| SDS Job Role Name           | CareConnect-DCH-PractitionerRole-1.code (SDS Job Role Name)         | Required                    |                         |
+| Reported Date            	  | CareConnect-DCH-Immunization-1.date                                 | Required                    |                         |
+| Primary Source              | CareConnect-DCH-Immunization-1.primarySource                        | Mandatory                   | Boolean (FALSE (if reported)/True                        |
+| Report Origin               | CareConnect-DCH-Immunization-1.reportOrigin                         | Required                    |                         |
+
 | Name of Immunisation        | CareConnect-DCH-Immunization-1.vaccinationProcedure                 | Mandatory                   |                         |
 | Dose sequence               | CareConnect-DCH-Immunization-1.vaccinationProtocol.doseSequence     | Optional                    |                         |
 | Outcome Status              | CareConnect-DCH-Immunization-1.explanation                          | Optional                    |                         |
