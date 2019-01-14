@@ -29,8 +29,8 @@ Some common data item mappings, such as patient, publisher or Date/Time of event
 
 The Child Health Event data items are fulfilled by elements within the FHIR resources listed below:
 
-| DCH Data Item               | FHIR resource element                                               | Mandatory/Required/Optional | Note                    |
-|-----------------------------|---------------------------------------------------------------------|-----------------------------|
+| DCH Data Item               | FHIR resource element                                               | Mandatory/<br/>/Required<br/>/Optional | Note                    |
+|-----------------------------|---------------------------------------------------------------------|-----------------------------|-----------------------------|
 | Date/Time                   | CareConnect-DCH-Immunisation-1.date                                 | Mandatory                   | If the immunisation is one not reported by the child or parent/carer, then Immunization.date will nomally be the same as Encounter.period.start.  Format is YYYY-MM-DD”T”HH:MM:SS                       |
 | ODS/ORD Site code           | CareConnect-Location-1.identifier (ODS Site Code)                   | Required                    |                         |
 | Performing Professional     | CareConnect-DCH-Practitioner-1.name                                 | Required                    |                         |
