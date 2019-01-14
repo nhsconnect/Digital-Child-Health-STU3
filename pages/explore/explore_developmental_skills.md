@@ -44,7 +44,7 @@ The Child Health Event data items are fulfilled by elements within the FHIR reso
 <tr>
 <td>Comments</td><td>CareConnect-DCH-DevelopmentalSkill-Condition-1.note</td><td>Optional</td><td></td>
 </tr>
-</table>
+</table> 
 
 ### Linkage Diagram ###
 
