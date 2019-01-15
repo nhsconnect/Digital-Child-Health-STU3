@@ -132,9 +132,6 @@ entries:
         - title: Feeding Status
           url: /explore_feeding_status.html
           output: web
-#        - title: Immunisation Administration
-#          url: /explore_immunisation_administration.html
-#          output: web
 #        - title: Individual Requirements
 #          url: /explore_individual_requirements.html
 #          output: web
@@ -147,16 +144,16 @@ entries:
       - title: M - O
 #        url: /explore.html
         output: web
-#        subfolderitems:
-#        - title: Measurements
-#          url: /explore_measurements.html
-#          output: web
+        subfolderitems:
 #        - title: Medication
 #          url: /explore_medication.html
 #          output: web
 #        - title: Newborn Hearing
 #          url: /explore_newborn_hearing.html
 #          output: web
+        - title: Observations
+          url: /explore_observations.html
+          output: web
       - title: P - Q
 #        url: /explore.html
         output: web
@@ -198,6 +195,9 @@ entries:
 #        - title: Social Context Person
 #          url: /explore_social_context_person.html
 #          output: web
+         - title: Vaccination Administration
+           url: /explore_vaccination_administration.html
+           output: web
   - title: Additional Content
     output: web
     folderitems:
