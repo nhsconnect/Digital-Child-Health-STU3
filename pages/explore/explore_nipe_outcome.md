@@ -24,7 +24,7 @@ The following FHIR profiles are used to form the NIPE Outcome Event Message Bund
 - [CareConnect-DCH-PhysicalExaminationHeart-Procedure-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-PhysicalExaminationHeart-Procedure-1)
 - [DCH-ProfessionalComment-Communication-1](https://fhir.nhs.uk/STU3/StructureDefinition/DCH-ProfessionalComment-Communication-1)
 
-### Physical Examination Details Event data item mapping to FHIR profiles ###
+### NIPE Outcome Details Event data item mapping to FHIR profiles ###
 
 The Child Health Event data items are fulfilled by elements within the FHIR resources listed below:
                                                                                                    
