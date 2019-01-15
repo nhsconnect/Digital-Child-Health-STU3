@@ -54,9 +54,9 @@ Profiles used by each Observation type are listed below.
 | Weight                   | CareConnect-DCH-Weight-Observation-1.valueQuantity                                     | Observation.code SHALL use 27113001 \| Body weight \| |
 | Body Height              | CareConnect-DCH-Height-Observation-1.valueQuantity                                     | Observation.code SHALL use 50373000 \| Body height \| |
 | Body Length              | CareConnect-DCH-Length-Observation-1.valueQuantity                                     | Observation.code SHALL use 248334005 \| Body length \| |
-| BMI Centile              | CareConnect-DCH-BMICentile-Observation-1.valueQuantity                                 | Observation.code SHALL use 446974000 \| Body mass index centile \| |
+| BMI Centile              | CareConnect-DCH-BMICentile-Observation-1.valueQuantity                                 | Observation.code SHALL use 896691000000102 \| Child body mass index centile \| |
 | Systolic Blood Pressure  | CareConnect-BloodPressure-Observation-1.component[systolicComponent].valueQuantity     | * |
-| Diastolic Blood Pressure | CareConnect-BloodPressure-Observation-1.component[diastolicComponent].valueQuantity| * |
+| Diastolic Blood Pressure | CareConnect-BloodPressure-Observation-1.component[diastolicComponent].valueQuantity    | * |
 | Heart Rate               | CareConnect-HeartRate-Observation-1.valueQuantity                                      | |
 | Temperature              | CareConnect-BodyTemperature-Observation-1.valueQuantity                                | For child health, a further Observation.code of 386725007 should be added, with userSelected set to true |
 | Respiration Rate         | CareConnect-RespiratoryRate-Observation-1.valueQuantity                                | |
@@ -80,6 +80,16 @@ Allowed Child Health Observations are:
 
 ### Examples ###
 
-<script src="https://gist.github.com/IOPS-DEV/20d86f149c4bf1abae4ec53bbd60b883.js"></script>
+This example models a post-partum Observations panel comprising Observations for:  
+  Birth weight  
+  Length of body  
+  Birth head circumference  
+  Heart rate  
+  Respiratory rate  
+  Blood pressure  
+  Body temperature  
+  Hemoglobin saturation with oxygen  
 
-<script src="https://gist.github.com/IOPS-DEV/113951f86f8db0eae46433cdfe46481e.js"></script>
+<script src="https://gist.github.com/IOPS-DEV/a760403b74d2223308c0b515f27f54c2.js"></script>
+
+<script src="https://gist.github.com/IOPS-DEV/0d2d01a41d19b18801bac2aed856408e.js"></script>

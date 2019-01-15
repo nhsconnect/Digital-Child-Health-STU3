@@ -31,7 +31,7 @@ The Child Health Event data items are fulfilled by elements within the FHIR reso
 
 | DCH Data Item               | FHIR resource element                                               | Mandatory/<br/>/Required<br/>/Optional | Note                    |
 |-----------------------------|---------------------------------------------------------------------|-----------------------------|-----------------------------|
-| Date/Time                   | CareConnect-DCH-Immunisation-1.date                                 | Mandatory                   | If the immunisation is one not reported by the child or parent/carer, then Immunization.date will nomally be the same as Encounter.period.start.  Format is YYYY-MM-DD”T”HH:MM:SS                       |
+| Date/Time                   | CareConnect-DCH-Immunisation-1.date                                 | Mandatory                   | If the immunisation is one not reported by the child or parent/carer, then Immunization.date will normally be the same as Encounter.period.start.  Format is YYYY-MM-DD”T”HH:MM:SS                       |
 | ODS/ORD Site code           | CareConnect-Location-1.identifier (ODS Site Code)                   | Required                    |                         |
 | Performing Professional     | CareConnect-DCH-Practitioner-1.name                                 | Required                    |                         |
 | SDS Job Role Name           | CareConnect-DCH-PractitionerRole-1.code (SDS Job Role Name)         | Required                    |                         |
@@ -40,8 +40,8 @@ The Child Health Event data items are fulfilled by elements within the FHIR reso
 | Report Origin               | CareConnect-DCH-Immunization-1.reportOrigin                         | Required                    |                         |
 | Vaccination Procedure       | CareConnect-DCH-Immunization-1.extension:vaccinationProcedure       | Required                    |                         |
 | Vaccination Situation (Not Given Outcome)       | CareConnect-DCH-Immunization-1.explanation.reasonNotGiven | Required                    |                         |
-| Not Given flag              | CareConnect-DCH-Immunization-1.notGiven                             | Mandatory                   | Boolean                 |
-| Dose sequence               | CareConnect-DCH-Immunization-1.vaccinationProtocol.doseSequence     | Mandatory                   |                         |
+| Not Given flag              | CareConnect-DCH-Immunization-1.notGiven                             | Mandatory                   | Boolean (FALSE (given or reported as given)/TRUE (not given)                 |
+| Dose sequence               | CareConnect-DCH-Immunization-1.vaccinationProtocol.doseSequence     | Mandatory                   | Note, if the vaccination protocol is not present, then the dose sequence is not present either.|
 | Vaccine Product             | CareConnect-DCH-Immunization-1.vaccineCode.coding.code              | Required                    | DM+D [SNOMED UK drug extension](https://www.nhsbsa.nhs.uk/pharmacies-gp-practices-and-appliance-contractors/dictionary-medicines-and-devices-dmd)                         |
 | Vaccine Manufacturer        | CareConnect-DCH-Immunization-1.manufacturer                         | Required                    |                         |
 | Batch Number                | CareConnect-DCH-Immunization-1.lotNumber                            | Optional                    | Derived from FMD code   |
@@ -67,8 +67,8 @@ This Linkage diagram defines the required references that SHALL be made between 
 
 ### Vaccination Administration Event Bundle XML Example ###
 
-<script src="LINK TO GO HERE"></script>
+<script src="https://gist.github.com/IOPS-DEV/bcd2f02a8a37ffd47d07996278dc9356.js"></script>
 
 ###  Vaccination Administration Event Bundle JSON Example ###
 
-<script src="LINK TO GO HERE"></script>
+<script src="https://gist.github.com/IOPS-DEV/96e14bdaad2c7179be3ec7fcba256336.js"></script>
