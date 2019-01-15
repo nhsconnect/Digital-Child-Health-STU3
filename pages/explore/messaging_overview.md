@@ -18,7 +18,7 @@ summary: "Overview of the Messaging Architecture section"
 - Conditions/Diagnoses
 - Discharge Details
 - Emergency Care Attendance
-- Immunisation Administration
+- Vaccination Administration
 - Individual Requirements
 - Legal Information
 - Measurements
