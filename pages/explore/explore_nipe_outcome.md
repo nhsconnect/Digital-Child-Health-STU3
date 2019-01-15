@@ -28,15 +28,47 @@ The following FHIR profiles are used to form the NIPE Outcome Event Message Bund
 
 The Child Health Event data items are fulfilled by elements within the FHIR resources listed below:
                                                                                                    
-| DCH Data Item         | FHIR resource element                                         | Mandatory/Required/Optional | Note                                                                                  |
-|-----------------------|---------------------------------------------------------------|-----------------------------|---------------------------------------------------------------------------------------|
-| Date/Time             | CareConnect-DCH-Encounter-1.period.start                      | Mandatory                   |                                                                                       |
-| ODS Site Code         | CareConnect-Location-1.identifier (ODS Site Code)         	| Mandatory                   |                                                                                       |
-| Professional Name     | CareConnect-DCH-Practitioner-1.name                           | Mandatory                   |                                                                                       |
-| SDS Job Role Name     | CareConnect-DCH-PractitionerRole-1.code (SDS Job Role Name)   | Mandatory                   |                                                                                       |
-| Outcome Status Hips   | CareConnect-DCH-PhysicalExaminationHips-Procedure-1.outcome   | Mandatory                   |                                                                                       |
-| Outcome Status Eyes   | CareConnect-DCH-PhysicalExaminationEyes-Procedure-1.outcome   | Mandatory                   |                                                                                       |
-| Outcome Status Testes | CareConnect-DCH-PhysicalExaminationTestes-Procedure-1.outcome | Mandatory                   |                                                                                       |
-| Outcome Status Heart  | CareConnect-DCH-PhysicalExaminationHeart-Procedure-1.outcome  | Mandatory                   |                                                                                       |
-| Encounter Type        | CareConnect-DCH-Encounter-1.type (childHealthEncounterType)   | Mandatory                   | Represented using code '006 - Physical Examination' OR '009 - 6-8 Week GP Led Review' |
-| Comment        		| DCH-ProfessionalComment-Communication-1   					| Optional                    |  																					  |
+<table>
+<tr>
+<th>DCH Data Item</th><th>FHIR resource element</th><th>Mandatory/<br/>Required/<br/>Optional</th><th>Note</th>
+</tr>
+<tr>
+<td>Date/Time</td><td>CareConnect-DCH-Encounter-1.period.start</td><td>Required</td><td></td>
+</tr>
+<tr>
+<td>ODS Site Code</td><td>CareConnect-Location-1.identifier (ODS Site Code)</td><td>Required</td><td></td>
+</tr>
+<tr>
+<td>Professional Name</td><td>CareConnect-DCH-Practitioner-1.name</td><td>Required</td><td></td>
+</tr>
+<tr>
+<td>SDS Job Role Name</td><td>CareConnect-DCH-PractitionerRole-1.code (SDS Job Role Name)</td><td>Required</td><td></td>
+</tr>
+<tr>
+<td>Outcome Status Hips</td><td>CareConnect-DCH-PhysicalExaminationHips-Procedure-1.outcome</td><td>Mandatory</td><td></td>
+</tr>
+<tr>
+<td>Outcome Status Eyes</td><td>CareConnect-DCH-PhysicalExaminationEyes-Procedure-1.outcome</td><td>Mandatory</td><td></td>
+</tr>
+<tr>
+<td>Outcome Status Testes</td><td>CareConnect-DCH-PhysicalExaminationTestes-Procedure-1.outcome</td><td>Mandatory</td><td></td>
+</tr>
+<tr>
+<td>Outcome Status Heart</td><td>CareConnect-DCH-PhysicalExaminationHeart-Procedure-1.outcome</td><td>Mandatory</td><td></td>
+</tr>
+<tr>
+<td>Comment</td><td>DCH-ProfessionalComment-Communication-1</td><td>Optional</td><td></td>
+</tr>
+</table>
+
+### Linkage Diagram ###
+
+<img src="images/explore/NIPE-Outcome.png">
+
+### NIPE Outcome XML Example ###
+
+<script src="https://gist.github.com/IOPS-DEV/646e6275b390034a5a1fbf7948b8375b.js"></script>
+
+### NIPE Outcome JSON Example ###
+
+<script src="https://gist.github.com/IOPS-DEV/6463522f305a65b01af174283acc21f4.js"></script>
