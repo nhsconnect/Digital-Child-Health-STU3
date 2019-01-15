@@ -182,7 +182,7 @@ entries:
       - title: R - Z
 #        url: /explore.html
         output: web
-#        subfolderitems:
+        subfolderitems:
 #        - title: Referral
 #          url: /explore_referral.html
 #          output: web
