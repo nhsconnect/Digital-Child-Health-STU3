@@ -195,7 +195,7 @@ entries:
 #        - title: Social Context Person
 #          url: /explore_social_context_person.html
 #          output: web
-         - title: Vaccination Administration
+         - title: Vaccinations
            url: /explore_vaccination_administration.html
            output: web
   - title: Additional Content
