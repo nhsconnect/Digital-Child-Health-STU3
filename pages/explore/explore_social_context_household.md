@@ -20,7 +20,10 @@ The following FHIR profiles are used to form the Social Context Household Event 
 
 ### Social Context Household Event data item mapping to FHIR profiles ###
 
-The Child Health Event data items are fulfilled by elements within the FHIR resources listed below.
+This Mapping table defines the FHIR elements that SHALL be used to encode the Healthy Child Event Specification data items for each DCH Event Message payload.  
+Some common data item mappings, such as patient, publisher or Date/Time of event information, are defined within the [Header mapping table](../explore_event_header_design.html) and SHALL be considered in parallel with the payload mapping.
+
+The Child Health Event data items are fulfilled by elements within the FHIR resources listed below:
 
 | DCH Data Item                                        | FHIR Resource element                                                                        | Mandatory/Required/Optional |
 |------------------------------------------------------|----------------------------------------------------------------------------------------------|-----------------------------|
@@ -34,3 +37,15 @@ The Child Health Event data items are fulfilled by elements within the FHIR reso
 | Fathers Occupation                                   | DCH-SocialContextHousehold-QuestionnaireResponse-1.item.occupationFather               | Required                    |
 | Any Household member has/had social services support | DCH-SocialContextHousehold-QuestionnaireResponse-1.item.socialServicesSupport          | Required                    |
 | Accommodation status                                 | DCH-SocialContextHousehold-QuestionnaireResponse-1.item.accommodationStatus            | Mandatory                   |
+
+### Reference Linkage Diagram ###
+
+This Linkage diagram defines the required references that SHALL be made between resources within the DCH Event Message bundle. It includes both Header and Payload resources (but omits the DCH-Bundle-1 wrapper).
+
+<img src="images/explore/SocialContextHousehold.png">
+
+### Examples ###
+
+<script src="https://gist.github.com/IOPS-DEV/20d86f149c4bf1abae4ec53bbd60b883.js"></script>
+
+<script src="https://gist.github.com/IOPS-DEV/113951f86f8db0eae46433cdfe46481e.js"></script>
