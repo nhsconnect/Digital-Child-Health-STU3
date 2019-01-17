@@ -46,6 +46,7 @@ This Linkage diagram defines the required references that SHALL be made between 
 
 ### Examples ###
 
-<script src="https://gist.github.com/IOPS-DEV/20d86f149c4bf1abae4ec53bbd60b883.js"></script>
+<script src="https://gist.github.com/IOPS-DEV/d5ec50cc40302644b2a71c7e19d76fcb.js"></script>
 
-<script src="https://gist.github.com/IOPS-DEV/113951f86f8db0eae46433cdfe46481e.js"></script>
+<script src="https://gist.github.com/IOPS-DEV/c9967e11c63be5394659b2214ba1ff03.js"></script>
+
