@@ -39,5 +39,17 @@ The Child Health Event data items are fulfilled by elements within the FHIR reso
 <tr><td>Status</td><td>DCH-MedicationAdministration-1.status</td><td>Optional</td><td>#</td></tr>
 </table>
 
+### Reference Linkage Diagram ###
 
+This Linkage diagram defines the required references that SHALL be made between resources within the DCH Event Message bundle. It includes both Header and Payload resources (but omits the DCH-Bundle-1 wrapper).
+
+<img src="images/explore/MedicationAdministation.png">
+
+### Medication Administation Event Bundle XML Example ###
+
+<script src="LINK TO FOLLOW"></script>
+
+### Medication Administation Event Bundle JSON Example ###
+
+<script src="LINK TO FOLLOW"></script>
 
