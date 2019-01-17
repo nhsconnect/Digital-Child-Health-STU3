@@ -3,7 +3,7 @@ title: Professional Summary Event Message Bundle
 keywords:  messaging, bundles
 tags: [fhir,messaging]
 sidebar: foundations_sidebar
-permalink: explore_professional_comment.html
+permalink: explore_professional_summary.html
 summary: "The FHIR profiles used for the Professional Summary Event Message Bundle"
 ---
 
