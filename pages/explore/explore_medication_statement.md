@@ -10,7 +10,7 @@ summary: "The FHIR profiles used for the Medication Statement Event Message Bund
 The following FHIR profiles are used to form the Medication Statement Event Message Bundle:
 
 - [DCH-Bundle-1](https://fhir.nhs.uk/STU3/StructureDefinition/DCH-Bundle-1)
-- [DCH-MessageHeader-1](https://fhir.nhs.uk/STU3/StructureDefinition/DCH-MessageHeader-1) - where the coding and display elements for the 'event' type are fixed to 'CH019 - Medication'
+- [DCH-MessageHeader-1](https://fhir.nhs.uk/STU3/StructureDefinition/DCH-MessageHeader-1) - where the coding and display elements for the 'event' type are fixed to 'CH019 - Medication Statement'
 - [CareConnect-Organization-1](https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Organization-1)
 - [DCH-HealthcareService-1](https://fhir.nhs.uk/STU3/StructureDefinition/DCH-HealthcareService-1)
 - [CareConnect-DCH-Patient-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-Patient-1)
@@ -67,7 +67,7 @@ Note that CareConnect-ITK-Medication-List-1.entry.flag & CareConnect-ITK-Medicat
 
 **Medication Statement for Changed Medications**
 
-If a medication is changed, the changeSummary extension for the [new] medication should be completed as follows
+If a medication is changed, the changeSummary extension for the [new] medication should be completed as follows:
 
 <table>
 <tr><th>DCH Data Item</th><th>FHIR Resource element</th><th>Mandatory/<br/>Required/<br/>Optional</th><th>Notes</th></tr>
@@ -79,13 +79,13 @@ If a medication is changed, the changeSummary extension for the [new] medication
 
 #### Medication Statement for Medical Devices (not coded in dm+d) ####
 
-Some medical devices, trial drugs, non-UK sourced drugs etc. are not coded in dm+d. In these cases, the same pattern as for Medication Statement (Active Medications) should be following, using Medication.code.text, rather than Medication.code
+Some medical devices, trial drugs, non-UK sourced drugs etc. are not coded in dm+d. In these cases, the same pattern as for Medication Statement (Active Medications) should be following, using Medication.code.text, rather than Medication.code.
 <table>
 <tr><th>DCH Data Item</th><th>FHIR Resource element</th><th>Mandatory/<br/>Required/<br/>Optional</th><th>Notes</th></tr>
 <tr><td>Medication Device Entry (not in dm+d)</td><td>CareConnect-DCH-Medication-1.code.text</td><td>Optional</td><td>Medication and medical devices not in dm+d should use Medication.code.text, and follow the same pattern as Medication Statement (Active Medications)</td></tr>
 </table>
 
-#### Medication Statement for Discontinued medications ####
+#### Medication Statement for Discontinued Medications ####
 
 Discontinued medications uses a List resource to bound all the discontinued medications. Discontinued medications include those that have been stopped during this episode of care.
 
@@ -119,3 +119,17 @@ Note that CareConnect-ITK-Medication-List-1.entry.flag & CareConnect-ITK-Medicat
 <tr><td>Description of amendment</td><td>CareConnect-DCH-MedicationStatement-1.note</td><td>Optional</td><td></td></tr>
 <tr><td>Comment</td><td>CareConnect-DCH-MedicationStatement-1.note</td><td>Optional</td><td></td></tr>
 </table>
+
+### Reference Linkage Diagram ###
+
+This Linkage diagram defines the required references that SHALL be made between resources within the DCH Event Message bundle. It includes both Header and Payload resources (but omits the DCH-Bundle-1 wrapper).
+
+<img src="images/explore/MedicationStatement.png">
+
+### Medication Statement Event Bundle XML Example ###
+
+<script src="https://gist.github.com/IOPS-DEV/f73b0374f63b7971bf36655f5ca7f868.js"></script>
+
+### Medication Statement Event Bundle JSON Example ###
+
+<script src="https://gist.github.com/IOPS-DEV/044b54a4953b9beed7071b6eb023f7a4.js"></script>
