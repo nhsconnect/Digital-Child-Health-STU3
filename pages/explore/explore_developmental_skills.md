@@ -22,14 +22,29 @@ The following FHIR profiles are used to form the Developmental Skills Event Mess
 
 The Child Health Event data items are fulfilled by elements within the FHIR resources listed below:
 
-| DCH Data Item     | FHIR resource element                                       | Mandatory/Required/Optional |
-|-------------------|-------------------------------------------------------------|-----------------------------|
-| Date first achieved     | CareConnect-DCH-DevelopmentalSkill-Condition-1.onsetDateTime                 | Required                    |
-| Date of observation     | CareConnect-DCH-DevelopmentalSkill-Condition-1.assertedDate          | Required                    |
-| Date of enquiry             | CareConnect-DCH-Encounter-1.period.start                    | Required                   |
-| Developmental Skill    | CareConnect-DCH-DevelopmentalSkill-Condition-1.code                  | Mandatory                   |
-| Result of observation/enquiry  | CareConnect-DCH-DevelopmentalSkill-Condition-1.stage.summary         | Mandatory                   |
-| Comments    | CareConnect-DCH-DevelopmentalSkill-Condition-1.note    | Optional                   |
+<table>
+<tr>
+<th>DCH Data Item</th><th>FHIR resource element</th><th>Mandatory/<br/>Required/<br/>Optional</th><th>Comments</th>
+</tr>
+<tr>
+<td>Date first achieved</td><td>CareConnect-DCH-DevelopmentalSkill-Condition-1.onsetDateTime</td><td>Required</td><td></td>
+</tr>
+<tr>
+<td>Date of observation</td><td>CareConnect-DCH-DevelopmentalSkill-Condition-1.assertedDate</td><td>Required</td><td></td>
+</tr>
+<tr>
+<td>Date of enquiry</td><td>CareConnect-DCH-Encounter-1.period.start</td><td>Required</td><td></td>
+</tr>
+<tr>
+<td>Developmental Skill</td><td>CareConnect-DCH-DevelopmentalSkill-Condition-1.code</td><td>Required</td><td>If a coded value does not exist for the Development Skill then the element "code.text" can be used</td>
+</tr>
+<tr>
+<td>Result of observation/enquiry</td><td>CareConnect-DCH-DevelopmentalSkill-Condition-1.stage.summary</td><td>Mandatory</td><td></td>
+</tr>
+<tr>
+<td>Comments</td><td>CareConnect-DCH-DevelopmentalSkill-Condition-1.note</td><td>Optional</td><td></td>
+</tr>
+</table> 
 
 ### Linkage Diagram ###
 

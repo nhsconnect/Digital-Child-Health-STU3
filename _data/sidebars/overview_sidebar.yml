@@ -104,9 +104,9 @@ entries:
 #        - title: Conditions / Diagnoses
 #          url: /explore_conditions_diagnoses.html
 #          output: web
-#        - title: Developmental Skills
-#          url: /explore_developmental_skills.html
-#          output: web
+        - title: Developmental Skills
+          url: /explore_developmental_skills.html
+          output: web
 #        - title: Discharge Details
 #          url: /explore_discharge_details.html
 #          output: web
@@ -151,6 +151,9 @@ entries:
 #        - title: Newborn Hearing
 #          url: /explore_newborn_hearing.html
 #          output: web
+        - title: NIPE Outcome
+          url: /explore_nipe_outcome.html
+          output: web
         - title: Observations
           url: /explore_observations.html
           output: web
@@ -164,18 +167,15 @@ entries:
 #        - title: Personal Contacts
 #          url: /explore_personal_contacts.html
 #          output: web
-#        - title: Physical Examination
-#          url: /explore_physical_examination.html
-#          output: web
 #        - title: Plan and Requested Actions
 #          url: /explore_plan_and_requested_actions.html
 #          output: web
         - title: Problem List
           url: /explore_problem_list.html
           output: web
-#        - title: Professional Comment
-#          url: /explore_professional_comment.html
-#          output: web
+        - title: Professional Summary
+          url: /explore_professional_summary.html
+          output: web
 #        - title: Professional Contacts
 #          url: /explore_professional_contacts.html
 #          output: web
@@ -189,15 +189,15 @@ entries:
 #        - title: Safety Alerts
 #          url: /explore_safety_alerts.html
 #          output: web
-#        - title: Social Context Household
-#          url: /explore_social_context_household.html
-#          output: web
+        - title: Social Context Household
+          url: /explore_social_context_household.html
+          output: web
 #        - title: Social Context Person
 #          url: /explore_social_context_person.html
 #          output: web
-         - title: Vaccinations
-           url: /explore_vaccination_administration.html
-           output: web
+        - title: Vaccinations
+          url: /explore_vaccination_administration.html
+          output: web
   - title: Additional Content
     output: web
     folderitems:
