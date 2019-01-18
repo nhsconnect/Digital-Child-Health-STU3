@@ -148,6 +148,12 @@ entries:
 #        - title: Medication
 #          url: /explore_medication.html
 #          output: web
+#        - title: Medication Administration
+#          url: /explore_medication_administration.html
+#          output: web
+        - title: Medication Statement
+          url: /explore_medication_statement.html
+          output: web
 #        - title: Newborn Hearing
 #          url: /explore_newborn_hearing.html
 #          output: web
