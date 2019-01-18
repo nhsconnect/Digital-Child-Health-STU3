@@ -39,7 +39,7 @@ The Child Health Event data items are fulfilled by elements within the FHIR reso
 <tr><td>Dose Amount Description</td><td>DCH-MedicationAdministration-1.dosage.text</td><td>Optional</td><td></td></tr>
 <tr><td>Route</td><td>DCH-MedicationAdministration-1.dosage.route</td><td>Optional</td><td></td></tr>
 <tr><td>Site</td><td>DCH-MedicationAdministration-1.dosage.site</td><td>Optional</td><td></td></tr>
-<tr><td>Status</td><td>DCH-MedicationAdministration-1.status</td><td>Optional</td><td>The nature of any change made to the medication.  MUST be marked as COMPLETED once administered</td></tr>
+<tr><td>Status</td><td>DCH-MedicationAdministration-1.status</td><td>Optional</td><td>The nature of any change made to the medication.  MUST be marked as COMPLETED once administered.</td></tr>
 </table>
 
 ### Reference Linkage Diagram ###
