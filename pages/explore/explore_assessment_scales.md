@@ -41,17 +41,16 @@ The Child Health Event data items are fulfilled by elements within the FHIR reso
 | Coded Assessment Tool Type (Total) | CareConnect-DCH-AssessmentScale-Observation-1.code.coding.code 	                 | Required                               | The type of Total Assessment Scale |
 | Comment (Total Assessment Scale)   | CareConnect-DCH-AssessmentScale-Observation-1.comment                             | Optional                               | Supporting text may be given regarding the assessment scale as a whole. This could be the recording of a score of an assessment not in SNOMED CT (e.g. Griffiths) |
 | Coded Assessment Tool Type Total Score | CareConnect-DCH-AssessmentScale-Observation-1.value[x]	                     | Required                               | Score entered for the Total Assessment Scale |
-
 | Coded Assessment Tool Type (Subscale) | CareConnect-DCH-AssessmentScale-Observation-1.related.target.Observation.code.coding.code 	                         | Mandatory                               | The type of Subscale Assessment Scale |
 | Comment (Subscale Assessment Scale)   | CareConnect-DCH-AssessmentScale-Observation-1.related.target.Observation.comment | Optional                            | Supporting text may be given regarding the assessment scale as a Subscale. This could be the recording of a Subscale score of an assessment not in SNOMED CT |
 | Coded Assessment Tool Type Subscale Score | CareConnect-DCH-AssessmentScale-Observation-1.related.target.Observation.value[x]	                      | Required                               | Score entered for the Subscale Assessment Scale |
 
 **This is the recommended option to share Subscale Score.**
 
-For systems that hold the Coded Assessment Tool Type Total Score score, the Subscale scores and the associated observations
-* the overall Coded Assessment Tool Type Total Score score is held in the CareConnect-DCH-AssessmentScale-Observation-1 profile
-* the Subscale Assessment Scale scores are held in NEWS2 sub-score profiles, <a href="https://www.hl7.org/fhir/references.html#contained" target="_blank">**contained**</a> within the CareConnect-DCH-AssessmentScale-Observation-1 profile. The CareConnect-DCH-AssessmentScale-Observation-1 profile links to each Subscale score profile using the a related link
-* the observations are referenced by the Subscale scores using the related links
+For systems that hold the Coded Assessment Tool Type Total Score score, the Subscale scores and the associated observations:
+* The overall Coded Assessment Tool Type Total Score score is held in the CareConnect-DCH-AssessmentScale-Observation-1 profile
+* The Subscale Assessment scores are held in the observation profile, <a href="https://www.hl7.org/fhir/references.html#contained" target="_blank">**contained**</a> within the CareConnect-DCH-AssessmentScale-Observation-1 profile. The CareConnect-DCH-AssessmentScale-Observation-1 profile links to each Subscale score profile using the a related link
+* The observations are referenced by the Subscale scores using the related links
 
 <!--
 **ASQ-3 (Ages and Stages Questionnaires Third Edition)**
