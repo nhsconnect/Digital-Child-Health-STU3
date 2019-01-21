@@ -37,10 +37,12 @@ The Child Health Event data items are fulfilled by elements within the FHIR reso
 | ODS Site Code              | CareConnect-Location-1.identifier (ODS Site Code)                                         | Required                               |                         |
 | Professional Name          | CareConnect-DCH-Practitioner.name                                                         | Required                               |                         |
 | SDS Job Role Name          | CareConnect-DCH-PractitionerRole-1.code (SDS Job Role Name)	                             | Required                               |                         |
-| Coded Assessment Tool Type (Total) | CareConnect-DCH-AssessmentScale-Observation-1.code.coding.code 	                         | Required                               | Score entered for the Total Assessment Scale |
-| Comment                    | CareConnect-DCH-AssessmentScale-Observation-1.code.text                                   | Required                               | Supporting text may be given regarding the assessment scale as a whole. This could be the recording of a score of an assessment not in SNOMED CT (e.g. Griffiths) |
-| Coded Assessment Tool Type (Total) | CareConnect-DCH-AssessmentScale-Observation-1.code.coding.code 	                         | Required                               | Score entered for the Subscale Assessment Scale |
-| Comment                    | CareConnect-DCH-AssessmentScale-Observation-1.code.text                                   | Required                               | Supporting text may be given regarding the assessment scale as a Subscale. This could be the recording of a Subscale score of an assessment not in SNOMED CT |
+| Coded Assessment Tool Type (Total) | CareConnect-DCH-AssessmentScale-Observation-1.code.coding.code 	                         | Mandatory                               | The type of Total Assessment Scale |
+| Comment (Total Assessment Scale)   | CareConnect-DCH-AssessmentScale-Observation-1.code.text                                   | Optional                               | Supporting text may be given regarding the assessment scale as a whole. This could be the recording of a score of an assessment not in SNOMED CT (e.g. Griffiths) |
+| Coded Assessment Tool Type Total Score | CareConnect-DCH-AssessmentScale-Observation-1.value[x]	                         | Mandatory?                               | Score entered for the Total Assessment Scale |
+| Coded Assessment Tool Type (Subscale) | CareConnect-DCH-AssessmentScale-Observation-1.component.code.coding.code 	                         | Mandatory                               | The type of Subscale Assessment Scale |
+| Comment (Subscale Assessment Scale)   | CareConnect-DCH-AssessmentScale-Observation-1.component.code.text                                 | Optional                               | Supporting text may be given regarding the assessment scale as a Subscale. This could be the recording of a Subscale score of an assessment not in SNOMED CT |
+| Coded Assessment Tool Type Subscale Score | CareConnect-DCH-AssessmentScale-Observation-1.component.value[x]                         | Mandatory?                               | Score entered for the Subscale Assessment Scale |
 
 
 <!--
