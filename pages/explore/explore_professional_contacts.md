@@ -37,7 +37,7 @@ Depending on the association, the Child Health Event data items are fulfilled by
 | DCH Data Item                 | FHIR resource element                                                                            | Mandatory/Required/Optional |
 |-------------------------------|--------------------------------------------------------------------------------------------------|-----------------------------|
 | Organisation                  | CareConnect-Organization-1.identifier (ODS Code or ODS Site Code)                       | Mandatory                    |
-| Team                          | DCH-CareTeam-1                                                              | Required                   |
+| Team                          | DCH-CareTeam-1.name                                                         | Required                   |
 | Role                          | DCH-CareTeam-1.participant.role                                      | Required                   |
 | Care Professional Association | DCH-ProfessionalContact-EpisodeOfCare-1.type                                                                         | Mandatory                   |
 | Contact details             | CareConnect-Organization-1.telecom                                                              | Required                    |
@@ -51,10 +51,18 @@ This Linkage diagram defines the required references that SHALL be made between 
 
 <img src="images/explore/ProfessionalContacts1.png">
 
+### Professional Contacts - Team XML Example ###
+
+<script src="https://gist.github.com/IOPS-DEV/92a856811035c1768c64a1d3ccaba17f.js"></script>
+
+### Professional Contacts - Team JSON Example ###
+
+<script src="https://gist.github.com/IOPS-DEV/c6d8852e3c4755af6983342ceb215d9a.js"></script>
+
 ## Professional Contacts (Professional) Event ##  
                                                                                                 
 | DCH Data Item                 | FHIR resource element                                                                            | Mandatory/Required/Optional |
-|-------------------------------|--------------------------------------------------------------------------------------------------|-----------------------------|
+|-------------------------------|-----------------------------------------------------------------------------------------|-----------------------------|
 | Organisation                  | CareConnect-Organization-1.identifier (ODS Code or ODS Site Code)                       | Mandatory                    |
 | Name                          | CareConnect-DCH-Practitioner-1.name                                                     | Required                    |
 | Role                          | CareConnect-DCH-PractitionerRole-1.code (careProfessionalType)                          | Required                  |
@@ -71,3 +79,11 @@ This Linkage diagram defines the required references that SHALL be made between 
 This Linkage diagram defines the required references that SHALL be made between resources within the DCH Professional Contacts (Professional) Event Message bundle. It includes both Header and Payload resources (but omits the DCH-Bundle-1 wrapper).
 
 <img src="images/explore/ProfessionalContacts2.png">
+
+### Professional Contacts - Professional XML Example ###
+
+<script src="https://gist.github.com/IOPS-DEV/3135e953849215f11b00956b2d0a9aa4.js"></script>
+
+### Professional Contacts - Professional JSON Example ###
+
+<script src="https://gist.github.com/IOPS-DEV/3f8d7fe39211e3cad09abfcc591ddaab.js"></script>

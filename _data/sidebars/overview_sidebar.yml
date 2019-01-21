@@ -182,9 +182,9 @@ entries:
         - title: Professional Summary
           url: /explore_professional_summary.html
           output: web
-#        - title: Professional Contacts
-#          url: /explore_professional_contacts.html
-#          output: web
+        - title: Professional Contacts
+          url: /explore_professional_contacts.html
+          output: web
       - title: R - Z
 #        url: /explore.html
         output: web
