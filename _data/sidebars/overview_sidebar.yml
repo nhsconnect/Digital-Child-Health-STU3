@@ -138,9 +138,9 @@ entries:
         - title: Information and Advice Given
           url: /explore_information_and_advice_given.html
           output: web
-#        - title: Legal Information
-#          url: /explore_legal_information.html
-#          output: web
+        - title: Legal Information
+          url: /explore_legal_information.html
+          output: web
       - title: M - O
 #        url: /explore.html
         output: web
@@ -182,9 +182,9 @@ entries:
         - title: Professional Summary
           url: /explore_professional_summary.html
           output: web
-#        - title: Professional Contacts
-#          url: /explore_professional_contacts.html
-#          output: web
+        - title: Professional Contacts
+          url: /explore_professional_contacts.html
+          output: web
       - title: R - Z
 #        url: /explore.html
         output: web
@@ -192,9 +192,9 @@ entries:
 #        - title: Referral
 #          url: /explore_referral.html
 #          output: web
-#        - title: Safety Alerts
-#          url: /explore_safety_alerts.html
-#          output: web
+        - title: Safety Alerts
+          url: /explore_safety_alerts.html
+          output: web
         - title: Social Context Household
           url: /explore_social_context_household.html
           output: web
