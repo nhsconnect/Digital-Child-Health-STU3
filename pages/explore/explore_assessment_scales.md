@@ -18,8 +18,6 @@ The following FHIR profiles are used to form the Assessment Scales Event Message
 - [CareConnect-Location-1](https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Location-1)
 - [CareConnect-DCH-Practitioner-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-Practitioner-1)
 - [CareConnect-DCH-PractitionerRole-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-PractitionerRole-1)
-- [CareConnect-DCH-ASQ3AssessmentScale-Observation-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-ASQ3AssessmentScale-Observation-1)
-- [CareConnect-DCH-ASQSE-AssessmentScale-Observation-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-ASQSE-AssessmentScale-Observation-1)
 - [CareConnect-DCH-AssessmentScale-Observation-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-AssessmentScale-Observation-1)
                                                                                                    
 ### Assessment Scales Event data item mapping to FHIR profiles ###
@@ -72,7 +70,7 @@ For systems that hold the Coded Assessment Tool Type Total Score score, the Subs
 | DCH Data Item              | FHIR Resource element                                                                                   | Mandatory/Required/Optional |
 |----------------------------|---------------------------------------------------------------------------------------------------------|-----------------------------|
 | Coded Assessment Tool Type | CareConnect-DCH-AssessmentScale-Observation-1.code 													   | Required                    |
-| Score                      | CareConnect-DCH-AssessmentScale-Observation-1.value[x] or CareConnect-DCH-AssessmentScale-Observation-1.componentvalue[x]										       		   | Required-->                    |
+| Score                      | CareConnect-DCH-AssessmentScale-Observation-1.value[x] or CareConnect-DCH-AssessmentScale-Observation-1.componentvalue[x]										       		   | Required                   |-->
 
 ### Reference Linkage Diagram ###
 
@@ -80,11 +78,11 @@ This Linkage diagram defines the required references that SHALL be made between 
 
 <img src="images/explore/AssessmentScales.png">
 
-### Information and Advice Given Bundle XML Example ###
+### Assessment Scales Bundle XML Example ###
 
-<script src="GIST LINK TO FOLLOW"></script>
+<script src="https://gist.github.com/IOPS-DEV/817e839787c3d2fa62e51114a158e85e.js"></script>
 
 ###  Information and Advice Given Bundle JSON Example ###
 
-<script src="GIST LINK TO FOLLOW"></script>
+<script src="https://gist.github.com/IOPS-DEV/a7091fb37cfecff8aca2d92a0ac04ba5.js"></script>
 
