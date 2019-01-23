@@ -36,13 +36,13 @@ The Child Health Event data items are fulfilled by elements within the FHIR reso
 | Local Authority (LAC)                                        | CareConnect-Organization-1.name                                       | Required                    |
 | Local Authority (LAC) ODS Site Code                          | CareConnect-Organization-1.identifier (oDSOrganizationCode)           | Required                    |
 | Local Authority (LAC) Office Hours Telephone                 | CareConnect-Organization-1.telecom                                    | Required                    |
-| Local Authority (LAC) Emergeny Duty Team Telephone           | CareConnect-Organization-1.contact.telecom                            | Required                    |
+| Local Authority (LAC) Emergency Duty Team Telephone           | CareConnect-Organization-1.contact.telecom                            | Required                    |
 | Child Protection Plan Start Date                             | CareConnect-DCH-ChildProtectionPlanStartDate-Observation-1.valueDateTime       | Required                    |
 | Child Protection Plan End Date                               | CareConnect-DCH-ChildProtectionPlanEndDate-Observation-1.valueDateTime         | Required                    |
 | Local Authority (CPP)                                        | CareConnect-Organization-1.name                                       | Required                    |
 | Local Authority (CPP) ODS Site Code                          | CareConnect-Organization-1.identifier (oDSOrganizationCode)           | Required                    |
 | Local Authority (CPP) Office Hours Telephone                 | CareConnect-Organization-1.telecom                                    | Required                    |
-| Local Authority (CPP) Emergeny Duty Team Telephone           | CareConnect-Organization-1.contact.telecom                            | Required                    |
+| Local Authority (CPP) Emergency Duty Team Telephone           | CareConnect-Organization-1.contact.telecom                            | Required                    |
 
 LAC: Looked After Child  
 CPP: Child Protection Plan  
