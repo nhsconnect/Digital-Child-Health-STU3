@@ -25,7 +25,6 @@ The following FHIR profiles are used to form the Birth Details Event Message Bun
 - [CareConnect-DCH-FinalDeliveryType-Procedure-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-FinalDeliveryType-Procedure-1)
 - [CareConnect-DCH-AttemptedDeliveryType-Condition-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-AttemptedDeliveryType-Condition-1)
 - [CareConnect-DCH-PutToBreastIndicator-Observation-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-PutToBreastIndicator-Observation-1)
-- [CareConnect-DCH-IdenticalTwinIndicator-Observation-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-IdenticalTwinIndicator-Observation-1)
 - [CareConnect-DCH-Delivery-Location-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-Delivery-Location-1)
 
 ### Birth Details Event data item mapping to FHIR profiles ###
