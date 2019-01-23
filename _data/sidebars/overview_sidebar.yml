@@ -79,9 +79,9 @@ entries:
 #        - title: Allergies and Adverse Reactions
 #          url: /explore_allergies_and_adverse_reactions.html
 #          output: web
-#        - title: Assessment Scales
-#          url: /explore_assessment_scales.html
-#          output: web
+        - title: Assessment Scales
+          url: /explore_assessment_scales.html
+          output: web
         - title: Birth Details
           url: /explore_birth_details.html
           output: web
