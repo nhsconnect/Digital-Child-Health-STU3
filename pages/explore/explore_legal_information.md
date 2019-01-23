@@ -53,10 +53,6 @@ This Linkage diagram defines the required references that SHALL be made between 
 
 <img src="images/explore/LegalInformation1.png">
 
-Required Child Health Observations are:
-
-<img src="images/explore/LegalInformation2.png">
-
 ### Legal Information XML Example ###
 
 <script src="https://gist.github.com/IOPS-DEV/177dc20663f8d3d5e4c67b4990ff2129.js"></script>
