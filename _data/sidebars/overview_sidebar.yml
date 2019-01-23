@@ -126,9 +126,9 @@ entries:
 #        url: /explore.html
         output: web
         subfolderitems:
-#        - title: Family History
-#          url: /explore_family_history.html
-#          output: web
+        - title: Family History
+          url: /explore_family_history.html
+          output: web
         - title: Feeding Status
           url: /explore_feeding_status.html
           output: web
@@ -148,9 +148,9 @@ entries:
 #        - title: Medication
 #          url: /explore_medication.html
 #          output: web
-#        - title: Medication Administration
-#          url: /explore_medication_administration.html
-#          output: web
+        - title: Medication Administration
+          url: /explore_medication_administration.html
+          output: web
         - title: Medication Statement
           url: /explore_medication_statement.html
           output: web
