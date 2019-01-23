@@ -33,11 +33,11 @@ The Child Health Event data items are fulfilled by elements within the FHIR reso
 | ODS Site Code     | CareConnect-Location-1.identifier (ODS Site Code)           | Required                    |                                                                      |
 | SDS Job Role Name | CareConnect-DCH-PractitionerRole-1.code (SDS Job Role Name) | Required                    |                                                                      |
 | Professional Name | CareConnect-DCH-Practitioner-1.name                         | Required                    |                                                                      |
-| Risk to self      | CareConnect-Observation-1.code.text                         | Required                    | Represented using text string 'Risk to self'                         |
-| Risk to others    | CareConnect-Observation-1.code.text                         | Required                    | Represented using text string 'Risk to others'                       |
-| Risk from others  | CareConnect-Observation-1.code.text                         | Required                    | Represented using text string 'Risk from others'                     |
+| Risk Type         | CareConnect-Observation-1.code.text                         | Required                    | Risk type SHALL be represented by setting code.text to 'Risk to self', 'Risk to others' or 'Risk from others'  |
 | Risk End Date     | CareConnect-Observation-1.effectivePeriod.end               | Required                    |                                                                      |
-| Risk Details      | CareConnect-Observation-1.valueString                       | Required                    | Risks to be recorded using text only (and the end date)              |
+| Risk Details      | CareConnect-Observation-1.valueString                       | Required                    | The identified risk is documented in Observation.valueString as free text.          |
+
+Multiple 'Risks' SHALL be recorded as multiple, separate Observation resources within the Safety Alerts Event Message Bundle.
 
 ### Linkage Diagram ###
 
