@@ -20,7 +20,7 @@ The following FHIR profiles are used to form the Additional Demographics Event M
 ### Additional Demographics Event data item mapping to FHIR profiles ###
 
 This Mapping table defines the FHIR elements that SHALL be used to encode the Healthy Child Event Specification data items for each DCH Event Message payload.  
-Some common data item mappings, such as patient, publisher or Date/Time of event information, are defined within the [Header mapping table](../explore_event_header_design.html) and SHALL be considered in parallel with the payload mapping.
+Some common data item mappings, such as patient, publisher or Date/Time of event information, are defined within the [Header mapping table](explore_event_header_design.html) and SHALL be considered in parallel with the payload mapping.
 
 The Child Health Event data items are fulfilled by elements within the FHIR resources listed below:
 

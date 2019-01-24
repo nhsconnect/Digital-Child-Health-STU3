@@ -25,7 +25,7 @@ The following FHIR profiles are used to form the Medication Statement Event Mess
 ### Medication Statement data item mapping to FHIR profiles ###
 The Medication Statement follows the same pattern as Medication Statement in Transfer of Care. As such there are 2 distinct lists - one for the active medications, and one for the discontinued medications. Following the Transfer of Care pattern, each list uses a FHIR List resource.
 
-The Mapping tables shown below defines the FHIR elements that SHALL be used to encode the Healthy Child Event Specification data items for each DCH Event Message payload.  Some common data item mappings, such as patient, publisher or Date/Time of event information, are defined within the [Header mapping table](../explore_event_header_design.html) and SHALL be considered in parallel with the payload mapping.
+The Mapping tables shown below defines the FHIR elements that SHALL be used to encode the Healthy Child Event Specification data items for each DCH Event Message payload.  Some common data item mappings, such as patient, publisher or Date/Time of event information, are defined within the [Header mapping table](explore_event_header_design.html) and SHALL be considered in parallel with the payload mapping.
 
 #### Medication Statement for Active Medications ####
 Active medications uses a List resource to bound all the active medications. Active medications include those that the patient is known to be actively taking. Active medications include medications that have been changed within this episode of care. Changed medication details appear in the MedicationChangeSummary extension of the MedicationStatement resource.
