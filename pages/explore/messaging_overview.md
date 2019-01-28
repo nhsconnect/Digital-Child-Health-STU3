@@ -9,24 +9,43 @@ summary: "Overview of the Messaging Architecture section"
 
 **NOTE: The publication of Digital Child Health event messages to the [National Events Management Service](http://developer.nhs.uk/apis/ems-beta) (NEMS) will rely on the successful implementation of support for each event by the NEMS. Currently only the following Digital Child Health events are within the scope of this implementation by the NEMS:**
 
+- Additional Demographics
 - Admission Details
 - Allergies and Adverse Reactions
+- Assessment Scales
 - Birth Details
-- Blood Spot Sample Taken
 - Blood Spot Card Received
+- Blood Spot Sample Taken
 - Blood Spot Test Outcome
-- Conditions/Diagnoses
+- Clinical Risk Factors
+- Developmental Skills
 - Discharge Details
+- Early Years Progress
+- Educational History
 - Emergency Care Attendance
-- Vaccination Administration
+- Examination Findings
+- Family History
+- Feeding Status
 - Individual Requirements
+- Information and Advice Given
+- Investigation Results
 - Legal Information
-- Measurements
-- Medication
+- Medication Administration
+- Medication Statement
 - Newborn Hearing
-- Physical Examination
+- NIPE outcome
+- Observations
+- Parent Guardian or Personal Comment 
+- Personal Contacts
+- Plan and Requested Actions
+- Problem List
 - Professional Contacts
-- Safety Alerts 
+- Professional Summary
+- Referral
+- Safety Alerts
+- Social Context
+- Social Context Household
+- Vaccinations
 
 **Message Patterns and Message Structure**
 
