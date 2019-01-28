@@ -7,9 +7,9 @@ permalink: overview_guide_versioning.html
 summary: An overview of this implementation guide is versioned.
 ---
 
-## Beta ##
+## Release Candidate ##
 
-This implementation guidance is the **Beta** release to support the development of the Digital Child Health Event Messages. 
+This implementation guidance is the **Release Candidate** release to support the development of the Digital Child Health Event Messages. 
 
 ## Semantic Versioning ##
 
@@ -23,7 +23,7 @@ Additional labels for pre-release and build metadata are available as extensions
 
 A pre-release version MAY be denoted by appending a hyphen (refer to [Semantic Versioning - Item 9](http://semver.org/#spec-item-9){:target="_blank"})
 
-For examples: 1.0.0-alpha.1 is a valid pre-release version.
+For example: 1.0.0-alpha.1 is a valid pre-release version.
 
 ## Pre-release Labels ##
 
