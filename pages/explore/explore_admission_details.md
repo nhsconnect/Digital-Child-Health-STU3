@@ -25,19 +25,19 @@ The following FHIR profiles are used to form the Admission Details Event Message
 
 The Child Health Event data items are fulfilled by elements within the FHIR resources listed below:
 
-| DCH Data Item               | FHIR resource element                                   | Mandatory/Required/Optional |
-|-----------------------------|---------------------------------------------------------|-----------------------------|
-| Date                        | CareConnect-DCH-Encounter-1.period.start                | Mandatory                   |
-| ODS Site Code               | CareConnect-Location-1.identifier (ODS Site Code)   | Mandatory                   |
-| Name of Location            | CareConnect-Location-1.name   | Required                   |
-| Responsible Consultant      | CareConnect-DCH-Practitioner-1                          | Required                    |
-| Patient Location            | CareConnect-Location-1.type.text    | Required                   |
-| Reason for Admission        | CareConnect-DCH-Encounter-1.reason.text                      | Required                    |
-| Admission Method            | CareConnect-DCH-Encounter-1.hospitalization.admissionMethod | Required                    |
-| Speciality                  | DCH-HealthcareService-1.serviceType.specialty or          | Required                    |
-|      						  | CareConnect-DCH-PractitionerRole-1.specialty         | Required                    |
-| Source of Admission         | CareConnect-DCH-Encounter-1.hospitalization.admitSource        | Required                    |
-| Person accompanying patient | DCH-RelatedPerson-1                                     | Required                    |
+| DCH Data Item                    | FHIR resource element                                       | Mandatory/Required/Optional | Notes           |
+|-----------------------------     |-------------------------------------------------------------|-----------------------------|-----------------|
+| Date and Time of admission       | CareConnect-DCH-Encounter-1.period.start                    | Required                    |                 |
+| ODS/ORD Site Code                | CareConnect-Location-1.identifier (ODS Site Code)           | Required                    |                 |
+| Name of Location                 | CareConnect-Location-1.name                                 | Optional                    |                 |
+| Responsible Clinician Name       | CareConnect-DCH-Practitioner-1.name                         | Required                    |                 |
+| Responsible Clinician Identifier | CareConnect-DCH-Practitioner-1.identifier                   | Required                    |                 |
+| Patient Location                 | CareConnect-Location-1.type.text                            | Optional                    |                 |
+| Reason for Admission             | CareConnect-DCH-Encounter-1.reason                          | Required                    |                 |
+| Admission Method                 | CareConnect-DCH-Encounter-1.hospitalization.admissionMethod | Required                    |                 |
+| Specialty Admitted To            | DCH-HealthcareService-1.serviceType.specialty               | Required                    |                 |
+| Source of Admission              | CareConnect-DCH-Encounter-1.hospitalization.admitSource     | Required                    |                 |
+| Person Accompanying patient      | DCH-RelatedPerson-1                                         | Required                    |                 |
 
 
 
