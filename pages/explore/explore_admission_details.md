@@ -31,13 +31,34 @@ The Child Health Event data items are fulfilled by elements within the FHIR reso
 | ODS/ORD Site Code                | CareConnect-Location-1.identifier (ODS Site Code)           | Required                    |                 |
 | Name of Location                 | CareConnect-Location-1.name                                 | Optional                    |                 |
 | Responsible Clinician Name       | CareConnect-DCH-Practitioner-1.name                         | Required                    |                 |
-| Responsible Clinician Identifier | CareConnect-DCH-Practitioner-1.identifier                   | Required                    |                 |
+| Responsible Clinician Identifier | CareConnect-DCH-Practitioner-1.identifier.value             | Required                    |                 |
+| Identifier Issuer                | CareConnect-DCH-Practitioner-1.identifier.system            | Required                    | *               |
 | Patient Location                 | CareConnect-Location-1.type.text                            | Optional                    |                 |
 | Reason for Admission             | CareConnect-DCH-Encounter-1.reason                          | Required                    |                 |
 | Admission Method                 | CareConnect-DCH-Encounter-1.hospitalization.admissionMethod | Required                    |                 |
-| Specialty Admitted To            | DCH-HealthcareService-1.serviceType.specialty               | Required                    |                 |
+| Specialty Admitted To            | DCH-HealthcareService-1.specialty                           | Required                    |                 |
 | Source of Admission              | CareConnect-DCH-Encounter-1.hospitalization.admitSource     | Required                    |                 |
 | Person Accompanying patient      | DCH-RelatedPerson-1                                         | Required                    |                 |
 
+**\*** The Professional Registration Body identifier is recorded as **Responsible Clinician Identifier** in element **CareConnect-DCH-Practitioner-1.identifier.value**.  
+The issuing Professional Registration Body is recorded as **Identifier Issuer** in element **CareConnect-DCH-Practitioner-1.identifier.system** as follows:
 
+| Issuing Professional Registration Body         | Identifier                                |
+|------------------------------------------------|-------------------------------------------|
+| General Dental Council Identifier              | http://fhir.hl7.org.uk/Id/gdc-identifier  |
+| General Medical Council Identifier             | http://fhir.hl7.org.uk/Id/gmc-identifier  |
+| Health and Care Professions Council Identifier | http://fhir.hl7.org.uk/Id/hcpc-identifier |
+| Nursing and Midwifery Council Identifier       | http://fhir.hl7.org.uk/Id/nmc-identifier  |
+
+### Reference Linkage Diagram ###
+
+This Linkage diagram defines the required references that SHALL be made between resources within the DCH Event Message bundle. It includes both Header and Payload resources (but omits the DCH-Bundle-1 wrapper).
+
+<img src="images/explore/AdmissionDetails.png">
+
+### Examples ###
+
+<script src="https://gist.github.com/IOPS-DEV/"></script>
+
+<script src="https://gist.github.com/IOPS-DEV/"></script>
 
