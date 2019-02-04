@@ -45,10 +45,10 @@ The issuing Professional Registration Body is recorded as **Identifier Issuer** 
 
 | Issuing Professional Registration Body         | Identifier                                |
 |------------------------------------------------|-------------------------------------------|
-| General Dental Council Identifier              | http://fhir.hl7.org.uk/Id/gdc-identifier  |
-| General Medical Council Identifier             | http://fhir.hl7.org.uk/Id/gmc-identifier  |
-| Health and Care Professions Council Identifier | http://fhir.hl7.org.uk/Id/hcpc-identifier |
-| Nursing and Midwifery Council Identifier       | http://fhir.hl7.org.uk/Id/nmc-identifier  |
+| General Dental Council Identifier              | http://fhir.hl7.org.uk/Id/gdc-number  |
+| General Medical Council Identifier             | http://fhir.hl7.org.uk/Id/gmc-number  |
+| Health and Care Professions Council Identifier | http://fhir.hl7.org.uk/Id/hcpc-number |
+| Nursing and Midwifery Council Identifier       | http://fhir.hl7.org.uk/Id/nmc-number  |
 
 ### Reference Linkage Diagram ###
 
@@ -58,7 +58,6 @@ This Linkage diagram defines the required references that SHALL be made between 
 
 ### Examples ###
 
-<script src="https://gist.github.com/IOPS-DEV/"></script>
+<script src="https://gist.github.com/IOPS-DEV/42c721afa33d5a7ab6bbd0b5a38f2bef.js"></script>
 
-<script src="https://gist.github.com/IOPS-DEV/"></script>
-
+<script src="https://gist.github.com/IOPS-DEV/756242938fe0f28526ebe6f1a4dbb7c6.js"></script>
