@@ -18,7 +18,7 @@ The following FHIR profiles are used to form the Safety Alerts Event Message Bun
 - [CareConnect-Location-1](https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Location-1)
 - [CareConnect-DCH-Practitioner-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-Practitioner-1)
 - [CareConnect-DCH-PractitionerRole-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-PractitionerRole-1) 
-- [CareConnect-Observation-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-SafeguardingRisk-Observation-1)
+- [CareConnect-Observation-1](https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Observation-1)
 
 ### Safety Alerts Event data item mapping to FHIR profiles ###
 
