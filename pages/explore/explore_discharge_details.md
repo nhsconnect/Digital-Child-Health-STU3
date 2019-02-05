@@ -26,13 +26,32 @@ The Child Health Event data items are fulfilled by elements within the FHIR reso
 
 | DCH Data Item                     | FHIR resource element                                            | Mandatory/Required/Optional | Note                                                                                  |
 |-----------------------------------|------------------------------------------------------------------|-----------------------------|---------------------------------------------------------------------------------------|
-| Date and Time of Discharge        | CareConnect-DCH-Encounter-1.period.end                           | Mandatory                   |                                                                                       |
-| ODS Site Code                     | CareConnect-Location-1.identifier (ODS Site Code)            | Mandatory                   |                                                                                       |
-| Name of Location                  | CareConnect-Location-1.name                                  | Required                    |                                                                                       |
-| Discharging Consultant            | CareConnect-DCH-Practitioner-1                                   | Required                    |                                                                                       |
-| Discharging Speciality/Department | DCH-HealthcareService-1.specialty or                             | Required                    |                                                                                       |
-|                                   | CareConnect-DCH-PractitionerRole-1.specialty                     | Required                    |                                                                                       |
+| Date and Time of Discharge        | CareConnect-DCH-Encounter-1.period.end                           | Required                    |                                                                                       |
+| ODS/ORD Site Code                 | CareConnect-Location-1.identifier (ODS Site Code)                | Required                    |                                                                                       |
+| Discharging Clinician             | CareConnect-DCH-Practitioner-1                                   | Required                    |                                                                                       |
+| Discharging Clinician Identifier  | CareConnect-DCH-Practitioner-1.identifier.value                  | Required                    |                 |
+| Identifier Issuer                 | CareConnect-DCH-Practitioner-1.identifier.system                 | Required                    | *               |
+| Discharging Speciality/Department | DCH-HealthcareService-1.specialty                                | Required                    |                                                                                       |
 | Discharge method                  | CareConnect-DCH-Encounter-1.hospitalization.dischargeMethod      | Required                    |                                                                                       |
 | Discharge destination             | CareConnect-DCH-Encounter-1.hospitalization.dischargeDisposition | Required                    |                                                                                       |
-| Discharge address                 | CareConnect-Location-1.address                               | Required                    |                                                                                       |
-| Encounter Type                    | CareConnect-DCH-Encounter-1.type (childHealthEncounterType)      | Required                    | Represented using code '001 - Birth Discharge' OR '002 - Maternity Discharge' only |
+| Discharge address                 | CareConnect-Location-1.address                                   | Required                    | Discharge address required if it is _not_ to the usual place of residence.                                |
+
+**\*** The Professional Registration Body identifier is recorded as **Discharging` Clinician Identifier** in element **CareConnect-DCH-Practitioner-1.identifier.value**.  
+The issuing Professional Registration Body is recorded as **Identifier Issuer** in element **CareConnect-DCH-Practitioner-1.identifier.system** as follows:
+
+| Issuing Professional Registration Body         | Identifier                                |
+|------------------------------------------------|-------------------------------------------|
+| General Dental Council Identifier              | http://fhir.hl7.org.uk/Id/gdc-number  |
+| General Medical Council Identifier             | http://fhir.hl7.org.uk/Id/gmc-number  |
+| Health and Care Professions Council Identifier | http://fhir.hl7.org.uk/Id/hcpc-number |
+| Nursing and Midwifery Council Identifier       | http://fhir.hl7.org.uk/Id/nmc-number  |
+
+### Reference Linkage Diagram ###
+
+This Linkage diagram defines the required references that SHALL be made between resources within the DCH Event Message bundle. It includes both Header and Payload resources (but omits the DCH-Bundle-1 wrapper).
+
+<img src="images/explore/DischargeDetails.png">
+
+### Examples ###
+
+
