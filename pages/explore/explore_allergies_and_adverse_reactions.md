@@ -46,3 +46,9 @@ This Linkage diagram defines the required references that SHALL be made between 
 
 
 ### Allergies and Adverse Reactions Bundle XML Example ###
+
+<script src="https://gist.github.com/IOPS-DEV/54940bfde3502a05a30decdea3f1e049.js"></script>
+
+### Allergies and Adverse Reactions Bundle JSON Example ###
+
+<script src="https://gist.github.com/IOPS-DEV/00c4c6ce83e3ae51d7abbcdae6a3ce49.js"></script> 
