@@ -154,9 +154,9 @@ entries:
         - title: Medication Statement
           url: /explore_medication_statement.html
           output: web
-#        - title: Newborn Hearing
-#          url: /explore_newborn_hearing.html
-#          output: web
+        - title: Newborn Hearing
+          url: /explore_newborn_hearing.html
+          output: web
         - title: NIPE Outcome
           url: /explore_nipe_outcome.html
           output: web
