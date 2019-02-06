@@ -36,3 +36,13 @@ The Child Health Event data items are fulfilled by elements within the FHIR reso
 <tr><td>Comment</td><td>CareConnect-DCH-AllergyIntolerance-2.note*</td><td>Optional</td><td></td></tr>
 </table>                                                                                                  
 *Rather than split descriptive and user entered text across a number of note fields the AllergyIntolerance.note element is used as the single notes field to convey all qualifiers and user-entered text associated with the allergy or intolerance in a single place. Qualifiers and values expressed as text MUST be appropriately labelled and formatted and where user notes have been entered against explicit fields such as certainty then appropriate labels MUST be used.
+
+
+### Reference Linkage Diagram ###
+
+This Linkage diagram defines the required references that SHALL be made between resources within the DCH Event Message bundle. It includes both Header and Payload resources (but omits the DCH-Bundle-1 wrapper).
+
+<img src="images/explore/Allergies.png">
+
+
+### Allergies and Adverse Reactions Bundle XML Example ###
