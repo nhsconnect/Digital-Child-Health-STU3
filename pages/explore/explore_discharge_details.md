@@ -36,8 +36,8 @@ The Child Health Event data items are fulfilled by elements within the FHIR reso
 | Discharge destination             | CareConnect-DCH-Encounter-1.hospitalization.dischargeDisposition | Required                    |                                                                                       |
 | Discharge address                 | CareConnect-Location-1.address                                   | Required                    | Discharge address required if it is _not_ to the usual place of residence.                                |
 
-**\*** The Professional Registration Body identifier is recorded as **Discharging` Clinician Identifier** in element **CareConnect-DCH-Practitioner-1.identifier.value**.  
-The issuing Professional Registration Body is recorded as **Identifier Issuer** in element **CareConnect-DCH-Practitioner-1.identifier.system** as follows:
+**\*** The Professional Registration Body identifier, e.g. the discharging Clinician's GMC number, is recorded as **Responsible Clinician Identifier** in element **CareConnect-DCH-Practitioner-1.identifier.value**.  
+The identifier for the issuing Professional Registration Body is recorded as **Identifier Issuer** in element **CareConnect-DCH-Practitioner-1.identifier.system** as follows:
 
 | Issuing Professional Registration Body         | Identifier                                |
 |------------------------------------------------|-------------------------------------------|
@@ -54,4 +54,6 @@ This Linkage diagram defines the required references that SHALL be made between 
 
 ### Examples ###
 
+<script src="https://gist.github.com/IOPS-DEV/91108b7dcc8b5993b69be15cf736d688.js"></script>
 
+<script src="https://gist.github.com/IOPS-DEV/637681930c2c97ac31d963c5f5a3f1d7.js"></script>

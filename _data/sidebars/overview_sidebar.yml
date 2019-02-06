@@ -73,21 +73,21 @@ entries:
         - title: Additional Demographics
           url: /explore_additional_demographics.html
           output: web
-#        - title: Admission Details
-#          url: /explore_admission_details.html
-#          output: web
-#        - title: Allergies and Adverse Reactions
-#          url: /explore_allergies_and_adverse_reactions.html
-#          output: web
+        - title: Admission Details
+          url: /explore_admission_details.html
+          output: web
+        - title: Allergies and Adverse Reactions
+          url: /explore_allergies_and_adverse_reactions.html
+          output: web
         - title: Assessment Scales
           url: /explore_assessment_scales.html
           output: web
         - title: Birth Details
           url: /explore_birth_details.html
           output: web
-#        - title: Blood Spot Sample Taken
-#          url: /explore_blood_spot_sample_taken.html
-#          output: web
+        - title: Blood Spot Sample Taken
+          url: /explore_blood_spot_sample_taken.html
+          output: web
 #        - title: Blood Spot Card Received
 #          url: /explore_blood_spot_card_received.html
 #          output: web

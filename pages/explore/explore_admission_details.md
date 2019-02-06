@@ -40,8 +40,8 @@ The Child Health Event data items are fulfilled by elements within the FHIR reso
 | Source of Admission              | CareConnect-DCH-Encounter-1.hospitalization.admitSource     | Required                    |                 |
 | Person Accompanying patient      | DCH-RelatedPerson-1                                         | Required                    |                 |
 
-**\*** The Professional Registration Body identifier is recorded as **Responsible Clinician Identifier** in element **CareConnect-DCH-Practitioner-1.identifier.value**.  
-The issuing Professional Registration Body is recorded as **Identifier Issuer** in element **CareConnect-DCH-Practitioner-1.identifier.system** as follows:
+**\*** The Professional Registration Body identifier, e.g. the admitting Clinician's GMC number, is recorded as **Responsible Clinician Identifier** in element **CareConnect-DCH-Practitioner-1.identifier.value**.  
+The identifier for the issuing Professional Registration Body is recorded as **Identifier Issuer** in element **CareConnect-DCH-Practitioner-1.identifier.system** as follows:
 
 | Issuing Professional Registration Body         | Identifier                                |
 |------------------------------------------------|-------------------------------------------|
