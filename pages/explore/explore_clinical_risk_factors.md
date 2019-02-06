@@ -24,12 +24,12 @@ The following FHIR profiles are used to form the Clinical Risk Factors Event Mes
 
 The Child Health Event data items are fulfilled by elements within the FHIR resources listed below:
 
-| DCH Data Item          | FHIR resource element                                                 | Mandatory/Required/Optional |
-|------------------------|-----------------------------------------------------------------------|-----------------------------|
-| Date                   | DCH-ClinicalRiskFactor-RiskAssessment-1.occurrenceDateTime                                            | Mandatory                   |
-| ODS Site   Code        | CareConnect-Location-1.identifier (ODS Site Code)                 | Mandatory                   |
-| SDS Job   Role Name    | CareConnect-DCH-PractitionerRole-1.code (SDS Job Role Name) | Mandatory                   |
-| Professional   Name    | CareConnect-DCH-Practitioner-1.name                                   | Mandatory                   |
-| Relevant Clinical Risk Factor | DCH-ClinicalRiskFactor-RiskAssessment-1.prediction.outcome                             | Required                   |
-| Clinical Risk Assessment      | DCH-ClinicalRiskFactor-RiskAssessment-1.method                                           | Required                 |
-| Risk Mitigation      | DCH-ClinicalRiskFactor-RiskAssessment-1.mitigation                                       | Required                  |
+| DCH Data Item          | FHIR resource element                                                 | Mandatory/<br/>/Required<br/>/Optional | Note                    |
+|------------------------|-----------------------------------------------------------------------|----------------------------------------|-------------------------|
+| Date/Time              | DCH-ClinicalRiskFactor-RiskAssessment-1.occurrenceDateTime            | Mandatory                              |                         |
+| ODS/ORD Site Code      | CareConnect-Location-1.identifier (ODS Site Code)                     | Required                               |                         |
+| SDS Job Role Name      | CareConnect-DCH-PractitionerRole-1.code (SDS Job Role Name)           | Required                               |                         |
+| Performing Professional   | CareConnect-DCH-Practitioner-1.name                                | Required                               |                         |
+| Relevant Clinical Risk Factor | DCH-ClinicalRiskFactor-RiskAssessment-1.prediction.outcome     | Required                               | The free text field should be used if no coded text available, using code.text |
+| Clinical Risk Assessment      | DCH-ClinicalRiskFactor-RiskAssessment-1.method                 | Required                               | The free text field for Clinical Risk Assessment should be entered using method.code.text |
+| Risk Mitigation      | DCH-ClinicalRiskFactor-RiskAssessment-1.mitigation                      | Required                               |                         |

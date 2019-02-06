@@ -30,15 +30,34 @@ The Child Health Event data items are fulfilled by elements within the FHIR reso
                                                                      
 | DCH Data Item       | FHIR resource element                                       | Mandatory/Required/Optional | Note                                                                  |
 |---------------------|-------------------------------------------------------------|-----------------------------|-----------------------------------------------------------------------|
-| Date                | CareConnect-DCH-Encounter-1.period.start                    | Mandatory                   |                                                                       |
-| ODS Site Code       | CareConnect-Location-1.identifier                           | Required                    |                                                                       |
-| Professional Name   | CareConnect-DCH-Practitioner-1.name                         | Required                    |                                                                       |
-| SDS Job Role Name   | CareConnect-DCH-PractitionerRole-1.code.text                | Required                    | This SHALL be submitted as part of an HL7 nullFlavor slice in PractitionerRole.code  
-(see examples for detail). |
+| Date/Time           | CareConnect-DCH-Encounter-1.period.start                    | Mandatory                   |                                                                       |
+| Location (ODS Site Code)       | CareConnect-Location-1.identifier                           | Required                    |                                                                       |
+| Performing Professional   | CareConnect-DCH-Practitioner-1.name                         | Required                    |                                                                       |
+| SDS Job Role Name   | CareConnect-DCH-PractitionerRole-1.codeableConcept                | Required                    | * |
 | Hearing Test Results (AABR) | CareConnect-DCH-AABRHearingTest-Procedure-1.outcome | Required         | two occurrences of this resource are required, one for each ear |
 | Hearing Test Result (AOAE) | CareConnect-DCH-AOAEHearingTest-Procedure-1.outcome  |Required          | up to four occurrences of this resource are required, with two for each test performed |
 | Summary Outcome     | CareConnect-DCH-HearingScreeningSummaryOutcome-Observation-1.valueCodeableConcept        | Mandatory                   |                                                                       |
 | Comment                | DCH-ProfessionalComment-Communication-1                  | Optional                    |                                                                                        |
+
+**\*** Northgate do not record SDS Job Role Codes as part of their Child Health Screening record. As the code is typed CodeableConcept, and sliced on system, a system must be present. i.e. we can't just send:
+```
+        <!-- Do not do this -->
+        <code>
+            <text value="Specialist Registrar"/>
+        </code>
+```
+
+We therefore use the UNC code from the HL7 nullFlavor codesystem to indicate there is no SDS Job Role Code. The Job Role Name is contained in the text element. Example below:
+```
+        <code>
+            <coding>
+                <system value="http://hl7.org/fhir/v3/NullFlavor"/>
+                <code value="UNC"/>
+                <display value="un-encoded"/>
+            </coding>
+            <text value="Specialist Registrar"/>
+        </code>
+```
 
 ### Reference Linkage Diagram ###
 
