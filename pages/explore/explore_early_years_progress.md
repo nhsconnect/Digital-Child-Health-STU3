@@ -26,14 +26,14 @@ The Child Health Event data items are fulfilled by elements within the FHIR reso
 
 | DCH Data Item                              | FHIR Resource element                                               | Mandatory/Required/Optional |
 |--------------------------------------------|---------------------------------------------------------------------|-----------------------------|
-| Date                                       | CareConnect-DCH-Encounter-1.period.start                            | Mandatory                   |
+| Date/Time                                  | CareConnect-DCH-Encounter-1.period.start                            | Mandatory                   |
 | Site Code                                  | CareConnect-Location-1.identifier                               | Required                   |
+| Performing Professional                    | CareConnect-DCH-Practitioner.name                                   | Required                    |
 | Professional Type                          | CareConnect-DCH-PractitionerRole-1.code (SDS Job Role Name) | Required                    |
-| Professional Name                          | CareConnect-DCH-Practitioner.name                                   | Required                    |
 | Parental Consent                           | DCH-EarlyYearsProgress-QuestionnaireResponse-1.parentalConsent                        | Required                    |
 | Communication and Language                 | DCH-EarlyYearsProgress-QuestionnaireResponse-1.communicationAndLanguage                    | Required                    |
 | Physical Development                       | DCH-EarlyYearsProgress-QuestionnaireResponse-1.physicalDevelopment                    | Required                    |
 | Personal, Social and Emotional Development | DCH-EarlyYearsProgress-QuestionnaireResponse-1.personalSocialEmotionalDevelopment                    | Required                    |
 | Any Areas of Concern                       | DCH-EarlyYearsProgress-QuestionnaireResponse-1.areasOfConcern                    | Required                    |
 | Type of Support Requested/Provided         | DCH-EarlyYearsProgress-QuestionnaireResponse-1.supportedRequestedOrProvided                    | Required                    |
-| Encounter Type                             | CareConnect-DCH-Encounter-1.type (childHealthEncounterType)           | Mandatory                   |
+
