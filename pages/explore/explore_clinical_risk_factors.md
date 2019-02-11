@@ -23,9 +23,11 @@ The following FHIR profiles are used to form the Clinical Risk Factors Event Mes
 ### Clinical Risk Factors Event data item mapping to FHIR profiles ###
 
 This Mapping table defines the FHIR elements that SHALL be used to encode the Healthy Child Event Specification data items for each DCH Event Message payload.  
+
 Some common data item mappings, such as patient, publisher or Date/Time of event information, are defined within the [Header mapping table](explore_event_header_design.html) and SHALL be considered in parallel with the payload mapping.
 
 The Child Health Event data items are fulfilled by elements within the FHIR resources listed below:
+
 
 | DCH Data Item          | FHIR resource element                                                 | Mandatory/<br/>/Required<br/>/Optional | Note                    |
 |------------------------|-----------------------------------------------------------------------|----------------------------------------|-------------------------|
@@ -35,6 +37,9 @@ The Child Health Event data items are fulfilled by elements within the FHIR reso
 | Performing Professional   | CareConnect-DCH-Practitioner-1.name                                | Required                               |                         |
 | Relevant Clinical Risk Factor | DCH-ClinicalRiskFactor-RiskAssessment-1.prediction.outcome     | Required                               | The free text field should be used if no coded text available, using code.text |
 | Clinical Risk Assessment      | DCH-ClinicalRiskFactor-RiskAssessment-1.method                 | Required                               | The free text field for Clinical Risk Assessment should be entered using method.code.text |
+<<<<<<< HEAD
+| Risk Mitigation      | DCH-ClinicalRiskFactor-RiskAssessment-1.mitigation                      | Required                               |                         |
+=======
 | Risk Mitigation      | DCH-ClinicalRiskFactor-RiskAssessment-1.mitigation                      | Required                               |                         |
 
 ### Reference Linkage Diagram ###
@@ -50,3 +55,4 @@ This Linkage diagram defines the required references that SHALL be made between 
 ### Clinical Risk Factors JSON Bundle Example ###
 
 <script src="https://gist.github.com/IOPS-DEV/c38f15eaefb0f6c8df8b0d58f1208bb5.js"></script>
+>>>>>>> Clinical risk factors updates.
