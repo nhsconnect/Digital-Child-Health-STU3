@@ -98,9 +98,9 @@ entries:
 #        url: /explore.html
         output: web
         subfolderitems:
-#        - title: Clinical Risk Factors
-#          url: /explore_clinical_risk_factors.html
-#          output: web
+        - title: Clinical Risk Factors
+          url: /explore_clinical_risk_factors.html
+          output: web
 #        - title: Conditions / Diagnoses
 #          url: /explore_conditions_diagnoses.html
 #          output: web
