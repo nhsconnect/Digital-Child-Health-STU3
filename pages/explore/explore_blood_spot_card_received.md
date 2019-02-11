@@ -23,7 +23,26 @@ The following FHIR profiles are used to form the Blood Spot Card Received Event 
 
 The Child Health Event data items are fulfilled by elements within the FHIR resources listed below.
 
-| DCH Data Item           | FHIR resource element                     | Mandatory/Required/Optional |
-|-------------------------|-------------------------------------------|-----------------------------|
-| Date                    | DCH-NewbornBloodSpotScreening-Specimen-1.receivedTime               | Mandatory                    |
-| Laboratory Identifier | CareConnect-Organization-1.identifier | Mandatory                    |
+<table>
+<tr>
+<th>DCH Data Item</th><th>FHIR resource element</th><th>Mandatory/<br/>Required/<br/>Optional</th><th>Notes</th>
+</tr>
+<tr>
+<td>Date/Time Sample Received</td><td>DCH-NewbornBloodSpotScreening-Specimen-1.receivedTime</td><td>Required</td><td></td>
+</tr>
+<tr>
+<td>Laboratory Identifier</td><td>CareConnect-Organization-1.identifier</td><td>Required</td><td></td>
+</tr>
+</table>
+
+### Linkage Diagram ###
+
+<img src="images/explore/BloodSpotCardReceived.png">
+
+### Blood Spot Card Received Event XML Example ###
+
+<script src="https://gist.github.com/IOPS-DEV/0b8caa42ac0f9397b9ef6d7a540498f0.js"></script>
+
+### Blood Spot Card Received Event JSON Example ###
+
+<script src="https://gist.github.com/IOPS-DEV/a3d266f0be2449a59ccfbc56abbf17c9.js"></script>
