@@ -41,12 +41,12 @@ The Child Health Event data items are fulfilled by elements within the FHIR reso
 
 This Linkage diagram defines the required references that SHALL be made between resources within the DCH Event Message bundle. It includes both Header and Payload resources (but omits the DCH-Bundle-1 wrapper).
 
-<img src="images/explore/ClinicalRiskFactor.png">
+<img src="images/explore/ClinicalRiskFactors.png">
 
-### Assessment Scales Bundle XML Example ###
+### Clinical Risk Factors XML Bundle Example ###
 
-<script src="https://gist.github.com/IOPS-DEV/LINK TO FOLLOW 1"></script>
+<script src="https://gist.github.com/IOPS-DEV/1b1e3e84ec83d122faad16fb800ead16.js?ts=2"></script>
 
-###  Information and Advice Given Bundle JSON Example ###
+### Clinical Risk Factors JSON Bundle Example ###
 
-<script src="https://gist.github.com/IOPS-DEV/LINK TO FOLLOW 2"></script>
+<script src="https://gist.github.com/IOPS-DEV/c38f15eaefb0f6c8df8b0d58f1208bb5.js"></script>
