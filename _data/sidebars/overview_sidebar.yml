@@ -98,21 +98,21 @@ entries:
 #        url: /explore.html
         output: web
         subfolderitems:
-#        - title: Clinical Risk Factors
-#          url: /explore_clinical_risk_factors.html
-#          output: web
+        - title: Clinical Risk Factors
+          url: /explore_clinical_risk_factors.html
+          output: web
 #        - title: Conditions / Diagnoses
 #          url: /explore_conditions_diagnoses.html
 #          output: web
         - title: Developmental Skills
           url: /explore_developmental_skills.html
           output: web
-#        - title: Discharge Details
-#          url: /explore_discharge_details.html
-#          output: web
-#        - title: Early Years Progress
-#          url: /explore_early_years_progress.html
-#          output: web
+        - title: Discharge Details
+          url: /explore_discharge_details.html
+          output: web
+        - title: Early Years Progress
+          url: /explore_early_years_progress.html
+          output: web
 #        - title: Educational History
 #          url: /explore_educational_history.html
 #          output: web
@@ -126,9 +126,9 @@ entries:
 #        url: /explore.html
         output: web
         subfolderitems:
-#        - title: Family History
-#          url: /explore_family_history.html
-#          output: web
+        - title: Family History
+          url: /explore_family_history.html
+          output: web
         - title: Feeding Status
           url: /explore_feeding_status.html
           output: web
@@ -148,15 +148,15 @@ entries:
 #        - title: Medication
 #          url: /explore_medication.html
 #          output: web
-#        - title: Medication Administration
-#          url: /explore_medication_administration.html
-#          output: web
+        - title: Medication Administration
+          url: /explore_medication_administration.html
+          output: web
         - title: Medication Statement
           url: /explore_medication_statement.html
           output: web
-#        - title: Newborn Hearing
-#          url: /explore_newborn_hearing.html
-#          output: web
+        - title: Newborn Hearing
+          url: /explore_newborn_hearing.html
+          output: web
         - title: NIPE Outcome
           url: /explore_nipe_outcome.html
           output: web
