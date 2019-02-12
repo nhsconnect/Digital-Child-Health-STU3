@@ -107,12 +107,12 @@ entries:
         - title: Developmental Skills
           url: /explore_developmental_skills.html
           output: web
-#        - title: Discharge Details
-#          url: /explore_discharge_details.html
-#          output: web
-#        - title: Early Years Progress
-#          url: /explore_early_years_progress.html
-#          output: web
+        - title: Discharge Details
+          url: /explore_discharge_details.html
+          output: web
+        - title: Early Years Progress
+          url: /explore_early_years_progress.html
+          output: web
 #        - title: Educational History
 #          url: /explore_educational_history.html
 #          output: web
