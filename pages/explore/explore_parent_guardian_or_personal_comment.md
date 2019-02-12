@@ -19,18 +19,32 @@ The following FHIR profiles are used to form the Parent, Guardian or Personal Co
 - [DCH-ParentGuardianOrPersonalComment-Communication-1](https://fhir.nhs.uk/STU3/StructureDefinition/DCH-ParentGuardianOrPersonalComment-Communication-1)
 - [DCH-RelatedPerson-1](https://fhir.nhs.uk/STU3/StructureDefinition/DCH-RelatedPerson-1)
 - [CareConnect-DCH-Practitioner-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-Practitioner-1)
+- [CareConnect-DCH-PractitionerRole-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-PractitionerRole-1)
 
 
 ### Parent, Guardian or Personal Comment Event data item mapping to FHIR profiles ###
 
+This Mapping table defines the FHIR elements that SHALL be used to encode the Healthy Child Event Specification data items for each DCH Event Message payload.  
+Some common data item mappings, such as patient, publisher or Date/Time of event information, are defined within the [Header mapping table](explore_event_header_design.html) and SHALL be considered in parallel with the payload mapping.
+
 The Child Health Event data items are fulfilled by elements within the FHIR resources listed below:
 
-| DCH Data Item       | FHIR resource element                     | Mandatory/Required/Optional |
-|---------------------|-------------------------------------------|-----------------------------|
-| Date                | DCH-ParentOrGuardianComment-Communication-1.sent  | Required                    |
-| Name                | CareConnect-DCH-Practitioner.name         | Required                    |
-| Details             | DCH-ParentOrGuardianComment-Communication-1.payload.contentString | Required                    |
-| Relationship Status | DCH-RelatedPerson-1.relationship          | Optional                    |
+| DCH Data Item       | FHIR resource element                     | Mandatory/Required/Optional | Note                                      |
+|---------------------|-------------------------------------------|-----------------------------|-------------------------------------------|
+| Date/Time           | DCH-ParentOrGuardianComment-Communication-1.sent  | Mandatory           |                                      |
+| Name                | CareConnect-DCH-Practitioner.name         | Required                    |                                      |
+| Details             | DCH-ParentOrGuardianComment-Communication-1.payload.contentString | Required                    |                                      |
+| Relationship Status | DCH-RelatedPerson-1.relationship          | Required                    | For Parent, Guardian or Personal Comment, the Relationship Status SHALL come from the bound ValueSet    |
 
 
+### Reference Linkage Diagram ###
 
+This Linkage diagram defines the required references that SHALL be made between resources within the DCH Event Message bundle. It includes both Header and Payload resources (but omits the DCH-Bundle-1 wrapper).
+
+<img src="images/explore/PersonalComment.png">
+
+### Examples ###
+
+<script src="https://gist.github.com/IOPS-DEV/.js"></script>
+
+<script src="https://gist.github.com/IOPS-DEV/.js"></script>
