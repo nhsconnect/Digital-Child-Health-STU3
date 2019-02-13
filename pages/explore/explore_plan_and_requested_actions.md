@@ -26,13 +26,22 @@ The following FHIR profiles are used to form the Plan and Requested Actions Even
 
 The Child Health Event data items are fulfilled by elements within the FHIR resources listed below:
 
-| DCH Data Item     | FHIR resource element                           | Mandatory/Required/Optional |
-|-------------------|-------------------------------------------------|-----------------------------|
-| Date              | CareConnect-DCH-Encounter-1.period.start        | Mandatory                   |
-| ODS Site Code     | CareConnect-Location-1.identifier           | Mandatory                   |
-| SDS Job Role Name | CareConnect-DCH-PractitionerRole-1.code         | Mandatory                   |
-| Professional Name | CareConnect-DCH-Practitioner-1.name             | Mandatory                   |
-| Actions           | DCH-PlanAndRequestedActions-CarePlan-1.description          | Mandatory                   |
-| Recipient         | DCH-RelatedPerson-1.relationship                | Optional                    |
-| Encounter Type    | CareConnect-DCH-Encounter-1.type (childHealthEncounterType)                 | Mandatory                   |
+| DCH Data Item     | FHIR resource element                           | Mandatory/Required/Optional |Note|
+|-------------------|-------------------------------------------------|-----------------------------||
+| Date/Time              | CareConnect-DCH-Encounter-1.period.start        | Mandatory                   ||
+| ODS/ORD Site Code     | CareConnect-Location-1.identifier           | Mandatory                   ||
+| SDS Job Role Name | CareConnect-DCH-PractitionerRole-1.code         | Required                   ||
+| Performing Professional | CareConnect-DCH-Practitioner-1.name             | Required                   ||
+| Actions           | DCH-PlanAndRequestedActions-CarePlan-1.description          | Mandatory                   ||
+| Recipient         | DCH-RelatedPerson-1.relationship                | Required                    |For Plan & Requested Actions the relationship type must be from the ValueSet provided|
 
+## Reference Linkage Diagram ##
+
+<img src="images/explore/PlanAndRequestedActions.png" style="width:90%;max-width:90%;">
+
+
+## Examples ##
+
+<script src="https://gist.github.com/IOPS-DEV/8b32ef61f276ecf9275d22c6f7ae92a6.js"></script>
+
+<script src="https://gist.github.com/IOPS-DEV/44c807d6eea7ccab0649dd37e37c0ef0.js"></script>
