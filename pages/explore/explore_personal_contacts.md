@@ -42,10 +42,12 @@ The Child Health Event data items are fulfilled by elements within the FHIR reso
 
 This Linkage diagram defines the required references that SHALL be made between resources within the DCH Event Message bundle. It includes both Header and Payload resources (but omits the DCH-Bundle-1 wrapper).
 
+<img src="images/explore/PersonalContacts.png">
+
 ### Personal Contacts Bundle XML Example ###
 
-<script src="LINK TO FOLLOW"></script>
+<script src="https://gist.github.com/IOPS-DEV/faf85a26f5b36944022cb5c76be489f7.js"></script>
 
 ### Personal Contacts Bundle JSON Example ###
 
-<script src="LINK TO FOLLOW"></script>
+<script src="https://gist.github.com/IOPS-DEV/3791ee116a1598b9134b2bb74f91913d.js"></script>
