@@ -170,9 +170,9 @@ entries:
 #        - title: Parent Guardian or Personal Comment
 #          url: /explore_parent_guardian_or_personal_comment.html
 #          output: web
-#        - title: Personal Contacts
-#          url: /explore_personal_contacts.html
-#          output: web
+        - title: Personal Contacts
+          url: /explore_personal_contacts.html
+          output: web
 #        - title: Plan and Requested Actions
 #          url: /explore_plan_and_requested_actions.html
 #          output: web
