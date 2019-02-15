@@ -116,9 +116,9 @@ entries:
 #        - title: Educational History
 #          url: /explore_educational_history.html
 #          output: web
-#        - title: Emergency Care Attendance
-#          url: /explore_emergency_care_attendance.html
-#          output: web
+        - title: Emergency Care Attendance
+          url: /explore_emergency_care_attendance.html
+          output: web
         - title: Examination Findings
           url: /explore_examination_findings.html
           output: web
@@ -132,9 +132,9 @@ entries:
         - title: Feeding Status
           url: /explore_feeding_status.html
           output: web
-#        - title: Individual Requirements
-#          url: /explore_individual_requirements.html
-#          output: web
+        - title: Individual Requirements
+          url: /explore_individual_requirements.html
+          output: web
         - title: Information and Advice Given
           url: /explore_information_and_advice_given.html
           output: web
@@ -167,9 +167,9 @@ entries:
 #        url: /explore.html
         output: web
         subfolderitems:
-#        - title: Parent Guardian or Personal Comment
-#          url: /explore_parent_guardian_or_personal_comment.html
-#          output: web
+        - title: Parent Guardian or Personal Comment
+          url: /explore_parent_guardian_or_personal_comment.html
+          output: web
         - title: Personal Contacts
           url: /explore_personal_contacts.html
           output: web
