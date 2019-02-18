@@ -22,10 +22,11 @@ The following FHIR profiles are used to form the Social Context Person Event Mes
 
 The Child Health Event data items are fulfilled by elements within the FHIR resources listed below.
                                                                                                    
-| DCH Data Item        | FHIR Resource element                                                             | Mandatory/Required/Optional |
-|----------------------|-----------------------------------------------------------------------------------|-----------------------------|
-| Social Circumstances | DCH-SocialContextHousehold-QuestionnaireResponse-1.item.socialCircumstances | Required                    |
-| Lifestyle            | DCH-SocialContextHousehold-QuestionnaireResponse-1.item.lifestyle           | Required                    |
-| Smoking Status       | DCH-SocialContextHousehold-QuestionnaireResponse-1.item.smokingStatus       | Required                    |
-| Alcohol intake       | DCH-SocialContextHousehold-QuestionnaireResponse-1.item.alchoholIntake      | Required                    |
-| Drug/substance use   | DCH-SocialContextHousehold-QuestionnaireResponse-1.item.substanceStatus      | Required                    |
+| DCH Data Item        | FHIR Resource element                                                             |  Mandatory/<br/>Required/<br/>Optional  | Note                                          |
+|----------------------|-----------------------------------------------------------------------------------|-----------------------------------------|-----------------------------------------------|
+| Date/Time            | DCH-SocialContextHousehold-QuestionnaireResponse-1.item.socialCircumstances | Required                    |            |
+| Social Circumstances | DCH-SocialContextHousehold-QuestionnaireResponse-1.item.socialCircumstances | Required                    |            |
+| Lifestyle            | DCH-SocialContextHousehold-QuestionnaireResponse-1.item.lifestyle           | Required                    |            |
+| Smoking Status       | DCH-SocialContextHousehold-QuestionnaireResponse-1.item.smokingStatus       | Required                    |            |
+| Alcohol intake       | DCH-SocialContextHousehold-QuestionnaireResponse-1.item.alchoholIntake      | Required                    |            |
+| Drug/substance use   | DCH-SocialContextHousehold-QuestionnaireResponse-1.item.substanceStatus      | Required                   |            |
