@@ -1,13 +1,13 @@
 ---
-title: Social Context Person Event Message Bundle
+title: Social Context Event Message Bundle
 keywords:  messaging, bundles
 tags: [fhir,messaging]
 sidebar: foundations_sidebar
-permalink: explore_social_context_person.html
-summary: "The FHIR profiles used for the Social Context Person Event Message Bundle"
+permalink: explore_social_context.html
+summary: "The FHIR profiles used for the Social Context Event Message Bundle"
 ---
 
-The following FHIR profiles are used to form the Social Context Person Event Message Bundle:
+The following FHIR profiles are used to form the Social Context Event Message Bundle:
 
 - [DCH-Bundle-1](https://fhir.nhs.uk/STU3/StructureDefinition/DCH-Bundle-1)
 - [DCH-MessageHeader-1](https://fhir.nhs.uk/STU3/StructureDefinition/DCH-MessageHeader-1) - where the coding and display for the event element is fixed to 'CH031 - Social Context Person'
@@ -18,15 +18,15 @@ The following FHIR profiles are used to form the Social Context Person Event Mes
 - [CareConnect-Location-1](https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Location-1)
 - [DCH-SocialContextPerson-QuestionnaireResponse-1](https://fhir.nhs.uk/STU3/StructureDefinition/DCH-SocialContextPerson-QuestionnaireResponse-1)
 
-### Social Context Person Event data item mapping to FHIR profiles ###
+### Social Context Event data item mapping to FHIR profiles ###
 
 The Child Health Event data items are fulfilled by elements within the FHIR resources listed below.
                                                                                                    
-| DCH Data Item        | FHIR Resource element                                                             |  Mandatory/<br/>Required/<br/>Optional  | Note                                          |
+| DCH Data Item        | FHIR Resource element                                                       | Mandatory/<br/>Required/<br/>Optional  | Note                                          |
 |----------------------|-----------------------------------------------------------------------------------|-----------------------------------------|-----------------------------------------------|
-| Date/Time            | DCH-SocialContextHousehold-QuestionnaireResponse-1.item.socialCircumstances | Required                    |            |
+| Date/Time            | CareConnect-DCH-Encounter-1.period.start                                    | Mandatory                   | Format is YYYY-MM-DD”T”HH:MM:SS.           |
 | Social Circumstances | DCH-SocialContextHousehold-QuestionnaireResponse-1.item.socialCircumstances | Required                    |            |
 | Lifestyle            | DCH-SocialContextHousehold-QuestionnaireResponse-1.item.lifestyle           | Required                    |            |
 | Smoking Status       | DCH-SocialContextHousehold-QuestionnaireResponse-1.item.smokingStatus       | Required                    |            |
 | Alcohol intake       | DCH-SocialContextHousehold-QuestionnaireResponse-1.item.alchoholIntake      | Required                    |            |
-| Drug/substance use   | DCH-SocialContextHousehold-QuestionnaireResponse-1.item.substanceStatus      | Required                   |            |
+| Drug/substance use   | DCH-SocialContextHousehold-QuestionnaireResponse-1.item.substanceStatus     | Required                    |            |
