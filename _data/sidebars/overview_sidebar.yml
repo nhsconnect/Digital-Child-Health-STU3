@@ -198,9 +198,9 @@ entries:
         - title: Social Context Household
           url: /explore_social_context_household.html
           output: web
-#        - title: Social Context Person
-#          url: /explore_social_context_person.html
-#          output: web
+        - title: Social Context
+          url: /explore_social_context.html
+          output: web
         - title: Vaccinations
           url: /explore_vaccination_administration.html
           output: web
