@@ -35,7 +35,7 @@ The Child Health Event data items are fulfilled by elements within the FHIR reso
 
 | DCH Data Item                                            | FHIR resource element             | Mandatory/Required/Optional |
 |----------------------------------------------------------|-----------------------------------|-----------------------------|
-| Date                                                     | DCH-NewbornBloodSpotScreening-DiagnosticReport-1.issued     | Mandatory                   |
+| Date of Blood Test Outcome Received                      | DCH-NewbornBloodSpotScreening-DiagnosticReport-1.issued     | Mandatory                   |
 | Outcome - PHENYLKETONURIA                                | CareConnect-DCH-NewbornBloodSpotScreeningPKU-Procedure-1.outcome | Mandatory                   |
 | Outcome - SICKLE CELL DISEASE                            | CareConnect-DCH-NewbornBloodSpotScreeningSCD-Procedure-1.outcome | Mandatory                   |
 | Outcome - CYSTIC FIBROSIS                                | CareConnect-DCH-NewbornBloodSpotScreeningCF-Procedure-1.outcome | Mandatory                   |
@@ -46,4 +46,14 @@ The Child Health Event data items are fulfilled by elements within the FHIR reso
 | Outcome - GLUTARIC ACIDURIA TYPE 1                       | CareConnect-DCH-NewbornBloodSpotScreeningGA1-Procedure-1.outcome | Mandatory                   |
 | Outcome - ISOVALERIC ACIDAEMIA                            | CareConnect-DCH-NewbornBloodSpotScreeningIVA-Procedure-1.outcome | Mandatory                   |
 | Comment        											| DCH-ProfessionalComment-Communication-1   						| Optional                    | 
+
+### Reference Linkage Diagram ###
+
+<img src="images/explore/BloodSpotTestOutcome.png">
+
+### Examples ###
+
+<script src="https://gist.github.com/IOPS-DEV/13bbcd909c9a5e5cae2034e1f27f5854.js"></script>
+
+<script src="https://gist.github.com/IOPS-DEV/9e242c003652cfb3f221117504798327.js"></script>
 
