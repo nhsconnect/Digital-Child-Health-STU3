@@ -18,7 +18,7 @@ The following FHIR profiles are used to form the Investigation Results Event Mes
 - [CareConnect-Location-1](https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Location-1)
 - [CareConnect-DCH-Practitioner-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-Practitioner-1)
 - [CareConnect-DCH-PractitionerRole-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-PractitionerRole-1)
-- [CareConnect-Observation-1](https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Observation-1)
+- [CareConnect-DCH-Observation-1](https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-DCH-Observation-1)
                                                                                                    
 ### Investigation Results Event data item mapping to FHIR profiles ###
 
@@ -35,10 +35,10 @@ The Child Health Event data items are fulfilled by elements within the FHIR reso
 | ODS/ORD Site Code          | CareConnect-Location-1.identifier (ODS Site Code)                                         | Required                               |                         |
 | Performing Professional    | CareConnect-DCH-Practitioner.name                                                         | Required                               |                         |
 | SDS Job Role Name          | CareConnect-DCH-PractitionerRole-1.code (SDS Job Role Name)	                             | Required                               |                         |
-| Investigation              | CareConnect-Observation-1.code                                                            | Mandatory                              | The investigation should be drawn from the Procedure hierarchy of SNOMED CT (<71388002 Procedure (procedure)), but there may be an alternative SNOMED CT concept. |
-| Investigation Results      | CareConnect-Observation-1.value[x]*                                                       | Required                               | CareConnect-Observation-1.value[String] for free text field to be used if no coded text available. |
+| Investigation              | CareConnect-DCH-Observation-1.code                                                            | Mandatory                              | The investigation should be drawn from the Procedure hierarchy of SNOMED CT (<71388002 Procedure (procedure)), but there may be an alternative SNOMED CT concept. |
+| Investigation Results      | CareConnect-DCH-Observation-1.value[x]*                                                       | Required                               | CareConnect-DCH-Observation-1.value[String] for free text field to be used if no coded text available. |
 
-*Note that the appropriate value data type should be used when reporting investigation results (for example, a measurement would use valueQuantity, and have an appropriate unit). Investigation results that are coded should use SNOMED CT, and be drawn from the Evaluation Findings Hierarchy (< 441742003 Evaluation finding (finding)), but could use other concepts from SNOMED CT. Some investigation results may have several components (for example some genetic investigations, ECG etc.), and these should use the component part of CareConnect-Observation-1 to record the investigation result.
+*Note that the appropriate value data type should be used when reporting investigation results (for example, a measurement would use valueQuantity, and have an appropriate unit). Investigation results that are coded should use SNOMED CT, and be drawn from the Evaluation Findings Hierarchy (< 441742003 Evaluation finding (finding)), but could use other concepts from SNOMED CT. Some investigation results may have several components (for example some genetic investigations, ECG etc.), and these should use the component part of CareConnect-DCH-Observation-1 to record the investigation result.
 
 ### Reference Linkage Diagram ###
 
@@ -48,9 +48,9 @@ This Linkage diagram defines the required references that SHALL be made between 
 
 ### Investigation Results Bundle XML Example ###
 
-<script src="LINK TO FOLLOW"></script>
+<script src="https://gist.github.com/IOPS-DEV/9f9c78430b3218effff41e6d871349c5.js"></script>
 
 ### Investigation Results Bundle JSON Example ###
 
-<script src="LINK TO FOLLOW"></script>
+<script src="https://gist.github.com/IOPS-DEV/66d7ee69d7bb1df2027cf64ec4dcb2e3.js"></script>
 
