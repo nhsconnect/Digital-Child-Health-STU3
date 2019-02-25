@@ -27,13 +27,26 @@ The Child Health Event data items are fulfilled by elements within the FHIR reso
                                                                                                    
 | DCH Data Item                | FHIR resource element                                               | Mandatory/Required/Optional |
 |------------------------------|---------------------------------------------------------------------|-----------------------------|
-| Date of Referral             | DCH-ReferralRequest-1.authoredOn                                      | Mandatory                   |
-| ODS Site Code                | CareConnect-Location-1.identifier (ODS Site Code)               | Mandatory                   |
-| Professional Name            | CareConnect-DCH-Practitioner-1.name                                 | Mandatory                   |
-| SDS Job Role Name            | CareConnect-DCH-PractitionerRole-1.code (SDS Job Role Name)         | Mandatory                   |
-| Encounter Type               | CareConnect-DCH-Encounter-1.type (childHealthEncounterType)         | Mandatory                   |
+| Date/Time of Referral             | DCH-ReferralRequest-1.authoredOn                                      | Mandatory                   |
+| ODS/ORD Site Code                | CareConnect-Location-1.identifier (ODS/ORD Site Code)               | Required                   |
+| Performing Professional            | CareConnect-DCH-Practitioner-1.name                                 | Required                   |
+| SDS Job Role Name            | CareConnect-DCH-PractitionerRole-1.code (SDS Job Role Name)         | Required                   |
 | Service Referred to        | DCH-ReferralRequest-1.serviceRequested                                     | Mandatory                   |
-| Referral Method              | DCH-ReferralRequest-1.referralMethod (extension)                    | Required                    |
 | Source of Referral      | DCH-ReferralRequest-1.sourceOfReferral (extension)                  | Required                    |
 | Urgency                      | DCH-ReferralRequest-1.priority                                     | Required                    |
 | Reason for Referral          | DCH-ReferralRequest-1.reasonCode                                        | Mandatory                   | 
+
+
+### Linkage Diagram ###
+
+<img src="images/explore/Referral.png">
+
+
+
+### Examples ###
+
+<script src="https://gist.github.com/IOPS-DEV/3a533dbed34f30392d2341c9a5b9c313.js"></script>
+
+
+
+<script src="https://gist.github.com/IOPS-DEV/e83f29d5cab77d53605be6b56dd6902a.js"></script>

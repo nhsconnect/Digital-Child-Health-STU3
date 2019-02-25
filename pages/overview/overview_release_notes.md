@@ -13,6 +13,15 @@ This site is under active development by NHS Digital and is intended to provide 
 
 This implementation guidance has been updated and base lined at Release Candidate Version 1.1.0.
 
+12.02.2019
+* CareConnect-DCH-ExaminationFinding-Procedure-1 profile
+    - removal of erroneous fixed value @ Procedure.code.coding.display
+    - rename of Procedure.code.coding.extension:MyExtension to Procedure.code.coding.extension:snomedCTDescriptionID
+* DCH-ExaminationFindings-Bundle-Example-1.xml and DCH-ExaminationFindings-Bundle-Example-1.json
+    - addition of MessageHeader.destination in example
+    - addition of Procedure.performedDateTime in example
+    - corrected PractitionerRole.organization.reference to refer to entry.fullUrl of Organization resource in example bundle
+
 
 ## Beta 1.1.0 ##
 

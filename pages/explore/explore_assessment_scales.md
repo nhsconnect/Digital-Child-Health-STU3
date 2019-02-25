@@ -29,7 +29,7 @@ The Child Health Event data items are fulfilled by elements within the FHIR reso
 
 **Assessment Scales Child Health Event**
 
-| DCH Data Item              | FHIR Resource element                                                                     | Mandatory/<br/>/Required<br/>/Optional | Note                    |
+| DCH Data Item              | FHIR Resource element                                                                     | Mandatory/<br/>Required/<br/>Optional | Note                    |
 |----------------------------|-------------------------------------------------------------------------------------------|----------------------------------------|-------------------------|
 | Date                       | CareConnect-DCH-Encounter-1.period.start                                                  | Mandatory                              | Format is YYYY-MM-DD”T”HH:MM:SS                        |
 | ODS Site Code              | CareConnect-Location-1.identifier (ODS Site Code)                                         | Required                               |                         |
@@ -81,7 +81,7 @@ This Linkage diagram defines the required references that SHALL be made between 
 
 <script src="https://gist.github.com/IOPS-DEV/817e839787c3d2fa62e51114a158e85e.js"></script>
 
-###  Information and Advice Given Bundle JSON Example ###
+###  Assessment Scales Bundle JSON Example ###
 
 <script src="https://gist.github.com/IOPS-DEV/a7091fb37cfecff8aca2d92a0ac04ba5.js"></script>
 
