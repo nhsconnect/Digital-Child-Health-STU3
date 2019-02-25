@@ -35,7 +35,7 @@ The Child Health Event data items are fulfilled by elements within the FHIR reso
 | Source of Referral      | DCH-ReferralRequest-1.sourceOfReferral (extension)                  | Required                    |
 | Urgency                      | DCH-ReferralRequest-1.priority                                     | Required                    |
 | Reason for Referral          | DCH-ReferralRequest-1.reasonCode                                        | Mandatory                   | 
-
+| Comment             | DCH-ReferralRequest-1.note                                        | Optional                   | 
 
 ### Linkage Diagram ###
 
