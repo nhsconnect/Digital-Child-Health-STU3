@@ -25,17 +25,26 @@ The following FHIR profiles are used to form the Referral Event Message Bundle:
 
 The Child Health Event data items are fulfilled by elements within the FHIR resources listed below.
                                                                                                    
-| DCH Data Item                | FHIR resource element                                               | Mandatory/Required/Optional |
-|------------------------------|---------------------------------------------------------------------|-----------------------------|
-| Date/Time of Referral             | DCH-ReferralRequest-1.authoredOn                                      | Mandatory                   |
-| ODS/ORD Site Code                | CareConnect-Location-1.identifier (ODS/ORD Site Code)               | Required                   |
-| Performing Professional            | CareConnect-DCH-Practitioner-1.name                                 | Required                   |
-| SDS Job Role Name            | CareConnect-DCH-PractitionerRole-1.code (SDS Job Role Name)         | Required                   |
-| Service Referred to        | DCH-ReferralRequest-1.serviceRequested                                     | Mandatory                   |
-| Source of Referral      | DCH-ReferralRequest-1.sourceOfReferral (extension)                  | Required                    |
-| Urgency                      | DCH-ReferralRequest-1.priority                                     | Required                    |
-| Reason for Referral          | DCH-ReferralRequest-1.reasonCode                                        | Mandatory                   | 
-| Comment             | DCH-ReferralRequest-1.note                                        | Optional                   | 
+| DCH Data Item                | FHIR resource element                                               | Mandatory/Required/Optional | Note     |
+|------------------------------|---------------------------------------------------------------------|-----------------------------|----------|
+| Date/Time of Referral        | DCH-ReferralRequest-1.authoredOn                                    | Mandatory                   |          |
+| ODS/ORD Site Code            | CareConnect-Location-1.identifier (ODS/ORD Site Code)               | Required                    |          |
+| Performing Professional      | CareConnect-DCH-Practitioner-1.name                                 | Required                    |          |
+| SDS Job Role Name            | CareConnect-DCH-PractitionerRole-1.code (SDS Job Role Name)         | Required                    |          |
+| Service Referred to          | DCH-ReferralRequest-1.serviceRequested                              | Mandatory                   |          |
+| Source of Referral           | DCH-ReferralRequest-1.sourceOfReferral (extension)                  | Required                    |          |
+| Urgency                      | DCH-ReferralRequest-1.priority                                      | Required                    | **\***   |
+| Reason for Referral          | DCH-ReferralRequest-1.reasonCode                                    | Mandatory                   |          |
+| Comment                      | DCH-ReferralRequest-1.note                                          | Optional                    |          |
+
+**\*** Note that there is a mandatory FHIR valueSet for ReferralRequest.priority. The NHS Data Dictionary Priority Type valueSet has been mapped on to the mandated FHIR valueSet in the following way
+
+| FHIR request-priority          | NHS Data Dictionary Priority Type           |
+|--------------------------------|---------------------------------------------|
+| routine - Routine              | 1 - Routine                                 |
+| urgent - Urgent                | 2 - Urgent                                  |
+| asap - ASAP                    | 3 - Two Week Wait                           |
+
 
 ### Linkage Diagram ###
 

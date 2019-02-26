@@ -101,9 +101,6 @@ entries:
         - title: Clinical Risk Factors
           url: /explore_clinical_risk_factors.html
           output: web
-#        - title: Conditions / Diagnoses
-#          url: /explore_conditions_diagnoses.html
-#          output: web
         - title: Developmental Skills
           url: /explore_developmental_skills.html
           output: web
@@ -116,9 +113,9 @@ entries:
 #        - title: Educational History
 #          url: /explore_educational_history.html
 #          output: web
-#        - title: Emergency Care Attendance
-#          url: /explore_emergency_care_attendance.html
-#          output: web
+        - title: Emergency Care Attendance
+          url: /explore_emergency_care_attendance.html
+          output: web
         - title: Examination Findings
           url: /explore_examination_findings.html
           output: web
@@ -132,9 +129,9 @@ entries:
         - title: Feeding Status
           url: /explore_feeding_status.html
           output: web
-#        - title: Individual Requirements
-#          url: /explore_individual_requirements.html
-#          output: web
+        - title: Individual Requirements
+          url: /explore_individual_requirements.html
+          output: web
         - title: Information and Advice Given
           url: /explore_information_and_advice_given.html
           output: web
@@ -145,9 +142,6 @@ entries:
 #        url: /explore.html
         output: web
         subfolderitems:
-#        - title: Medication
-#          url: /explore_medication.html
-#          output: web
         - title: Medication Administration
           url: /explore_medication_administration.html
           output: web
@@ -167,15 +161,15 @@ entries:
 #        url: /explore.html
         output: web
         subfolderitems:
-#        - title: Parent Guardian or Personal Comment
-#          url: /explore_parent_guardian_or_personal_comment.html
-#          output: web
+        - title: Parent Guardian or Personal Comment
+          url: /explore_parent_guardian_or_personal_comment.html
+          output: web
         - title: Personal Contacts
           url: /explore_personal_contacts.html
           output: web
-#        - title: Plan and Requested Actions
-#          url: /explore_plan_and_requested_actions.html
-#          output: web
+        - title: Plan and Requested Actions
+          url: /explore_plan_and_requested_actions.html
+          output: web
         - title: Problem List
           url: /explore_problem_list.html
           output: web
@@ -189,9 +183,9 @@ entries:
 #        url: /explore.html
         output: web
         subfolderitems:
-#        - title: Referral
-#          url: /explore_referral.html
-#          output: web
+        - title: Referral
+          url: /explore_referral.html
+          output: web
         - title: Safety Alerts
           url: /explore_safety_alerts.html
           output: web
