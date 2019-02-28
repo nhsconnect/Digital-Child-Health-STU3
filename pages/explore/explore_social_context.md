@@ -25,14 +25,17 @@ Some common data item mappings, such as patient, publisher or Date/Time of event
 
 The Child Health Event data items are fulfilled by elements within the FHIR resources listed below:
                                                                                                    
-| DCH Data Item        | FHIR Resource element                                                       | Mandatory/<br/>Required/<br/>Optional | Note                             |
-|----------------------|-----------------------------------------------------------------------------|---------------------------------------|----------------------------------|
-| Date/Time            | CareConnect-DCH-Encounter-1.period.start                                    | Mandatory                   | Format is YYYY-MM-DD”T”HH:MM:SS.           |
-| Social Circumstances | DCH-SocialContextHousehold-QuestionnaireResponse-1.item.socialCircumstances | Required                    | Free text.                                 |
-| Lifestyle            | DCH-SocialContextHousehold-QuestionnaireResponse-1.item.lifestyle           | Required                    | Free text.                                 |
-| Smoking Status       | DCH-SocialContextHousehold-QuestionnaireResponse-1.item.smokingStatus       | Required                    | Allow SNOMED CT only.                      |
-| Alcohol intake       | DCH-SocialContextHousehold-QuestionnaireResponse-1.item.alchoholIntake      | Required                    | Allow SNOMED CT only.                      |
-| Drug/substance use   | DCH-SocialContextHousehold-QuestionnaireResponse-1.item.substanceStatus     | Required                    | Allow SNOMED CT only.                      |
+| DCH Data Item        | FHIR Resource element                                                       | Mandatory/<br/>/Required<br/>/Optional | Note                                     |
+|----------------------|-----------------------------------------------------------------------------|----------------------------------------|------------------------------------------|
+| Date/Time            | CareConnect-DCH-Encounter-1.period.start                                    | Mandatory                              | Format is YYYY-MM-DD”T”HH:MM:SS.         |
+| Social Circumstances | DCH-SocialContextPerson-QuestionnaireResponse-1.item.socialCircumstances    | Required                               | Free text.                               |
+| Lifestyle            | DCH-SocialContextPerson-QuestionnaireResponse-1.item.lifestyle              | Required                               | Free text.                               |
+| Smoking Status       | DCH-SocialContextPerson-QuestionnaireResponse-1.item.smokingStatus          | Required                               | Allow SNOMED CT only.                  |
+| Smoking Status- details| DCH-SocialContextPerson-QuestionnaireResponse-1.item:smokingStatusDetails | Optional                               | Free text.                               |
+| Drug/substance use   | DCH-SocialContextPerson-QuestionnaireResponse-1.item:substanceStatus        | Required                               | Allow SNOMED CT only.                  |
+| Drug/substance use - details   | DCH-SocialContextPerson-QuestionnaireResponse-11.item:alcoholUseDetails     | Optional                     | Free text.                               |
+| Alcohol intake       | DCH-SocialContextPerson-QuestionnaireResponse-1.item:alchoholIntake         | Required                               | Allow SNOMED CT only.                  |
+| Alcohol use - details | DCH-SocialContextPerson-QuestionnaireResponse-1.item:alcoholUseDetails     | Optional                               | Free text.                               |
 
 ### Reference Linkage Diagram ###
 
