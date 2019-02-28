@@ -135,6 +135,9 @@ entries:
         - title: Information and Advice Given
           url: /explore_information_and_advice_given.html
           output: web
+        - title: Investigation Results
+          url: /explore_investigation_results.html
+          output: web 
         - title: Legal Information
           url: /explore_legal_information.html
           output: web
