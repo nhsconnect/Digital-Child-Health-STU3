@@ -88,12 +88,12 @@ entries:
         - title: Blood Spot Sample Taken
           url: /explore_blood_spot_sample_taken.html
           output: web
-#        - title: Blood Spot Card Received
-#          url: /explore_blood_spot_card_received.html
-#          output: web
-#        - title: Blood Spot Test Outcome
-#          url: /explore_blood_spot_test_outcome.html
-#          output: web
+        - title: Blood Spot Card Received
+          url: /explore_blood_spot_card_received.html
+          output: web
+        - title: Blood Spot Test Outcome
+          url: /explore_blood_spot_test_outcome.html
+          output: web
       - title: C - E
 #        url: /explore.html
         output: web
@@ -110,9 +110,9 @@ entries:
         - title: Early Years Progress
           url: /explore_early_years_progress.html
           output: web
-#        - title: Educational History
-#          url: /explore_educational_history.html
-#          output: web
+        - title: Educational History
+          url: /explore_educational_history.html
+          output: web
         - title: Emergency Care Attendance
           url: /explore_emergency_care_attendance.html
           output: web
