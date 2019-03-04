@@ -18,7 +18,7 @@ The following FHIR profiles are used to form the Investigation Results Event Mes
 - [CareConnect-Location-1](https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Location-1)
 - [CareConnect-DCH-Practitioner-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-Practitioner-1)
 - [CareConnect-DCH-PractitionerRole-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-PractitionerRole-1)
-- [CareConnect-DCH-Observation-1](https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-DCH-Observation-1)
+- [CareConnect-DCH-Observation-1](https://fhir.nhs.uk/STU3/StructureDefinition/CareConnect-DCH-Observation-1)
                                                                                                    
 ### Investigation Results Event data item mapping to FHIR profiles ###
 
