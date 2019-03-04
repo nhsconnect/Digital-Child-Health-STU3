@@ -23,7 +23,7 @@ The following FHIR profiles are used to form the Referral Event Message Bundle:
 
 ### Referral Event data item mapping to FHIR profiles ###
 
-The Child Health Event data items are fulfilled by elements within the FHIR resources listed below.
+The Child Health Event data items are fulfilled by elements within the FHIR resources listed below:
                                                                                                    
 | DCH Data Item                | FHIR resource element                                               | Mandatory/Required/Optional | Note     |
 |------------------------------|---------------------------------------------------------------------|-----------------------------|----------|
@@ -37,7 +37,7 @@ The Child Health Event data items are fulfilled by elements within the FHIR reso
 | Reason for Referral          | DCH-ReferralRequest-1.reasonCode                                    | Mandatory                   |          |
 | Comment                      | DCH-ReferralRequest-1.note                                          | Optional                    |          |
 
-**\*** Note that there is a mandatory FHIR valueSet for ReferralRequest.priority. The NHS Data Dictionary Priority Type valueSet has been mapped on to the mandated FHIR valueSet in the following way
+**\*** Note that there is a mandatory FHIR valueSet for ReferralRequest.priority. The NHS Data Dictionary Priority Type valueSet has been mapped on to the mandated FHIR valueSet in the following way:
 
 | FHIR request-priority          | NHS Data Dictionary Priority Type           |
 |--------------------------------|---------------------------------------------|
