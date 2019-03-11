@@ -25,18 +25,22 @@ Some common data item mappings, such as patient, publisher or Date/Time of event
 
 The Child Health Event data items are fulfilled by elements within the FHIR resources listed below:
 
-| DCH Data Item                                        | FHIR Resource element                                                                        | Mandatory/Required/Optional |
-|------------------------------------------------------|----------------------------------------------------------------------------------------------|-----------------------------|
-| Mothers Education Level                              | DCH-SocialContextHousehold-QuestionnaireResponse-1.item.mothersEducationLevel          | Required                    |
-| Household smoking status                             | DCH-SocialContextHousehold-QuestionnaireResponse-1.item.householdSmokingStatus         | Required                    |
-| Household substance status                           | DCH-SocialContextHousehold-QuestionnaireResponse-1.item.householdSubstanceStatus       | Required                    |
-| Household alcohol drinking status                    | DCH-SocialContextHousehold-QuestionnaireResponse-1.item.householdAlcoholDrinkingStatus | Required                    |
-| Employment status (Mother                           | DCH-SocialContextHousehold-QuestionnaireResponse-1.item.employmentStatusMother         | Required                    |
-| Mothers Occupation                                   | DCH-SocialContextHousehold-QuestionnaireResponse-1.item.occupationMother               | Required                    |
-| Employment status (Father                           | DCH-SocialContextHousehold-QuestionnaireResponse-1.item.employmentStatusFather         | Required                    |
-| Fathers Occupation                                   | DCH-SocialContextHousehold-QuestionnaireResponse-1.item.occupationFather               | Required                    |
-| Any Household member has/had social services support | DCH-SocialContextHousehold-QuestionnaireResponse-1.item.socialServicesSupport          | Required                    |
-| Accommodation status                                 | DCH-SocialContextHousehold-QuestionnaireResponse-1.item.accommodationStatus            | Mandatory                   |
+| DCH Data Item                                        | FHIR Resource element                                                                  | Mandatory/<br/>/Required<br/>/Optional |  Note                           |
+|------------------------------------------------------|----------------------------------------------------------------------------------------|----------------------------------------|---------------------------------|
+| Date/Time                                            | CareConnect-DCH-Encounter-1.period.start                                               | Mandatory                              | Format is YYYY-MM-DD”T”HH:MM:SS |
+| Mothers Education Level                              | DCH-SocialContextHousehold-QuestionnaireResponse-1.item:mothersEducationLevel          | Required                               | Free text                       |
+| Smoking status within the house                      | DCH-SocialContextHousehold-QuestionnaireResponse-1.item:householdSmokingStatus         | Required                               | Allow SNOMED CT only            |
+| Smoking Status- details                              | DCH-SocialContextHousehold-QuestionnaireResponse-1.item:householdSmokingStatus.answer.extension:smokingStatusDetails         | Required                               | Free text            |
+| Substance misuse status within household             | DCH-SocialContextHousehold-QuestionnaireResponse-1.item:householdSubstanceStatus       | Required                               | Allow SNOMED CT only            |
+| Drug/substance use - details                         | DCH-SocialContextHousehold-QuestionnaireResponse-1.item:householdSubstanceStatus.answer.extension:substanceStatusDetails         | Required                               | Free text            |
+| Alcohol Use within households                        | DCH-SocialContextHousehold-QuestionnaireResponse-1.item:householdAlcoholDrinkingStatus | Required                               |Allow SNOMED CT only             |
+| Alcohol use - details                                | DCH-SocialContextHousehold-QuestionnaireResponse-1.item:householdAlcoholDrinkingStatus.answer.extension:alcoholStatusDetails | Required                               | Free text            |
+| Employment status  (care giver 1)                    | DCH-SocialContextHousehold-QuestionnaireResponse-1.item:employmentStatusCareGiver1     | Required                               |                                 |
+| Care giver 1's occupation                            | DCH-SocialContextHousehold-QuestionnaireResponse-1.item:occupationCareGiver1           | Required                               | Free text field to be used if no coded text available                                |
+| Employment status (care giver 2)                     | DCH-SocialContextHousehold-QuestionnaireResponse-1.item:employmentStatusCareGiver2     | Required                               |                                 |
+| Care giver 2's occupation                            | DCH-SocialContextHousehold-QuestionnaireResponse-1.item:occupationCareGiver2           | Required                               | Free text field to be used if no coded text available                                |
+| Any Household member has/had social services support | DCH-SocialContextHousehold-QuestionnaireResponse-1.item:socialServicesSupport          | Required                               | Boolean                         |
+| Accommodation status                                 | DCH-SocialContextHousehold-QuestionnaireResponse-1.item:accommodationStatus            | Mandatory                              |                                 |
 
 ### Reference Linkage Diagram ###
 
