@@ -27,15 +27,15 @@ Some common data item mappings, such as patient, publisher or Date/Time of event
 
 The Child Health Event data items are fulfilled by elements within the FHIR resources listed below:
 
-| DCH Data Item     | FHIR Resource element                                       | Mandatory/Required/Optional | Note                                                                 |
-|-------------------|-------------------------------------------------------------|-----------------------------|----------------------------------------------------------------------|
-| Date              | CareConnect-DCH-Encounter-1.period.start                    | Mandatory                   |                                                                      |
-| ODS Site Code     | CareConnect-Location-1.identifier (ODS Site Code)           | Required                    |                                                                      |
-| SDS Job Role Name | CareConnect-DCH-PractitionerRole-1.code (SDS Job Role Name) | Required                    |                                                                      |
-| Professional Name | CareConnect-DCH-Practitioner-1.name                         | Required                    |                                                                      |
-| Risk Type         | CareConnect-Observation-1.code.text                         | Required                    | Risk type SHALL be represented by setting code.text to 'Risk to self', 'Risk to others' or 'Risk from others'  |
-| Risk End Date     | CareConnect-Observation-1.effectivePeriod.end               | Required                    |                                                                      |
-| Risk Details      | CareConnect-Observation-1.valueString                       | Required                    | The identified risk is documented in Observation.valueString as free text.          |
+| DCH Data Item     | FHIR Resource element                                       | Mandatory/<br/>Required/<br/>Optional | Note                                                                 |
+|-------------------|-------------------------------------------------------------|---------------------------------------|----------------------------------------------------------------------|
+| Date              | CareConnect-DCH-Encounter-1.period.start                    | Mandatory                             |                                                                      |
+| ODS Site Code     | CareConnect-Location-1.identifier (ODS Site Code)           | Required                              |                                                                      |
+| SDS Job Role Name | CareConnect-DCH-PractitionerRole-1.code (SDS Job Role Name) | Required                              |                                                                      |
+| Professional Name | CareConnect-DCH-Practitioner-1.name                         | Required                              |                                                                      |
+| Risk Type         | CareConnect-Observation-1.code.text                         | Required                              | Risk type SHALL be represented by setting code.text to 'Risk to self', 'Risk to others' or 'Risk from others'  |
+| Risk End Date     | CareConnect-Observation-1.effectivePeriod.end               | Required                              |                                                                      |
+| Risk Details      | CareConnect-Observation-1.valueString                       | Required                              | The identified risk is documented in Observation.valueString as free text.          |
 
 Multiple 'Risks' SHALL be recorded as multiple, separate Observation resources within the Safety Alerts Event Message Bundle.
 
