@@ -29,33 +29,33 @@ Some common data item mappings, such as patient, publisher or Date/Time of event
 
 The Child Health Event data items are fulfilled by elements within the FHIR resources listed below:
 
-| DCH Data Item               | FHIR resource element                                               | Mandatory/<br/>/Required<br/>/Optional | Note                    |
-|-----------------------------|---------------------------------------------------------------------|-----------------------------|-----------------------------|
-| Date/Time                   | CareConnect-DCH-Encounter-1.period.start                            | Mandatory                   | The date on which the vaccination intervention was carried out or was meant to be administered or was reported to a health professional.  Format is YYYY-MM-DD”T”HH:MM:SS                    |
-| ODS/ORD Site code           | CareConnect-Location-1.identifier (ODS Site Code)                   | Required                    |                         |
-| Performing Professional     | CareConnect-DCH-Practitioner-1.name                                 | Required                    |                         |
-| SDS Job Role Name           | CareConnect-DCH-PractitionerRole-1.code (SDS Job Role Name)         | Required                    |                         |
-| Reported Date            	  | CareConnect-DCH-Immunization-1.date                                 | Required                    | The date or partial date that the vaccine was administered, or reported vaccination was given in the opinion of the child and/or parent carer                        | 
-| Primary Source              | CareConnect-DCH-Immunization-1.primarySource                        | Mandatory                   | Boolean (FALSE (if reported)/True                        |
-| Report Origin               | CareConnect-DCH-Immunization-1.reportOrigin                         | Required                    |                         |
-| Vaccination Procedure       | CareConnect-DCH-Immunization-1.extension:vaccinationProcedure       | Required                    | Free text field to be used if no coded text available using vaccinationProcedure.coding.text                        |
-| Vaccination Situation (Not Given Outcome)       | CareConnect-DCH-Immunization-1.explanation.reasonNotGiven | Required                    |                         |
-| Not Given flag              | CareConnect-DCH-Immunization-1.notGiven                             | Mandatory                   | Boolean (FALSE (given or reported as given)/TRUE (not given)                 |
-| Dose sequence               | CareConnect-DCH-Immunization-1.vaccinationProtocol.doseSequence     | Required                    | Note, if the vaccination protocol is not present, then the dose sequence is not present either.|
-| Vaccine Product             | CareConnect-DCH-Immunization-1.vaccineCode.coding.code              | Required                    | DM+D [SNOMED UK drug extension](https://www.nhsbsa.nhs.uk/pharmacies-gp-practices-and-appliance-contractors/dictionary-medicines-and-devices-dmd)                         |
-| Vaccine Manufacturer        | CareConnect-DCH-Immunization-1.manufacturer                         | Required                    |                         |
-| Batch Number                | CareConnect-DCH-Immunization-1.lotNumber                            | Optional                    | Derived from FMD code   |
-| Site of Vaccination         | CareConnect-DCH-Immunization-1.site                                 | Required                    |                         |
-| Route of Vaccination        | CareConnect-DCH-Immunization-1.route                                | Required                    |                         |
-| Dose Amount                 | CareConnect-DCH-Immunization-1.doseQuantity                         | Optional                    |                         |
-| Indication                  | CareConnect-DCH-Immunization-1.explanation.reason                   | Optional                    | Free text field to be used if no coded text available using reason.coding.text    |
+| DCH Data Item               | FHIR resource element                                               | Mandatory/<br/>Required/<br/>Optional  | Note                    |
+|-----------------------------|---------------------------------------------------------------------|----------------------------------------|-------------------------|
+| Date/Time                   | CareConnect-DCH-Encounter-1.period.start                            | Mandatory                              | The date on which the vaccination intervention was carried out or was meant to be administered or was reported to a health professional.  Format is YYYY-MM-DD”T”HH:MM:SS                    |
+| ODS/ORD Site code           | CareConnect-Location-1.identifier (ODS Site Code)                   | Required                               |                         |
+| Performing Professional     | CareConnect-DCH-Practitioner-1.name                                 | Required                               |                         |
+| SDS Job Role Name           | CareConnect-DCH-PractitionerRole-1.code (SDS Job Role Name)         | Required                               |                         |
+| Reported Date            	  | CareConnect-DCH-Immunization-1.date                                 | Required                               | The date or partial date that the vaccine was administered, or reported vaccination was given in the opinion of the child and/or parent carer                        | 
+| Primary Source              | CareConnect-DCH-Immunization-1.primarySource                        | Mandatory                              | Boolean (FALSE (if reported)/True                        |
+| Report Origin               | CareConnect-DCH-Immunization-1.reportOrigin                         | Required                               |                         |
+| Vaccination Procedure       | CareConnect-DCH-Immunization-1.extension:vaccinationProcedure       | Required                               | Free text field to be used if no coded text available using vaccinationProcedure.coding.text                        |
+| Vaccination Situation (Not Given Outcome)       | CareConnect-DCH-Immunization-1.explanation.reasonNotGiven | Required                     |                         |
+| Not Given flag              | CareConnect-DCH-Immunization-1.notGiven                             | Mandatory                              | Boolean (FALSE (given or reported as given)/TRUE (not given)                 |
+| Dose sequence               | CareConnect-DCH-Immunization-1.vaccinationProtocol.doseSequence     | Required                               | Note, if the vaccination protocol is not present, then the dose sequence is not present either.|
+| Vaccine Product             | CareConnect-DCH-Immunization-1.vaccineCode.coding.code              | Required                               | DM+D [SNOMED UK drug extension](https://www.nhsbsa.nhs.uk/pharmacies-gp-practices-and-appliance-contractors/dictionary-medicines-and-devices-dmd)                         |
+| Vaccine Manufacturer        | CareConnect-DCH-Immunization-1.manufacturer                         | Required                               |                         |
+| Batch Number                | CareConnect-DCH-Immunization-1.lotNumber                            | Optional                               | Derived from FMD code   |
+| Site of Vaccination         | CareConnect-DCH-Immunization-1.site                                 | Required                               |                         |
+| Route of Vaccination        | CareConnect-DCH-Immunization-1.route                                | Required                               |                         |
+| Dose Amount                 | CareConnect-DCH-Immunization-1.doseQuantity                         | Optional                               |                         |
+| Indication                  | CareConnect-DCH-Immunization-1.explanation.reason                   | Optional                               | Free text field to be used if no coded text available using reason.coding.text    |
 
 
-<!--| Reported                    | CareConnect-DCH-Immunization-1.primarySource                        | Required                    |                         |
-| Information and Advice Given                    | CareConnect-DCH-Composition-1                   | Required                    |                         |
-| Allergies and Adverse Reactions                    | CareConnect-DCH-AllergyIntolerance-1         | Required                    |                         |
-| Name of Immunisation        | CareConnect-DCH-Immunization-1.vaccinationProcedure                 | Mandatory                   |                         |
-| Outcome Status              | CareConnect-DCH-Immunization-1.explanation                          | Optional                    |                         |-->
+<!--| Reported                | CareConnect-DCH-Immunization-1.primarySource                        | Required                               |                         |
+| Information and Advice Given                    | CareConnect-DCH-Composition-1                   | Required                               |                         |
+| Allergies and Adverse Reactions                    | CareConnect-DCH-AllergyIntolerance-1         | Required                               |                         |
+| Name of Immunisation        | CareConnect-DCH-Immunization-1.vaccinationProcedure                 | Mandatory                              |                         |
+| Outcome Status              | CareConnect-DCH-Immunization-1.explanation                          | Optional                               |                         |-->
 
 
 

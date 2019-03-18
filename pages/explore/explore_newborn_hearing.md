@@ -28,16 +28,16 @@ Some common data item mappings, such as patient, publisher or Date/Time of event
 
 The Child Health Event data items are fulfilled by elements within the FHIR resources listed below:
                                                                      
-| DCH Data Item       | FHIR resource element                                       | Mandatory/Required/Optional | Note                                                                  |
-|---------------------|-------------------------------------------------------------|-----------------------------|-----------------------------------------------------------------------|
-| Date/Time           | CareConnect-DCH-Encounter-1.period.start                    | Mandatory                   |                                                                       |
-| Location (ODS Site Code)       | CareConnect-Location-1.identifier                           | Required                    |                                                                       |
-| Performing Professional   | CareConnect-DCH-Practitioner-1.name                         | Required                    |                                                                       |
-| SDS Job Role Name   | CareConnect-DCH-PractitionerRole-1.codeableConcept                | Required                    | * |
-| Hearing Test Results (AABR) | CareConnect-DCH-AABRHearingTest-Procedure-1.outcome | Required         | two occurrences of this resource are required, one for each ear |
-| Hearing Test Result (AOAE) | CareConnect-DCH-AOAEHearingTest-Procedure-1.outcome  |Required          | up to four occurrences of this resource are required, with two for each test performed |
-| Summary Outcome     | CareConnect-DCH-HearingScreeningSummaryOutcome-Observation-1.valueCodeableConcept        | Mandatory                   |                                                                       |
-| Comment                | DCH-ProfessionalComment-Communication-1                  | Optional                    |                                                                                        |
+| DCH Data Item                  | FHIR resource element                               | Mandatory/<br/>Required/<br/>Optional | Note                                                                  |
+|--------------------------------|-----------------------------------------------------|---------------------------------------|-----------------------------------------------------------------------|
+| Date/Time                      | CareConnect-DCH-Encounter-1.period.start            | Mandatory                             |                                                                       |
+| Location (ODS Site Code)       | CareConnect-Location-1.identifier                   | Required                              |                                                                       |
+| Performing Professional        | CareConnect-DCH-Practitioner-1.name                 | Required                              |                                                                       |
+| SDS Job Role Name              | CareConnect-DCH-PractitionerRole-1.codeableConcept  | Required                              | * |
+| Hearing Test Results (AABR)    | CareConnect-DCH-AABRHearingTest-Procedure-1.outcome | Required                              | two occurrences of this resource are required, one for each ear |
+| Hearing Test Result (AOAE)     | CareConnect-DCH-AOAEHearingTest-Procedure-1.outcome |Required                               | up to four occurrences of this resource are required, with two for each test performed |
+| Summary Outcome                | CareConnect-DCH-HearingScreeningSummaryOutcome-Observation-1.valueCodeableConcept           | Mandatory                   |                                          |
+| Comment                        | DCH-ProfessionalComment-Communication-1                  | Optional                         |                                                                        |
 
 **\*** Northgate do not record SDS Job Role Codes as part of their Child Health Screening record. As the code is typed CodeableConcept, and sliced on system, a system must be present. i.e. we can't just send:
 ```

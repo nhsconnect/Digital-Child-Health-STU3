@@ -26,14 +26,14 @@ The following FHIR profiles are used to form the Plan and Requested Actions Even
 
 The Child Health Event data items are fulfilled by elements within the FHIR resources listed below:
 
-| DCH Data Item     | FHIR resource element                           | Mandatory/Required/Optional |Note|
-|-------------------|-------------------------------------------------|-----------------------------||
-| Date/Time              | CareConnect-DCH-Encounter-1.period.start        | Mandatory                   ||
-| ODS/ORD Site Code     | CareConnect-Location-1.identifier           | Mandatory                   ||
-| SDS Job Role Name | CareConnect-DCH-PractitionerRole-1.code         | Required                   ||
-| Performing Professional | CareConnect-DCH-Practitioner-1.name             | Required                   ||
-| Actions           | DCH-PlanAndRequestedActions-CarePlan-1.description          | Mandatory                   ||
-| Recipient         | DCH-RelatedPerson-1.relationship                | Required                    |For Plan & Requested Actions the relationship type must be from the ValueSet provided|
+| DCH Data Item     | FHIR resource element                             | Mandatory/<br/>Required/<br/>Optional |Note        |
+|-------------------|---------------------------------------------------|---------------------------------------|------------|
+| Date/Time         | CareConnect-DCH-Encounter-1.period.start          | Mandatory                             |            |
+| ODS/ORD Site Code | CareConnect-Location-1.identifier                 | Mandatory                             |            |
+| SDS Job Role Name | CareConnect-DCH-PractitionerRole-1.code           | Required                              |            |
+| Performing Professional | CareConnect-DCH-Practitioner-1.name         | Required                              |            |
+| Actions           | DCH-PlanAndRequestedActions-CarePlan-1.description| Mandatory                             |            |
+| Recipient         | DCH-RelatedPerson-1.relationship                  | Required                              |For Plan & Requested Actions the relationship type must be from the ValueSet provided|
 
 ## Reference Linkage Diagram ##
 

@@ -25,21 +25,21 @@ Some common data item mappings, such as patient, publisher or Date/Time of event
 
 The Child Health Event data items are fulfilled by elements within the FHIR resources listed below:
 
-| DCH Data Item                                        | FHIR Resource element                                                 | Mandatory/Required/Optional | Notes           |
-|------------------------------------------------------|-----------------------------------------------------------------------|-----------------------------|-----------------|
-| Date/Time                                            | CareConnect-DCH-Encounter-1.period.start                              | Mandatory                   | |
-| Looked After Child Start Date                        | CareConnect-DCH-Observation-1.effectivePeriod.start                   | Required                    | The 'Looked After Child' Observation SHALL be SNOMED CT coded "764841000000100 \| Looked after child" |
-| Looked After Child End Date                          | CareConnect-DCH-Observation-1.effectivePeriod.end                     | Required                    | |
-| Local Authority (LAC)                                | CareConnect-Organization-1.name                                       | Required                    | |
-| Local Authority (LAC) ODS Site Code                  | CareConnect-Organization-1.identifier (oDSOrganizationCode)           | Required                    | |
-| Local Authority (LAC) Office Hours Telephone         | CareConnect-Organization-1.telecom                                    | Required                    | |
-| Local Authority (LAC) Emergency Duty Team Telephone  | CareConnect-Organization-1.contact.telecom                            | Required                    | Organization.contact.purpose.text SHALL be set to “Emergency Duty Team phone number”|
-| Child Protection Plan Start Date                     | CareConnect-DCH-Observation-1.effectivePeriod.start                   | Required                    |  The 'Child Protection Plan' Observation SHALL be SNOMED CT coded "1064311000000109 \| Child protection plan" |
-| Child Protection Plan End Date                       | CareConnect-DCH-Observation-1.effectivePeriod.end                     | Required                    | |
-| Local Authority (CPP)                                | CareConnect-Organization-1.name                                       | Required                    | |
-| Local Authority (CPP) ODS Site Code                  | CareConnect-Organization-1.identifier (oDSOrganizationCode)           | Required                    | |
-| Local Authority (CPP) Office Hours Telephone         | CareConnect-Organization-1.telecom                                    | Required                    | |
-| Local Authority (CPP) Emergency Duty Team Telephone  | CareConnect-Organization-1.contact.telecom                            | Required                    | Organization.contact.purpose.text SHALL be set to “Emergency Duty Team phone number”|
+| DCH Data Item                                        | FHIR Resource element                                                 | Mandatory/<br/>Required/<br/>Optional | Notes           |
+|------------------------------------------------------|-----------------------------------------------------------------------|---------------------------------------|-----------------|
+| Date/Time                                            | CareConnect-DCH-Encounter-1.period.start                              | Mandatory                             |                 |
+| Looked After Child Start Date                        | CareConnect-DCH-Observation-1.effectivePeriod.start                   | Required                              | The 'Looked After Child' Observation SHALL be SNOMED CT coded "764841000000100 \| Looked after child" |
+| Looked After Child End Date                          | CareConnect-DCH-Observation-1.effectivePeriod.end                     | Required                              |                 |
+| Local Authority (LAC)                                | CareConnect-Organization-1.name                                       | Required                              |                 |
+| Local Authority (LAC) ODS Site Code                  | CareConnect-Organization-1.identifier (oDSOrganizationCode)           | Required                              |                 |
+| Local Authority (LAC) Office Hours Telephone         | CareConnect-Organization-1.telecom                                    | Required                              |                 |
+| Local Authority (LAC) Emergency Duty Team Telephone  | CareConnect-Organization-1.contact.telecom                            | Required                              | Organization.contact.purpose.text SHALL be set to “Emergency Duty Team phone number”|
+| Child Protection Plan Start Date                     | CareConnect-DCH-Observation-1.effectivePeriod.start                   | Required                              |  The 'Child Protection Plan' Observation SHALL be SNOMED CT coded "1064311000000109 \| Child protection plan" |
+| Child Protection Plan End Date                       | CareConnect-DCH-Observation-1.effectivePeriod.end                     | Required                              |                 |
+| Local Authority (CPP)                                | CareConnect-Organization-1.name                                       | Required                              |                 |
+| Local Authority (CPP) ODS Site Code                  | CareConnect-Organization-1.identifier (oDSOrganizationCode)           | Required                              |                 |
+| Local Authority (CPP) Office Hours Telephone         | CareConnect-Organization-1.telecom                                    | Required                              |                 |
+| Local Authority (CPP) Emergency Duty Team Telephone  | CareConnect-Organization-1.contact.telecom                            | Required                              | Organization.contact.purpose.text SHALL be set to “Emergency Duty Team phone number”|
 
 LAC: Looked After Child  
 CPP: Child Protection Plan  

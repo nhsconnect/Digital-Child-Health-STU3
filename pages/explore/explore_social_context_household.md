@@ -25,7 +25,7 @@ Some common data item mappings, such as patient, publisher or Date/Time of event
 
 The Child Health Event data items are fulfilled by elements within the FHIR resources listed below:
 
-| DCH Data Item                                        | FHIR Resource element                                                                  | Mandatory/<br/>/Required<br/>/Optional |  Note                           |
+| DCH Data Item                                        | FHIR Resource element                                                                  | Mandatory/<br/>Required/<br/>Optional  |  Note                           |
 |------------------------------------------------------|----------------------------------------------------------------------------------------|----------------------------------------|---------------------------------|
 | Date/Time                                            | CareConnect-DCH-Encounter-1.period.start                                               | Mandatory                              | Format is YYYY-MM-DD”T”HH:MM:SS |
 | Mothers Education Level                              | DCH-SocialContextHousehold-QuestionnaireResponse-1.item:mothersEducationLevel          | Required                               | Free text                       |

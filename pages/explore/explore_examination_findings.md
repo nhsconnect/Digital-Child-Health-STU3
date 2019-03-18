@@ -27,15 +27,14 @@ Some common data item mappings, such as patient, publisher or Date/Time of event
 
 The Child Health Event data items are fulfilled by elements within the FHIR resources listed below:
 
-| DCH Data Item                                   | FHIR resource element                                                                           | Mandatory/Required/Optional |
-|-------------------------------------------------|-------------------------------------------------------------------------------------------------|-----------------------------|
-| Date                                            | CareConnect-DCH-Encounter-1.period.start                                                        | Mandatory                   |
-| ODS Site Code                                   | CareConnect-Organization-1.identifier                                                       | Mandatory                   |
-| Professional Name                               | CareConnect-DCH-Practitioner-1.name                                                             | Mandatory                   |
-| SDS Job Role Name                               | CareConnect-DCH-PractitionerRole-1.code (SDS Job Role Name)                                     | Mandatory                   |
-| Examination                                     | CareConnect-DCH-ExaminationFinding-Procedure-1.code.coding.code                    | Required                    |
-| Examination Text                                | CareConnect-DCH-ExaminationFinding-Procedure-1.code.text                    | Required                    |
-| Examination Finding                             | CareConnect-DCH-ExaminationFinding-Procedure-1.outcome.coding.code                 | Required                    |
+| DCH Data Item                                   | FHIR resource element                                               | Mandatory/<br/>Required/<br/>Optional  |  Note                           |
+|-------------------------------------------------|--------------------------------------------------------------------------------------------------------------|---------------------------------|
+| Date/Time                                       | CareConnect-DCH-Encounter-1.period.start                            | Mandatory                              | Format is YYYY-MM-DD”T”HH:MM:SS |
+| ODS/ORD Site Code                               | CareConnect-Organization-1.identifier                               | Required                               |                                 |
+| Performing Professional                         | CareConnect-DCH-Practitioner-1.name                                 | Required                               |                                 |
+| SDS Job Role Name                               | CareConnect-DCH-PractitionerRole-1.code (SDS Job Role Name)         | Mandatory                              |                                 |
+| Examination                                     | CareConnect-DCH-ExaminationFinding-Procedure-1.code.coding.code     | Required                               | When no code is available for the Examination, a text description of the examination may be entered in code.text                                |
+| Examination Finding                             | CareConnect-DCH-ExaminationFinding-Procedure-1.outcome.coding.code  | Required                               | Allow SNOMED CT only            |
 
 ### Linkage Diagram ###
 

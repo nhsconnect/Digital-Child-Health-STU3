@@ -29,14 +29,14 @@ The Child Health Event data items are fulfilled by elements within the FHIR reso
 
 **Investigation Results Child Health Event**
 
-| DCH Data Item              | FHIR Resource element                                                                     | Mandatory/<br/>/Required<br/>/Optional | Note                    |
+| DCH Data Item              | FHIR Resource element                                                                     | Mandatory/<br/>Required/<br/>Optional  | Note                    |
 |----------------------------|-------------------------------------------------------------------------------------------|----------------------------------------|-------------------------|
 | Date/Time                  | CareConnect-DCH-Encounter-1.period.start                                                  | Mandatory                              | Format is YYYY-MM-DD”T”HH:MM:SS |
 | ODS/ORD Site Code          | CareConnect-Location-1.identifier (ODS Site Code)                                         | Required                               |                         |
 | Performing Professional    | CareConnect-DCH-Practitioner.name                                                         | Required                               |                         |
 | SDS Job Role Name          | CareConnect-DCH-PractitionerRole-1.code (SDS Job Role Name)	                             | Required                               |                         |
-| Investigation              | CareConnect-DCH-Observation-1.code                                                            | Mandatory                              | The investigation should be drawn from the Procedure hierarchy of SNOMED CT (<71388002 Procedure (procedure)), but there may be an alternative SNOMED CT concept. |
-| Investigation Results      | CareConnect-DCH-Observation-1.value[x]*                                                       | Required                               | CareConnect-DCH-Observation-1.value[String] for free text field to be used if no coded text available. |
+| Investigation              | CareConnect-DCH-Observation-1.code                                                        | Mandatory                              | The investigation should be drawn from the Procedure hierarchy of SNOMED CT (<71388002 Procedure (procedure)), but there may be an alternative SNOMED CT concept. |
+| Investigation Results      | CareConnect-DCH-Observation-1.value[x]*                                                   | Required                               | CareConnect-DCH-Observation-1.value[String] for free text field to be used if no coded text available. |
 
 *Note that the appropriate value data type should be used when reporting investigation results (for example, a measurement would use valueQuantity, and have an appropriate unit). Investigation results that are coded should use SNOMED CT, and be drawn from the Evaluation Findings Hierarchy (< 441742003 Evaluation finding (finding)), but could use other concepts from SNOMED CT. Some investigation results may have several components (for example some genetic investigations, ECG etc.), and these should use the component part of CareConnect-DCH-Observation-1 to record the investigation result.
 

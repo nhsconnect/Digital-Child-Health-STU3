@@ -28,17 +28,17 @@ Some common data item mappings, such as patient, publisher or Date/Time of event
 
 The Child Health Event data items are fulfilled by elements within the FHIR resources listed below:
 
-| DCH Data Item        | FHIR resource element                                    | Mandatory/Required/Optional | Note                    |
-|----------------------|----------------------------------------------------------|-----------------------------|-------------------------|
-| Date/Time            | CareConnect-DCH-Diagnosis-Condition-1.assertedDate                | Mandatory                   | Format is YYYY-MM-DD”T”HH:MM:SS                        |
-| ODS/ORD Site Code            | CareConnect-Organization-1.identifier (odsSiteCode)               | Required                   |                         |
-| SDS Job Role Name            | CareConnect-DCH-PractitionerRole-1.code (sdsJobRoleName)               | Required                   |                         |
-| Performing Professional            | CareConnect-DCH-Practitioner-1.name               | Required                   |                         |
-| Condition            | CareConnect-DCH-Diagnosis-Condition-1.code               | Mandatory                   |                         |
-| Condition onset date | CareConnect-DCH-Diagnosis-Condition-1.onsetDateTime or onsetString | Required                    |To allow free text and date, rather than just date.  Uses the [FHIR date time format](http://hl7.org/fhir/stu3/datatypes.html#dateTime )                         |
-| Condition end date | CareConnect-DCH-Diagnosis-Condition-1.abatementDateTime or abatementString  | Required                    |Uses the [FHIR date time format](http://hl7.org/fhir/stu3/datatypes.html#dateTime )                         |
-| Fetal Diagnosis      | CareConnect-DCH-FetalDiagnosis-Condition-1               | Optional                    |                         |
-| Comment      | CareConnect-DCH-Diagnosis-Condition-1.note                 | Optional                    | Free text (no maximum characters)                        |
+| DCH Data Item           | FHIR resource element                                    | Mandatory/<br/>Required/<br/>Optional | Note                    |
+|-------------------------|----------------------------------------------------------|---------------------------------------|-------------------------|
+| Date/Time               | CareConnect-DCH-Diagnosis-Condition-1.assertedDate       | Mandatory                             | Format is YYYY-MM-DD”T”HH:MM:SS  |
+| ODS/ORD Site Code       | CareConnect-Organization-1.identifier (odsSiteCode)      | Required                              |                         |
+| SDS Job Role Name       | CareConnect-DCH-PractitionerRole-1.code (sdsJobRoleName) | Required                              |                         |
+| Performing Professional | CareConnect-DCH-Practitioner-1.name                      | Required                              |                         |
+| Condition               | CareConnect-DCH-Diagnosis-Condition-1.code               | Mandatory                             |                         |
+| Condition onset date    | CareConnect-DCH-Diagnosis-Condition-1.onsetDateTime or onsetString | Required                    |To allow free text and date, rather than just date.  Uses the [FHIR date time format](http://hl7.org/fhir/stu3/datatypes.html#dateTime )                         |
+| Condition end date      | CareConnect-DCH-Diagnosis-Condition-1.abatementDateTime or abatementString  | Required                    |Uses the [FHIR date time format](http://hl7.org/fhir/stu3/datatypes.html#dateTime )                         |
+| Fetal Diagnosis         | CareConnect-DCH-FetalDiagnosis-Condition-1               | Optional                              |                         |
+| Comment                 | CareConnect-DCH-Diagnosis-Condition-1.note               | Optional                              | Free text (no maximum characters) |
 
 
 ### Reference Linkage Diagram ###
