@@ -7,6 +7,9 @@ permalink: index.html
 toc: false
 ---
 
+{% include warning.html content="This Implementation Guide has been deprecated by NHS Digital and should not be used for development." %}
+ 
+
 ## Introduction ##
 
 **What is a Child Health Event?**
